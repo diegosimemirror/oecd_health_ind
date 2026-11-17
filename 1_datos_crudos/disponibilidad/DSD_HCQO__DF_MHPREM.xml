@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v10.11.8.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF18</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2026-11-17T04:01:40.2067476+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist isPartial="true" id="CL_AGE" agencyID="OECD" version="1.3" isFinal="true">
+        <common:Name xml:lang="en">Codelist for age</common:Name>
+        <common:Name xml:lang="fr">Codelist pour l'âge</common:Name>
+        <structure:Code id="Y_GE16">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">940</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">16 years or over</common:Name>
+          <common:Name xml:lang="fr">16 ans et plus</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_AREA" agencyID="OECD" version="1.6" isFinal="true">
+        <common:Name xml:lang="en">Codelist for reference areas and geocoding</common:Name>
+        <common:Name xml:lang="fr">Codelist pour les zones de référence</common:Name>
+        <structure:Code id="AUS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">20</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أستراليا</common:Name>
+          <common:Name xml:lang="en">Australia</common:Name>
+          <common:Name xml:lang="fr">Australie</common:Name>
+          <common:Name xml:lang="he">אוסטרליה</common:Name>
+        </structure:Code>
+        <structure:Code id="CAN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">40</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">50</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كندا</common:Name>
+          <common:Name xml:lang="en">Canada</common:Name>
+          <common:Name xml:lang="fr">Canada</common:Name>
+          <common:Name xml:lang="he">קנדה</common:Name>
+        </structure:Code>
+        <structure:Code id="FIN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">110</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">140</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فنلندا</common:Name>
+          <common:Name xml:lang="en">Finland</common:Name>
+          <common:Name xml:lang="fr">Finlande</common:Name>
+          <common:Name xml:lang="he">פינלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="JPN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">200</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">220</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">اليابان</common:Name>
+          <common:Name xml:lang="en">Japan</common:Name>
+          <common:Name xml:lang="fr">Japon</common:Name>
+          <common:Name xml:lang="he">יפן</common:Name>
+        </structure:Code>
+        <structure:Code id="LVA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">220</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">230</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">لاتفيا</common:Name>
+          <common:Name xml:lang="en">Latvia</common:Name>
+          <common:Name xml:lang="fr">Lettonie</common:Name>
+          <common:Name xml:lang="he">לטבייה</common:Name>
+        </structure:Code>
+        <structure:Code id="PRT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">300</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">310</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">البرتغال</common:Name>
+          <common:Name xml:lang="en">Portugal</common:Name>
+          <common:Name xml:lang="fr">Portugal</common:Name>
+          <common:Name xml:lang="he">פורטוגל</common:Name>
+        </structure:Code>
+        <structure:Code id="TUR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">360</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">380</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تركيا</common:Name>
+          <common:Name xml:lang="en">Türkiye</common:Name>
+          <common:Name xml:lang="fr">Türkiye</common:Name>
+          <common:Name xml:lang="he">טורקייה</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_QUANTILE_GROUP" agencyID="OECD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Quantile groups of distribution</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">200</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Non applicable</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_SEX" agencyID="OECD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for concept "Sex"</common:Name>
+        <common:Name xml:lang="fr">Codelist pour concept "Sexe"</common:Name>
+        <common:Description xml:lang="en">This code list provides coded information about the state of being male or female.</common:Description>
+        <structure:Code id="F">
+          <common:Name xml:lang="en">Female</common:Name>
+          <common:Name xml:lang="fr">Sexe féminin</common:Name>
+        </structure:Code>
+        <structure:Code id="M">
+          <common:Name xml:lang="en">Male</common:Name>
+          <common:Name xml:lang="fr">Sexe masculin</common:Name>
+        </structure:Code>
+        <structure:Code id="_T">
+          <common:Name xml:lang="en">Total</common:Name>
+          <common:Name xml:lang="fr">Total</common:Name>
+          <common:Description xml:lang="en">Used for expressing totals.</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_STATISTICAL_OPERATION" agencyID="OECD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Code list for statistical operation performed on data</common:Name>
+        <common:Name xml:lang="fr">Codelist pour l'opération statistique</common:Name>
+        <common:Description xml:lang="en">This code list represents common statistical operations for calculated values.</common:Description>
+        <structure:Code id="VALUEW">
+          <common:Name xml:lang="en">Weighted value</common:Name>
+          <common:Name xml:lang="fr">Valeur pondérée</common:Name>
+          <common:Description xml:lang="en">Value representing the weighted value</common:Description>
+        </structure:Code>
+        <structure:Code id="BOUNDLCI">
+          <common:Name xml:lang="en">Confidence interval lower bound</common:Name>
+          <common:Name xml:lang="fr">Borne inférieure de l'intervalle de confiance</common:Name>
+          <common:Description xml:lang="en">Value representing the confidence interval lower bound of a distribution</common:Description>
+        </structure:Code>
+        <structure:Code id="BOUNDUCI">
+          <common:Name xml:lang="en">Confidence interval upper bound</common:Name>
+          <common:Name xml:lang="fr">Borne supérieure de l'intervalle de confiance</common:Name>
+          <common:Description xml:lang="en">Value representing the confidence interval upper bound of a distribution</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_UNIT_MEASURE" agencyID="OECD" version="1.28" isFinal="true">
+        <common:Name xml:lang="en">Codelist for Unit of measure</common:Name>
+        <common:Description xml:lang="en">Unit in which the data values are expressed.</common:Description>
+        <structure:Code id="PT_PAT_MH">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6730</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">6730</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of mental health patients</common:Name>
+          <common:Name xml:lang="fr">Pourcentage de patients ayant des problèmes de santé mentale</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_HEALTH_PROF" agencyID="OECD.ELS.HD" version="1.1" isFinal="true">
+        <common:Name xml:lang="en">Health profession</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">290</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_MEASURE_HCQO" agencyID="OECD.ELS.HD" version="2.1" isFinal="true">
+        <common:Name xml:lang="en">Codelist for data element that represents a simple aggregation and which takes one or more vectors as arguments and returns a scalar</common:Name>
+        <structure:Code id="MPIPRESP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">890</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">890</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Care providers treating mental health patients with courtesy and respect (inpatient care)</common:Name>
+          <common:Name xml:lang="fr">Fournisseurs de soins traitant les patients en santé mentale avec courtoisie et respect (soins aux patients hospitalisés)</common:Name>
+          <structure:Parent>
+            <Ref id="MP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MPCBRESP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">900</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">900</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Care providers treating mental health patients with courtesy and respect (community-based care)</common:Name>
+          <common:Name xml:lang="fr">Fournisseurs de soins traitant les patients en santé mentale avec courtoisie et respect (soins communautaires)</common:Name>
+          <structure:Parent>
+            <Ref id="MP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MPIPTIME">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">910</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">910</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Care providers spending enough time with mental health patients (inpatient care)</common:Name>
+          <common:Name xml:lang="fr">Les prestataires de soins passent suffisamment de temps avec les patients en santé mentale (soins hospitaliers)</common:Name>
+          <structure:Parent>
+            <Ref id="MP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MPCBTIME">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">920</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">920</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Care providers spending enough time with mental health patients (community-based care)</common:Name>
+          <common:Name xml:lang="fr">Les prestataires de soins passent suffisamment de temps avec les patients en santé mentale (soins communautaires)</common:Name>
+          <structure:Parent>
+            <Ref id="MP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MPIPEXPL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">930</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">930</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Care providers providing easy-to-understand explanations to mental health patients (inpatient care)</common:Name>
+          <common:Name xml:lang="fr">Prestataires de soins fournissant des explications faciles à comprendre aux patients en santé mentale (soins hospitaliers)</common:Name>
+          <structure:Parent>
+            <Ref id="MP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MPCBEXPL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">940</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">940</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Care providers providing easy-to-understand explanations to mental health patients (community-based care)</common:Name>
+          <common:Name xml:lang="fr">Fournisseurs de soins fournissant des explications faciles à comprendre aux patients en santé mentale (soins communautaires)</common:Name>
+          <structure:Parent>
+            <Ref id="MP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MPIPINVO">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">950</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">950</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Care providers involving mental health patient in decisions about care and treatment (inpatient care)</common:Name>
+          <common:Name xml:lang="fr">Prestataires de soins impliquant le patient en santé mentale dans les décisions concernant les soins et le traitement (soins hospitaliers)</common:Name>
+          <structure:Parent>
+            <Ref id="MP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MPCBINVO">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">960</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">960</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Care providers involving mental health patient in decisions about care and treatment (community-based care)</common:Name>
+          <common:Name xml:lang="fr">Prestataires de soins impliquant le patient en santé mentale dans les décisions concernant les soins et le traitement (soins communautaires)</common:Name>
+          <structure:Parent>
+            <Ref id="MP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">880</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">880</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Patient reported experience measures</common:Name>
+          <common:Name xml:lang="fr">Santé mentale - Mesures de l'expérience rapportée par les patients</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_FREQ" agencyID="SDMX" version="2.1" isFinal="true">
+        <common:Name xml:lang="en">Code list for concept "Frequency"</common:Name>
+        <common:Name xml:lang="fr">Codelist pour le concept "Fréquence"</common:Name>
+        <common:Description xml:lang="en">This code list provides a set of values indicating
+					the "frequency" of the data (e.g. weekly, monthly, quarterly). The concept
+					"frequency" may refer to various stages in the production process, e.g. data
+					collection or data dissemination. For example, a time series could be
+					disseminated at annual frequency but the underlying data are compiled monthly.
+					The code list is applicable for all different uses of
+					"frequency".</common:Description>
+        <common:Description xml:lang="fr">Cette liste de codes fournit un ensemble de valeurs
+					indiquant la "fréquence" des données (par exemple, hebdomadaire, mensuelle,
+					trimestrielle). Le concept de "fréquence" peut faire référence à différentes
+					étapes du processus de production, par ex. collecte ou diffusion de données. Par
+					exemple, une série chronologique pourrait être diffusée à une fréquence
+					annuelle, mais les données sous-jacentes sont compilées mensuellement. La liste
+					de codes est applicable pour toutes les différentes utilisations de
+					"fréquence".</common:Description>
+        <structure:Code id="A">
+          <common:Name xml:lang="en">Annual</common:Name>
+          <common:Name xml:lang="fr">Annuelle</common:Name>
+          <common:Description xml:lang="en">To be used for data collected or disseminated
+						every year</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+    <structure:Constraints>
+      <structure:ContentConstraint id="CC" agencyID="SDMX" version="1.0" type="Actual">
+        <common:Annotations>
+          <common:Annotation id="obs_count">
+            <common:AnnotationTitle>469</common:AnnotationTitle>
+            <common:AnnotationType>sdmx_metrics</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Autogenerated content constraint</common:Name>
+        <structure:ConstraintAttachment>
+          <structure:Dataflow>
+            <Ref id="DSD_HCQO@DF_MHPREM" version="2.1" agencyID="OECD.ELS.HD" package="datastructure" class="Dataflow" />
+          </structure:Dataflow>
+        </structure:ConstraintAttachment>
+        <structure:CubeRegion include="true">
+          <common:KeyValue id="REF_AREA">
+            <common:Value>AUS</common:Value>
+            <common:Value>CAN</common:Value>
+            <common:Value>FIN</common:Value>
+            <common:Value>JPN</common:Value>
+            <common:Value>LVA</common:Value>
+            <common:Value>PRT</common:Value>
+            <common:Value>TUR</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="FREQ">
+            <common:Value>A</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="MEASURE">
+            <common:Value>MPCBEXPL</common:Value>
+            <common:Value>MPCBINVO</common:Value>
+            <common:Value>MPCBRESP</common:Value>
+            <common:Value>MPCBTIME</common:Value>
+            <common:Value>MPIPEXPL</common:Value>
+            <common:Value>MPIPINVO</common:Value>
+            <common:Value>MPIPRESP</common:Value>
+            <common:Value>MPIPTIME</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="UNIT_MEASURE">
+            <common:Value>PT_PAT_MH</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="AGE">
+            <common:Value>Y_GE16</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="SEX">
+            <common:Value>_T</common:Value>
+            <common:Value>F</common:Value>
+            <common:Value>M</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="STATISTICAL_OPERATION">
+            <common:Value>BOUNDLCI</common:Value>
+            <common:Value>BOUNDUCI</common:Value>
+            <common:Value>VALUEW</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="INCOME_GROUP">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="HEALTH_PROF">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="TIME_PERIOD">
+            <common:TimeRange>
+              <common:StartPeriod isInclusive="true">2017-01-01T00:00:00</common:StartPeriod>
+              <common:EndPeriod isInclusive="true">2024-12-31T23:59:59</common:EndPeriod>
+            </common:TimeRange>
+          </common:KeyValue>
+        </structure:CubeRegion>
+      </structure:ContentConstraint>
+    </structure:Constraints>
+  </message:Structures>
+</message:Structure>

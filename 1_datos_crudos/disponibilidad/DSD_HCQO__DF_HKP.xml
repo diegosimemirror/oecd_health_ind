@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v10.11.8.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF26</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2026-11-17T04:01:31.7831675+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist isPartial="true" id="CL_AGE" agencyID="OECD" version="1.3" isFinal="true">
+        <common:Name xml:lang="en">Codelist for age</common:Name>
+        <common:Name xml:lang="fr">Codelist pour l'âge</common:Name>
+        <structure:Code id="Y_GE20">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">20 years or over</common:Name>
+          <common:Name xml:lang="fr">20 ans et plus</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_AREA" agencyID="OECD" version="1.6" isFinal="true">
+        <common:Name xml:lang="en">Codelist for reference areas and geocoding</common:Name>
+        <common:Name xml:lang="fr">Codelist pour les zones de référence</common:Name>
+        <structure:Code id="AUS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">20</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أستراليا</common:Name>
+          <common:Name xml:lang="en">Australia</common:Name>
+          <common:Name xml:lang="fr">Australie</common:Name>
+          <common:Name xml:lang="he">אוסטרליה</common:Name>
+        </structure:Code>
+        <structure:Code id="CAN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">40</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">50</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كندا</common:Name>
+          <common:Name xml:lang="en">Canada</common:Name>
+          <common:Name xml:lang="fr">Canada</common:Name>
+          <common:Name xml:lang="he">קנדה</common:Name>
+        </structure:Code>
+        <structure:Code id="FIN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">110</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">140</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فنلندا</common:Name>
+          <common:Name xml:lang="en">Finland</common:Name>
+          <common:Name xml:lang="fr">Finlande</common:Name>
+          <common:Name xml:lang="he">פינלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="DEU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">130</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ألمانيا</common:Name>
+          <common:Name xml:lang="en">Germany</common:Name>
+          <common:Name xml:lang="fr">Allemagne</common:Name>
+          <common:Name xml:lang="he">גרמניה</common:Name>
+        </structure:Code>
+        <structure:Code id="IRL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">170</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">180</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أيرلندا</common:Name>
+          <common:Name xml:lang="en">Ireland</common:Name>
+          <common:Name xml:lang="fr">Irlande</common:Name>
+          <common:Name xml:lang="he">אירלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="ISR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">180</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إسرائيل</common:Name>
+          <common:Name xml:lang="en">Israel</common:Name>
+          <common:Name xml:lang="fr">Israël</common:Name>
+          <common:Name xml:lang="he">ישראל</common:Name>
+        </structure:Code>
+        <structure:Code id="NLD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">260</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">290</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">هولندا</common:Name>
+          <common:Name xml:lang="en">Netherlands</common:Name>
+          <common:Name xml:lang="fr">Pays-Bas</common:Name>
+          <common:Name xml:lang="he">הולנד</common:Name>
+        </structure:Code>
+        <structure:Code id="NOR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">280</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">270</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">النرويج</common:Name>
+          <common:Name xml:lang="en">Norway</common:Name>
+          <common:Name xml:lang="fr">Norvège</common:Name>
+          <common:Name xml:lang="he">נורווגיה</common:Name>
+        </structure:Code>
+        <structure:Code id="SVN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">320</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">340</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سلوفينيا</common:Name>
+          <common:Name xml:lang="en">Slovenia</common:Name>
+          <common:Name xml:lang="fr">Slovénie</common:Name>
+          <common:Name xml:lang="he">סלובניה</common:Name>
+        </structure:Code>
+        <structure:Code id="CHE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">350</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">360</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سويسرا</common:Name>
+          <common:Name xml:lang="en">Switzerland</common:Name>
+          <common:Name xml:lang="fr">Suisse</common:Name>
+          <common:Name xml:lang="he">שוויץ</common:Name>
+        </structure:Code>
+        <structure:Code id="GBR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">370</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">330</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">المملكة المتحدة</common:Name>
+          <common:Name xml:lang="en">United Kingdom</common:Name>
+          <common:Name xml:lang="fr">Royaume-Uni</common:Name>
+          <common:Name xml:lang="he">הממלכה המאוחדת</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_QUANTILE_GROUP" agencyID="OECD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Quantile groups of distribution</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">200</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Non applicable</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_SEX" agencyID="OECD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for concept "Sex"</common:Name>
+        <common:Name xml:lang="fr">Codelist pour concept "Sexe"</common:Name>
+        <common:Description xml:lang="en">This code list provides coded information about the state of being male or female.</common:Description>
+        <structure:Code id="F">
+          <common:Name xml:lang="en">Female</common:Name>
+          <common:Name xml:lang="fr">Sexe féminin</common:Name>
+        </structure:Code>
+        <structure:Code id="M">
+          <common:Name xml:lang="en">Male</common:Name>
+          <common:Name xml:lang="fr">Sexe masculin</common:Name>
+        </structure:Code>
+        <structure:Code id="_T">
+          <common:Name xml:lang="en">Total</common:Name>
+          <common:Name xml:lang="fr">Total</common:Name>
+          <common:Description xml:lang="en">Used for expressing totals.</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_STATISTICAL_OPERATION" agencyID="OECD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Code list for statistical operation performed on data</common:Name>
+        <common:Name xml:lang="fr">Codelist pour l'opération statistique</common:Name>
+        <common:Description xml:lang="en">This code list represents common statistical operations for calculated values.</common:Description>
+        <structure:Code id="OBS">
+          <common:Name xml:lang="en">Observed</common:Name>
+          <common:Name xml:lang="fr">Observées</common:Name>
+          <common:Description xml:lang="en">Observed value without applying any statistical operation applied</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_UNIT_MEASURE" agencyID="OECD" version="1.28" isFinal="true">
+        <common:Name xml:lang="en">Codelist for Unit of measure</common:Name>
+        <common:Description xml:lang="en">Unit in which the data values are expressed.</common:Description>
+        <structure:Code id="0_TO_1">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10630</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10630</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">0-1 scale</common:Name>
+          <common:Name xml:lang="fr">Échelle 0-1</common:Name>
+        </structure:Code>
+        <structure:Code id="0_TO_48">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10665</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10665</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">0-48 scale</common:Name>
+          <common:Name xml:lang="fr">Échelle 0-48</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_HEALTH_PROF" agencyID="OECD.ELS.HD" version="1.1" isFinal="true">
+        <common:Name xml:lang="en">Health profession</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">290</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_MEASURE_HCQO" agencyID="OECD.ELS.HD" version="2.1" isFinal="true">
+        <common:Name xml:lang="en">Codelist for data element that represents a simple aggregation and which takes one or more vectors as arguments and returns a scalar</common:Name>
+        <structure:Code id="POPREOHS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1330</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1330</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Pre-operative patient-reported outcomes among people who undergo hip replacement surgery (pre-operative Oxford Hip Score)</common:Name>
+          <common:Name xml:lang="fr">Résultats préopératoires rapportés par les patients ayant subi une prothèse de hanche (score Oxford préopératoire de la hanche)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POPSTOHS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1340</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1340</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Post-operative patient-reported outcomes among people who undergo hip surgery (post-operative Oxford Hip Score)</common:Name>
+          <common:Name xml:lang="fr">Résultats postopératoires rapportés par les patients ayant subi une prothèse de la hanche (score Oxford postopératoire de la hanche)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POCHGOHS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1350</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1350</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Change from pre-op to post-op patient-reported outcomes among people who undergo hip surgery (change in Oxford Hip Score)</common:Name>
+          <common:Name xml:lang="fr">Variation des résultats rapportés par les patients entre la période préopératoire et postopératoire après une prothèse de la hanche (variation du score Oxford de la hanche)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POPREEQH">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1360</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1360</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Pre-operative patient-reported outcomes among people who undergo hip surgery (pre-operative EQ-5D-5L score)</common:Name>
+          <common:Name xml:lang="fr">Résultats préopératoires rapportés par les patients ayant subi une prothèse de la hanche (score EQ-5D-5L préopératoire)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POPSTEQH">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1370</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1370</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Post-operative patient-reported outcomes among people who undergo hip surgery (post-operative EQ-5D-5L score)</common:Name>
+          <common:Name xml:lang="fr">Résultats postopératoires rapportés par les patients ayant subi une prothèse de la hanche (score EQ-5D-5L postopératoire)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POCHGEQH">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1380</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1380</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Change from pre-op to post-op patient-reported outcomes among people who undergo hip surgery (change in EQ-5D-5L score)</common:Name>
+          <common:Name xml:lang="fr">Variation des résultats rapportés par les patients entre la période préopératoire et postopératoire après une prothèse de la hanche (variation du score EQ-5D-5L)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POPREOKS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1390</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1390</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Pre-operative patient-reported outcomes among people who undergo knee replacement surgery (pre-operative Oxford Knee Score)</common:Name>
+          <common:Name xml:lang="fr">Résultats préopératoires rapportés par les patients ayant subi une prothèse du genou (score Oxford préopératoire du genou)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POPSTOKS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1400</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Post-operative patient-reported outcomes among people who undergo knee replacement surgery (post-operative Oxford Knee Score)</common:Name>
+          <common:Name xml:lang="fr">Résultats postopératoires rapportés par les patients ayant subi une prothèse du genou (score Oxford postopératoire du genou)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POCHGOKS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1410</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1410</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Change from pre-op to post-op patient-reported outcomes among people who undergo knee replacement surgery (change in Oxford Knee Score)</common:Name>
+          <common:Name xml:lang="fr">Variation des résultats rapportés par les patients entre la période préopératoire et postopératoire après une prothèse du genou (variation du score Oxford du genou)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POPREEQK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1420</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1420</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Pre-operative patient-reported outcomes among people who undergo knee replacement surgery (pre-operative EQ-5D-5L score)</common:Name>
+          <common:Name xml:lang="fr">Résultats préopératoires rapportés par les patients ayant subi une prothèse du genou (score EQ-5D-5L préopératoire)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POPSTEQK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1430</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1430</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Post-operative patient-reported outcomes among people who undergo knee replacement surgery (post-operative EQ-5D-5L score)</common:Name>
+          <common:Name xml:lang="fr">Résultats postopératoires rapportés par les patients ayant subi une prothèse du genou (score EQ-5D-5L postopératoire)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="POCHGEQK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1440</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1440</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Change from pre-op to post-op patient-reported outcomes among people who undergo knee replacement surgery (change in EQ-5D-5L score)</common:Name>
+          <common:Name xml:lang="fr">Variation des résultats rapportés par les patients entre la période préopératoire et postopératoire après une prothèse du genou (variation du score EQ-5D-5L)</common:Name>
+          <structure:Parent>
+            <Ref id="HKP" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HKP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1320</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1320</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Hip and Knee Patient-Reported Outcome Measures</common:Name>
+          <common:Name xml:lang="fr">Mesures de résultats rapportés par les patients pour la hanche et le genou</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_FREQ" agencyID="SDMX" version="2.1" isFinal="true">
+        <common:Name xml:lang="en">Code list for concept "Frequency"</common:Name>
+        <common:Name xml:lang="fr">Codelist pour le concept "Fréquence"</common:Name>
+        <common:Description xml:lang="en">This code list provides a set of values indicating
+					the "frequency" of the data (e.g. weekly, monthly, quarterly). The concept
+					"frequency" may refer to various stages in the production process, e.g. data
+					collection or data dissemination. For example, a time series could be
+					disseminated at annual frequency but the underlying data are compiled monthly.
+					The code list is applicable for all different uses of
+					"frequency".</common:Description>
+        <common:Description xml:lang="fr">Cette liste de codes fournit un ensemble de valeurs
+					indiquant la "fréquence" des données (par exemple, hebdomadaire, mensuelle,
+					trimestrielle). Le concept de "fréquence" peut faire référence à différentes
+					étapes du processus de production, par ex. collecte ou diffusion de données. Par
+					exemple, une série chronologique pourrait être diffusée à une fréquence
+					annuelle, mais les données sous-jacentes sont compilées mensuellement. La liste
+					de codes est applicable pour toutes les différentes utilisations de
+					"fréquence".</common:Description>
+        <structure:Code id="A">
+          <common:Name xml:lang="en">Annual</common:Name>
+          <common:Name xml:lang="fr">Annuelle</common:Name>
+          <common:Description xml:lang="en">To be used for data collected or disseminated
+						every year</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+    <structure:Constraints>
+      <structure:ContentConstraint id="CC" agencyID="SDMX" version="1.0" type="Actual">
+        <common:Annotations>
+          <common:Annotation id="obs_count">
+            <common:AnnotationTitle>288</common:AnnotationTitle>
+            <common:AnnotationType>sdmx_metrics</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Autogenerated content constraint</common:Name>
+        <structure:ConstraintAttachment>
+          <structure:Dataflow>
+            <Ref id="DSD_HCQO@DF_HKP" version="1.1" agencyID="OECD.ELS.HD" package="datastructure" class="Dataflow" />
+          </structure:Dataflow>
+        </structure:ConstraintAttachment>
+        <structure:CubeRegion include="true">
+          <common:KeyValue id="REF_AREA">
+            <common:Value>AUS</common:Value>
+            <common:Value>CAN</common:Value>
+            <common:Value>CHE</common:Value>
+            <common:Value>DEU</common:Value>
+            <common:Value>FIN</common:Value>
+            <common:Value>GBR</common:Value>
+            <common:Value>IRL</common:Value>
+            <common:Value>ISR</common:Value>
+            <common:Value>NLD</common:Value>
+            <common:Value>NOR</common:Value>
+            <common:Value>SVN</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="FREQ">
+            <common:Value>A</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="MEASURE">
+            <common:Value>POCHGEQH</common:Value>
+            <common:Value>POCHGEQK</common:Value>
+            <common:Value>POCHGOHS</common:Value>
+            <common:Value>POCHGOKS</common:Value>
+            <common:Value>POPREEQH</common:Value>
+            <common:Value>POPREEQK</common:Value>
+            <common:Value>POPREOHS</common:Value>
+            <common:Value>POPREOKS</common:Value>
+            <common:Value>POPSTEQH</common:Value>
+            <common:Value>POPSTEQK</common:Value>
+            <common:Value>POPSTOHS</common:Value>
+            <common:Value>POPSTOKS</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="UNIT_MEASURE">
+            <common:Value>0_TO_1</common:Value>
+            <common:Value>0_TO_48</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="AGE">
+            <common:Value>Y_GE20</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="SEX">
+            <common:Value>_T</common:Value>
+            <common:Value>F</common:Value>
+            <common:Value>M</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="STATISTICAL_OPERATION">
+            <common:Value>OBS</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="INCOME_GROUP">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="HEALTH_PROF">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="TIME_PERIOD">
+            <common:TimeRange>
+              <common:StartPeriod isInclusive="true">2021-01-01T00:00:00</common:StartPeriod>
+              <common:EndPeriod isInclusive="true">2024-12-31T23:59:59</common:EndPeriod>
+            </common:TimeRange>
+          </common:KeyValue>
+        </structure:CubeRegion>
+      </structure:ContentConstraint>
+    </structure:Constraints>
+  </message:Structures>
+</message:Structure>

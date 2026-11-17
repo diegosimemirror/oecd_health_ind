@@ -1,0 +1,3497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v10.11.8.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF81</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2026-11-17T04:04:54.4596263+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist isPartial="true" id="CL_AREA" agencyID="OECD" version="1.6" isFinal="true">
+        <common:Name xml:lang="en">Codelist for reference areas and geocoding</common:Name>
+        <common:Name xml:lang="fr">Codelist pour les zones de référence</common:Name>
+        <structure:Code id="AUS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">20</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أستراليا</common:Name>
+          <common:Name xml:lang="en">Australia</common:Name>
+          <common:Name xml:lang="fr">Australie</common:Name>
+          <common:Name xml:lang="he">אוסטרליה</common:Name>
+        </structure:Code>
+        <structure:Code id="AUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">20</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">30</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">النمسا</common:Name>
+          <common:Name xml:lang="en">Austria</common:Name>
+          <common:Name xml:lang="fr">Autriche</common:Name>
+          <common:Name xml:lang="he">אוסטרייה</common:Name>
+        </structure:Code>
+        <structure:Code id="BEL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">30</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">40</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بلجيكا</common:Name>
+          <common:Name xml:lang="en">Belgium</common:Name>
+          <common:Name xml:lang="fr">Belgique</common:Name>
+          <common:Name xml:lang="he">בלגייה</common:Name>
+        </structure:Code>
+        <structure:Code id="CAN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">40</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">50</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كندا</common:Name>
+          <common:Name xml:lang="en">Canada</common:Name>
+          <common:Name xml:lang="fr">Canada</common:Name>
+          <common:Name xml:lang="he">קנדה</common:Name>
+        </structure:Code>
+        <structure:Code id="CHL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">50</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">60</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تشيلي</common:Name>
+          <common:Name xml:lang="en">Chile</common:Name>
+          <common:Name xml:lang="fr">Chili</common:Name>
+          <common:Name xml:lang="he">צ'ילה</common:Name>
+        </structure:Code>
+        <structure:Code id="COL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">60</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">70</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كولومبيا</common:Name>
+          <common:Name xml:lang="en">Colombia</common:Name>
+          <common:Name xml:lang="fr">Colombie</common:Name>
+          <common:Name xml:lang="he">קולומבייה</common:Name>
+        </structure:Code>
+        <structure:Code id="CRI">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">70</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">90</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كوستاريكا</common:Name>
+          <common:Name xml:lang="en">Costa Rica</common:Name>
+          <common:Name xml:lang="fr">Costa Rica</common:Name>
+          <common:Name xml:lang="he">קוסטה ריקה</common:Name>
+        </structure:Code>
+        <structure:Code id="CZE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">80</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">370</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية التشيك</common:Name>
+          <common:Name xml:lang="en">Czechia</common:Name>
+          <common:Name xml:lang="fr">Tchéquie</common:Name>
+          <common:Name xml:lang="he">צ'כיה</common:Name>
+        </structure:Code>
+        <structure:Code id="DNK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">90</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الدنمارك</common:Name>
+          <common:Name xml:lang="en">Denmark</common:Name>
+          <common:Name xml:lang="fr">Danemark</common:Name>
+          <common:Name xml:lang="he">דנמרק</common:Name>
+        </structure:Code>
+        <structure:Code id="EST">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">100</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">120</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إستونيا</common:Name>
+          <common:Name xml:lang="en">Estonia</common:Name>
+          <common:Name xml:lang="fr">Estonie</common:Name>
+          <common:Name xml:lang="he">אסטוניה</common:Name>
+        </structure:Code>
+        <structure:Code id="FIN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">110</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">140</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فنلندا</common:Name>
+          <common:Name xml:lang="en">Finland</common:Name>
+          <common:Name xml:lang="fr">Finlande</common:Name>
+          <common:Name xml:lang="he">פינלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="FRA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">120</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">150</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فرنسا</common:Name>
+          <common:Name xml:lang="en">France</common:Name>
+          <common:Name xml:lang="fr">France</common:Name>
+          <common:Name xml:lang="he">צרפת</common:Name>
+        </structure:Code>
+        <structure:Code id="DEU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">130</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ألمانيا</common:Name>
+          <common:Name xml:lang="en">Germany</common:Name>
+          <common:Name xml:lang="fr">Allemagne</common:Name>
+          <common:Name xml:lang="he">גרמניה</common:Name>
+        </structure:Code>
+        <structure:Code id="GRC">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">140</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">160</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">اليونان</common:Name>
+          <common:Name xml:lang="en">Greece</common:Name>
+          <common:Name xml:lang="fr">Grèce</common:Name>
+          <common:Name xml:lang="he">יוון</common:Name>
+        </structure:Code>
+        <structure:Code id="HUN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">150</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">170</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">هنغاريا</common:Name>
+          <common:Name xml:lang="en">Hungary</common:Name>
+          <common:Name xml:lang="fr">Hongrie</common:Name>
+          <common:Name xml:lang="he">הונגריה</common:Name>
+        </structure:Code>
+        <structure:Code id="ISL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">160</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">190</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">آيسلندا</common:Name>
+          <common:Name xml:lang="en">Iceland</common:Name>
+          <common:Name xml:lang="fr">Islande</common:Name>
+          <common:Name xml:lang="he">איסלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="IRL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">170</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">180</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أيرلندا</common:Name>
+          <common:Name xml:lang="en">Ireland</common:Name>
+          <common:Name xml:lang="fr">Irlande</common:Name>
+          <common:Name xml:lang="he">אירלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="ISR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">180</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إسرائيل</common:Name>
+          <common:Name xml:lang="en">Israel</common:Name>
+          <common:Name xml:lang="fr">Israël</common:Name>
+          <common:Name xml:lang="he">ישראל</common:Name>
+        </structure:Code>
+        <structure:Code id="ITA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">190</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">210</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إيطاليا</common:Name>
+          <common:Name xml:lang="en">Italy</common:Name>
+          <common:Name xml:lang="fr">Italie</common:Name>
+          <common:Name xml:lang="he">איטליה</common:Name>
+        </structure:Code>
+        <structure:Code id="KOR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">210</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">80</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كوريا</common:Name>
+          <common:Name xml:lang="en">Korea</common:Name>
+          <common:Name xml:lang="fr">Corée</common:Name>
+          <common:Name xml:lang="he">קוריאה</common:Name>
+        </structure:Code>
+        <structure:Code id="LVA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">220</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">230</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">لاتفيا</common:Name>
+          <common:Name xml:lang="en">Latvia</common:Name>
+          <common:Name xml:lang="fr">Lettonie</common:Name>
+          <common:Name xml:lang="he">לטבייה</common:Name>
+        </structure:Code>
+        <structure:Code id="LTU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">230</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">240</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ليتوانيا</common:Name>
+          <common:Name xml:lang="en">Lithuania</common:Name>
+          <common:Name xml:lang="fr">Lituanie</common:Name>
+          <common:Name xml:lang="he">ליטא</common:Name>
+        </structure:Code>
+        <structure:Code id="LUX">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">240</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">250</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">لوكسمبورغ</common:Name>
+          <common:Name xml:lang="en">Luxembourg</common:Name>
+          <common:Name xml:lang="fr">Luxembourg</common:Name>
+          <common:Name xml:lang="he">לוקסמבורג</common:Name>
+        </structure:Code>
+        <structure:Code id="NLD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">260</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">290</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">هولندا</common:Name>
+          <common:Name xml:lang="en">Netherlands</common:Name>
+          <common:Name xml:lang="fr">Pays-Bas</common:Name>
+          <common:Name xml:lang="he">הולנד</common:Name>
+        </structure:Code>
+        <structure:Code id="NZL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">270</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">280</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">نيوزيلندا</common:Name>
+          <common:Name xml:lang="en">New Zealand</common:Name>
+          <common:Name xml:lang="fr">Nouvelle-Zélande</common:Name>
+          <common:Name xml:lang="he">ניו זילנד</common:Name>
+        </structure:Code>
+        <structure:Code id="NOR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">280</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">270</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">النرويج</common:Name>
+          <common:Name xml:lang="en">Norway</common:Name>
+          <common:Name xml:lang="fr">Norvège</common:Name>
+          <common:Name xml:lang="he">נורווגיה</common:Name>
+        </structure:Code>
+        <structure:Code id="POL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">290</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بولندا</common:Name>
+          <common:Name xml:lang="en">Poland</common:Name>
+          <common:Name xml:lang="fr">Pologne</common:Name>
+          <common:Name xml:lang="he">פולין</common:Name>
+        </structure:Code>
+        <structure:Code id="PRT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">300</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">310</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">البرتغال</common:Name>
+          <common:Name xml:lang="en">Portugal</common:Name>
+          <common:Name xml:lang="fr">Portugal</common:Name>
+          <common:Name xml:lang="he">פורטוגל</common:Name>
+        </structure:Code>
+        <structure:Code id="SVK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">310</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">320</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية سلوفاكيا</common:Name>
+          <common:Name xml:lang="en">Slovak Republic</common:Name>
+          <common:Name xml:lang="fr">République slovaque</common:Name>
+          <common:Name xml:lang="he">סלובקיה</common:Name>
+        </structure:Code>
+        <structure:Code id="SVN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">320</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">340</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سلوفينيا</common:Name>
+          <common:Name xml:lang="en">Slovenia</common:Name>
+          <common:Name xml:lang="fr">Slovénie</common:Name>
+          <common:Name xml:lang="he">סלובניה</common:Name>
+        </structure:Code>
+        <structure:Code id="ESP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">330</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">110</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إسبانيا</common:Name>
+          <common:Name xml:lang="en">Spain</common:Name>
+          <common:Name xml:lang="fr">Espagne</common:Name>
+          <common:Name xml:lang="he">ספרד</common:Name>
+        </structure:Code>
+        <structure:Code id="SWE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">340</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">350</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">السويد</common:Name>
+          <common:Name xml:lang="en">Sweden</common:Name>
+          <common:Name xml:lang="fr">Suède</common:Name>
+          <common:Name xml:lang="he">שוודיה</common:Name>
+        </structure:Code>
+        <structure:Code id="CHE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">350</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">360</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سويسرا</common:Name>
+          <common:Name xml:lang="en">Switzerland</common:Name>
+          <common:Name xml:lang="fr">Suisse</common:Name>
+          <common:Name xml:lang="he">שוויץ</common:Name>
+        </structure:Code>
+        <structure:Code id="TUR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">360</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">380</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تركيا</common:Name>
+          <common:Name xml:lang="en">Türkiye</common:Name>
+          <common:Name xml:lang="fr">Türkiye</common:Name>
+          <common:Name xml:lang="he">טורקייה</common:Name>
+        </structure:Code>
+        <structure:Code id="GBR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">370</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">330</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">المملكة المتحدة</common:Name>
+          <common:Name xml:lang="en">United Kingdom</common:Name>
+          <common:Name xml:lang="fr">Royaume-Uni</common:Name>
+          <common:Name xml:lang="he">הממלכה המאוחדת</common:Name>
+        </structure:Code>
+        <structure:Code id="USA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">380</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">130</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الولايات المتحدة الأميركية</common:Name>
+          <common:Name xml:lang="en">United States</common:Name>
+          <common:Name xml:lang="fr">États-Unis</common:Name>
+          <common:Name xml:lang="he">ארצות הברית</common:Name>
+        </structure:Code>
+        <structure:Code id="ARG">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1280</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1290</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الأرجنتين</common:Name>
+          <common:Name xml:lang="en">Argentina</common:Name>
+          <common:Name xml:lang="fr">Argentine</common:Name>
+          <common:Name xml:lang="he">ארגנטינה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BGR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1510</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1500</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بلغاريا</common:Name>
+          <common:Name xml:lang="en">Bulgaria</common:Name>
+          <common:Name xml:lang="fr">Bulgarie</common:Name>
+          <common:Name xml:lang="he">בולגריה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HRV">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1680</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1610</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كرواتيا</common:Name>
+          <common:Name xml:lang="en">Croatia</common:Name>
+          <common:Name xml:lang="fr">Croatie</common:Name>
+          <common:Name xml:lang="he">קרואטיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="CYP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1710</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1570</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">قبرص</common:Name>
+          <common:Name xml:lang="en">Cyprus</common:Name>
+          <common:Name xml:lang="fr">Chypre</common:Name>
+          <common:Name xml:lang="he">קפריסין</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MLT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2340</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2370</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مالطا</common:Name>
+          <common:Name xml:lang="en">Malta</common:Name>
+          <common:Name xml:lang="fr">Malte</common:Name>
+          <common:Name xml:lang="he">מלטה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MDA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2410</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2440</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مولدوفا</common:Name>
+          <common:Name xml:lang="en">Moldova</common:Name>
+          <common:Name xml:lang="fr">Moldova</common:Name>
+          <common:Name xml:lang="he">מולדובה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ROU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2730</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2790</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">رومانيا</common:Name>
+          <common:Name xml:lang="en">Romania</common:Name>
+          <common:Name xml:lang="fr">Roumanie</common:Name>
+          <common:Name xml:lang="he">רומניה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SRB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2880</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2960</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">صربيا</common:Name>
+          <common:Name xml:lang="en">Serbia</common:Name>
+          <common:Name xml:lang="fr">Serbie</common:Name>
+          <common:Name xml:lang="he">סרבייה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="WXOECD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1030</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1030</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Non-OECD economies</common:Name>
+          <common:Name xml:lang="fr">Non-OCDE économies</common:Name>
+        </structure:Code>
+        <structure:Code id="JPN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">200</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">220</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">اليابان</common:Name>
+          <common:Name xml:lang="en">Japan</common:Name>
+          <common:Name xml:lang="fr">Japon</common:Name>
+          <common:Name xml:lang="he">יפן</common:Name>
+        </structure:Code>
+        <structure:Code id="MEX">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">250</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">260</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">المكسيك</common:Name>
+          <common:Name xml:lang="en">Mexico</common:Name>
+          <common:Name xml:lang="fr">Mexique</common:Name>
+          <common:Name xml:lang="he">מקסיקו</common:Name>
+        </structure:Code>
+        <structure:Code id="AFG">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1180</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1180</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أفغانستان</common:Name>
+          <common:Name xml:lang="en">Afghanistan</common:Name>
+          <common:Name xml:lang="fr">Afghanistan</common:Name>
+          <common:Name xml:lang="he">אפגניסטן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ALB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1200</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1210</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ألبانيا</common:Name>
+          <common:Name xml:lang="en">Albania</common:Name>
+          <common:Name xml:lang="fr">Albanie</common:Name>
+          <common:Name xml:lang="he">אלבניה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DZA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1210</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1220</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الجزائر</common:Name>
+          <common:Name xml:lang="en">Algeria</common:Name>
+          <common:Name xml:lang="fr">Algérie</common:Name>
+          <common:Name xml:lang="he">אלג'יריה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="AGO">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1230</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1240</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أنغولا</common:Name>
+          <common:Name xml:lang="en">Angola</common:Name>
+          <common:Name xml:lang="fr">Angola</common:Name>
+          <common:Name xml:lang="he">אנגולה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="AND">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1240</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1230</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أندورا</common:Name>
+          <common:Name xml:lang="en">Andorra</common:Name>
+          <common:Name xml:lang="fr">Andorre</common:Name>
+          <common:Name xml:lang="he">אנדורה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ATG">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1270</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1270</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أنتيغوا وباربودا</common:Name>
+          <common:Name xml:lang="en">Antigua and Barbuda</common:Name>
+          <common:Name xml:lang="fr">Antigua-et-Barbuda</common:Name>
+          <common:Name xml:lang="he">אנטיגואה וברבודה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ARM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1290</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أرمينيا</common:Name>
+          <common:Name xml:lang="en">Armenia</common:Name>
+          <common:Name xml:lang="fr">Arménie</common:Name>
+          <common:Name xml:lang="he">ארמניה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="AZE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1310</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1330</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أذربيجان</common:Name>
+          <common:Name xml:lang="en">Azerbaijan</common:Name>
+          <common:Name xml:lang="fr">Azerbaïdjan</common:Name>
+          <common:Name xml:lang="he">אזרבייג'אן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BHS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1320</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1340</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جزر البهاما</common:Name>
+          <common:Name xml:lang="en">Bahamas</common:Name>
+          <common:Name xml:lang="fr">Bahamas</common:Name>
+          <common:Name xml:lang="he">איי בהאמה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BHR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1330</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1350</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">البحرين</common:Name>
+          <common:Name xml:lang="en">Bahrain</common:Name>
+          <common:Name xml:lang="fr">Bahreïn</common:Name>
+          <common:Name xml:lang="he">בחרין</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BGD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1350</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1370</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بنغلاديش</common:Name>
+          <common:Name xml:lang="en">Bangladesh</common:Name>
+          <common:Name xml:lang="fr">Bangladesh</common:Name>
+          <common:Name xml:lang="he">בנגלדש</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BRB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1360</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1380</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بربادوس</common:Name>
+          <common:Name xml:lang="en">Barbados</common:Name>
+          <common:Name xml:lang="fr">Barbade</common:Name>
+          <common:Name xml:lang="he">ברבדוס</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BLR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1370</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1390</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بيلاروسيا</common:Name>
+          <common:Name xml:lang="en">Belarus</common:Name>
+          <common:Name xml:lang="fr">Bélarus</common:Name>
+          <common:Name xml:lang="he">בלארוס</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BLZ">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1380</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بليز</common:Name>
+          <common:Name xml:lang="en">Belize</common:Name>
+          <common:Name xml:lang="fr">Belize</common:Name>
+          <common:Name xml:lang="he">בליז</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BEN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1390</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1410</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بنين</common:Name>
+          <common:Name xml:lang="en">Benin</common:Name>
+          <common:Name xml:lang="fr">Bénin</common:Name>
+          <common:Name xml:lang="he">בנין</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BTN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1410</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1430</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بوتان</common:Name>
+          <common:Name xml:lang="en">Bhutan</common:Name>
+          <common:Name xml:lang="fr">Bhoutan</common:Name>
+          <common:Name xml:lang="he">בוטאן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BOL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1420</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1440</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بوليفيا</common:Name>
+          <common:Name xml:lang="en">Bolivia</common:Name>
+          <common:Name xml:lang="fr">Bolivie</common:Name>
+          <common:Name xml:lang="he">בוליביה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BIH">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1440</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1460</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">البوسنة والهرسك</common:Name>
+          <common:Name xml:lang="en">Bosnia and Herzegovina</common:Name>
+          <common:Name xml:lang="fr">Bosnie-Herzégovine</common:Name>
+          <common:Name xml:lang="he">בוסנייה והרצגובינה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BWA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1450</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1470</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بوتسوانا</common:Name>
+          <common:Name xml:lang="en">Botswana</common:Name>
+          <common:Name xml:lang="fr">Botswana</common:Name>
+          <common:Name xml:lang="he">בוצואנה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BRA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1470</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1480</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">البرازيل</common:Name>
+          <common:Name xml:lang="en">Brazil</common:Name>
+          <common:Name xml:lang="fr">Brésil</common:Name>
+          <common:Name xml:lang="he">ברזיל</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BRN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1500</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1490</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بروناي دار السلام</common:Name>
+          <common:Name xml:lang="en">Brunei Darussalam</common:Name>
+          <common:Name xml:lang="fr">Brunei Darussalam</common:Name>
+          <common:Name xml:lang="he">ברוניי דארוסלאם</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BFA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1520</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1510</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بوركينا فاسو</common:Name>
+          <common:Name xml:lang="en">Burkina Faso</common:Name>
+          <common:Name xml:lang="fr">Burkina Faso</common:Name>
+          <common:Name xml:lang="he">בורקינה פאסו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BDI">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1530</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1520</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بوروندي</common:Name>
+          <common:Name xml:lang="en">Burundi</common:Name>
+          <common:Name xml:lang="fr">Burundi</common:Name>
+          <common:Name xml:lang="he">בורונדי</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="CPV">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1540</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1530</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كابو فيردي</common:Name>
+          <common:Name xml:lang="en">Cabo Verde</common:Name>
+          <common:Name xml:lang="fr">Cabo Verde</common:Name>
+          <common:Name xml:lang="he">קאבו ורדי</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="KHM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1550</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1540</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كامبوديا</common:Name>
+          <common:Name xml:lang="en">Cambodia</common:Name>
+          <common:Name xml:lang="fr">Cambodge</common:Name>
+          <common:Name xml:lang="he">קמבודיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="CMR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1560</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1550</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الكاميرون</common:Name>
+          <common:Name xml:lang="en">Cameroon</common:Name>
+          <common:Name xml:lang="fr">Cameroun</common:Name>
+          <common:Name xml:lang="he">קמרון</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="CAF">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1580</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2740</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية إفريقيا الوسطى</common:Name>
+          <common:Name xml:lang="en">Central African Republic</common:Name>
+          <common:Name xml:lang="fr">République centrafricaine</common:Name>
+          <common:Name xml:lang="he">הרפובליקה המרכז-אפריקנית</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TCD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1590</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تشاد</common:Name>
+          <common:Name xml:lang="en">Chad</common:Name>
+          <common:Name xml:lang="fr">Tchad</common:Name>
+          <common:Name xml:lang="he">צ'אד</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="CHN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1600</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1560</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية الصين الشعبية</common:Name>
+          <common:Name xml:lang="en">China (People’s Republic of)</common:Name>
+          <common:Name xml:lang="fr">Chine (République populaire de)</common:Name>
+          <common:Name xml:lang="he">הרפובליקה העממית של סין</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="COM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1630</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1580</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جزر القمر</common:Name>
+          <common:Name xml:lang="en">Comoros</common:Name>
+          <common:Name xml:lang="fr">Comores</common:Name>
+          <common:Name xml:lang="he">איי קומורו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="COG">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1650</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1590</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الكونغو</common:Name>
+          <common:Name xml:lang="en">Congo</common:Name>
+          <common:Name xml:lang="fr">Congo</common:Name>
+          <common:Name xml:lang="he">קונגו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="COK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1660</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1990</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جزر كوك</common:Name>
+          <common:Name xml:lang="en">Cook Islands</common:Name>
+          <common:Name xml:lang="fr">Îles Cook</common:Name>
+          <common:Name xml:lang="he">איי קוק</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="CIV">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1670</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ساحل العاج</common:Name>
+          <common:Name xml:lang="en">Côte d’Ivoire</common:Name>
+          <common:Name xml:lang="fr">Côte d’Ivoire</common:Name>
+          <common:Name xml:lang="he">חוף השנהב</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="CUB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1690</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1620</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كوبا</common:Name>
+          <common:Name xml:lang="en">Cuba</common:Name>
+          <common:Name xml:lang="fr">Cuba</common:Name>
+          <common:Name xml:lang="he">קובה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="PRK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1720</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2780</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية كوريا الديمقراطية الشعبية</common:Name>
+          <common:Name xml:lang="en">Democratic People’s Republic of Korea</common:Name>
+          <common:Name xml:lang="fr">République populaire démocratique de Corée</common:Name>
+          <common:Name xml:lang="he">הרפובליקה הדמוקרטית של קוריאה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="COD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1730</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2750</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية الكونغو الديمقراطية</common:Name>
+          <common:Name xml:lang="en">Democratic Republic of the Congo</common:Name>
+          <common:Name xml:lang="fr">République démocratique du Congo</common:Name>
+          <common:Name xml:lang="he">הרפובליקה הדמוקרטית של קונגו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DJI">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1740</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1640</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جيبوتي</common:Name>
+          <common:Name xml:lang="en">Djibouti</common:Name>
+          <common:Name xml:lang="fr">Djibouti</common:Name>
+          <common:Name xml:lang="he">ג'יבוטי</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DMA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1750</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1650</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">دومينيكا</common:Name>
+          <common:Name xml:lang="en">Dominica</common:Name>
+          <common:Name xml:lang="fr">Dominique</common:Name>
+          <common:Name xml:lang="he">דומיניקה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DOM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1760</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2770</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية الدومينيكان</common:Name>
+          <common:Name xml:lang="en">Dominican Republic</common:Name>
+          <common:Name xml:lang="fr">République dominicaine</common:Name>
+          <common:Name xml:lang="he">הרפובליקה הדומיניקנית</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ECU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1770</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1690</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الإكوادور</common:Name>
+          <common:Name xml:lang="en">Ecuador</common:Name>
+          <common:Name xml:lang="fr">Équateur</common:Name>
+          <common:Name xml:lang="he">אקוודור</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="EGY">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1780</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1660</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مصر</common:Name>
+          <common:Name xml:lang="en">Egypt</common:Name>
+          <common:Name xml:lang="fr">Égypte</common:Name>
+          <common:Name xml:lang="he">מצרים</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SLV">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1790</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1670</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">السلفادور</common:Name>
+          <common:Name xml:lang="en">El Salvador</common:Name>
+          <common:Name xml:lang="fr">El Salvador</common:Name>
+          <common:Name xml:lang="he">אל סלוודור</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="GNQ">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1800</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1850</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">غينيا الاستوائية</common:Name>
+          <common:Name xml:lang="en">Equatorial Guinea</common:Name>
+          <common:Name xml:lang="fr">Guinée équatoriale</common:Name>
+          <common:Name xml:lang="he">גינאה המשוונית</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ERI">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1810</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1700</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إريتريا</common:Name>
+          <common:Name xml:lang="en">Eritrea</common:Name>
+          <common:Name xml:lang="fr">Érythrée</common:Name>
+          <common:Name xml:lang="he">אריטראה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SWZ">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1820</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1710</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Eswatini</common:Name>
+          <common:Name xml:lang="fr">Eswatini</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ETH">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1830</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1720</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إثيوبيا</common:Name>
+          <common:Name xml:lang="en">Ethiopia</common:Name>
+          <common:Name xml:lang="fr">Éthiopie</common:Name>
+          <common:Name xml:lang="he">אתיופיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="FJI">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1860</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1730</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فيجي</common:Name>
+          <common:Name xml:lang="en">Fiji</common:Name>
+          <common:Name xml:lang="fr">Fidji</common:Name>
+          <common:Name xml:lang="he">פיג'י</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="GAB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1900</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1740</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الغابون</common:Name>
+          <common:Name xml:lang="en">Gabon</common:Name>
+          <common:Name xml:lang="fr">Gabon</common:Name>
+          <common:Name xml:lang="he">גבון</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="GMB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1910</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1750</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">غامبيا</common:Name>
+          <common:Name xml:lang="en">Gambia</common:Name>
+          <common:Name xml:lang="fr">Gambie</common:Name>
+          <common:Name xml:lang="he">גמבייה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="GEO">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1920</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1760</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جورجيا</common:Name>
+          <common:Name xml:lang="en">Georgia</common:Name>
+          <common:Name xml:lang="fr">Géorgie</common:Name>
+          <common:Name xml:lang="he">גאורגייה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="GHA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1930</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1770</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">غانا</common:Name>
+          <common:Name xml:lang="en">Ghana</common:Name>
+          <common:Name xml:lang="fr">Ghana</common:Name>
+          <common:Name xml:lang="he">גאנה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="GRD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1960</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1790</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">غرينادا</common:Name>
+          <common:Name xml:lang="en">Grenada</common:Name>
+          <common:Name xml:lang="fr">Grenade</common:Name>
+          <common:Name xml:lang="he">גרנדה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="GTM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1990</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1830</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">غواتيمالا</common:Name>
+          <common:Name xml:lang="en">Guatemala</common:Name>
+          <common:Name xml:lang="fr">Guatemala</common:Name>
+          <common:Name xml:lang="he">גואטמלה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="GIN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2000</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1840</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">غينيا</common:Name>
+          <common:Name xml:lang="en">Guinea</common:Name>
+          <common:Name xml:lang="fr">Guinée</common:Name>
+          <common:Name xml:lang="he">גינאה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="GNB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2010</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1860</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">غينيا بيساو</common:Name>
+          <common:Name xml:lang="en">Guinea-Bissau</common:Name>
+          <common:Name xml:lang="fr">Guinée-Bissau</common:Name>
+          <common:Name xml:lang="he">גינאה-ביסאו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="GUY">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2020</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1870</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">غويانا</common:Name>
+          <common:Name xml:lang="en">Guyana</common:Name>
+          <common:Name xml:lang="fr">Guyana</common:Name>
+          <common:Name xml:lang="he">גיאנה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HTI">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2030</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1890</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">هايتي</common:Name>
+          <common:Name xml:lang="en">Haiti</common:Name>
+          <common:Name xml:lang="fr">Haïti</common:Name>
+          <common:Name xml:lang="he">האיטי</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HND">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2060</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1900</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">هندوراس</common:Name>
+          <common:Name xml:lang="en">Honduras</common:Name>
+          <common:Name xml:lang="fr">Honduras</common:Name>
+          <common:Name xml:lang="he">הונדורס</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="IND">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2080</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2110</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الهند</common:Name>
+          <common:Name xml:lang="en">India</common:Name>
+          <common:Name xml:lang="fr">Inde</common:Name>
+          <common:Name xml:lang="he">הודו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="IDN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2090</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2120</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إندونيسيا</common:Name>
+          <common:Name xml:lang="en">Indonesia</common:Name>
+          <common:Name xml:lang="fr">Indonésie</common:Name>
+          <common:Name xml:lang="he">אינדונזיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="IRN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2100</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2130</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إيران</common:Name>
+          <common:Name xml:lang="en">Iran</common:Name>
+          <common:Name xml:lang="fr">Iran</common:Name>
+          <common:Name xml:lang="he">איראן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="IRQ">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2110</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2140</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">العراق</common:Name>
+          <common:Name xml:lang="en">Iraq</common:Name>
+          <common:Name xml:lang="fr">Iraq</common:Name>
+          <common:Name xml:lang="he">עיראק</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="JAM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2130</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2150</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جامايكا</common:Name>
+          <common:Name xml:lang="en">Jamaica</common:Name>
+          <common:Name xml:lang="fr">Jamaïque</common:Name>
+          <common:Name xml:lang="he">ג'מייקה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="JOR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2150</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2170</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الأردن</common:Name>
+          <common:Name xml:lang="en">Jordan</common:Name>
+          <common:Name xml:lang="fr">Jordanie</common:Name>
+          <common:Name xml:lang="he">ירדן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="KAZ">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2160</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2180</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كازاخستان</common:Name>
+          <common:Name xml:lang="en">Kazakhstan</common:Name>
+          <common:Name xml:lang="fr">Kazakhstan</common:Name>
+          <common:Name xml:lang="he">קזחסטן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="KEN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2170</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2190</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كينيا</common:Name>
+          <common:Name xml:lang="en">Kenya</common:Name>
+          <common:Name xml:lang="fr">Kenya</common:Name>
+          <common:Name xml:lang="he">קניה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="KIR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2180</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2210</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كيريباتي</common:Name>
+          <common:Name xml:lang="en">Kiribati</common:Name>
+          <common:Name xml:lang="fr">Kiribati</common:Name>
+          <common:Name xml:lang="he">קיריבאס</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="KWT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2200</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2230</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الكويت</common:Name>
+          <common:Name xml:lang="en">Kuwait</common:Name>
+          <common:Name xml:lang="fr">Koweït</common:Name>
+          <common:Name xml:lang="he">כווית</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="KGZ">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2210</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">قيرغيزستان</common:Name>
+          <common:Name xml:lang="en">Kyrgyzstan</common:Name>
+          <common:Name xml:lang="fr">Kirghizistan</common:Name>
+          <common:Name xml:lang="he">קירגיזסטן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="LAO">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2220</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2760</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية لاوس الديمقراطية الشعبية</common:Name>
+          <common:Name xml:lang="en">Lao People’s Democratic Republic</common:Name>
+          <common:Name xml:lang="fr">République démocratique populaire lao</common:Name>
+          <common:Name xml:lang="he">הרפובליקה הדמוקרטית העממית של לאוס</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="LBN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2230</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2260</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">لبنان</common:Name>
+          <common:Name xml:lang="en">Lebanon</common:Name>
+          <common:Name xml:lang="fr">Liban</common:Name>
+          <common:Name xml:lang="he">לבנון</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="LSO">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2240</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2250</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ليسوتو</common:Name>
+          <common:Name xml:lang="en">Lesotho</common:Name>
+          <common:Name xml:lang="fr">Lesotho</common:Name>
+          <common:Name xml:lang="he">לסוטו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="LBR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2250</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2270</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ليبيريا</common:Name>
+          <common:Name xml:lang="en">Liberia</common:Name>
+          <common:Name xml:lang="fr">Libéria</common:Name>
+          <common:Name xml:lang="he">ליבריה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="LBY">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2260</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2280</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ليبيا</common:Name>
+          <common:Name xml:lang="en">Libya</common:Name>
+          <common:Name xml:lang="fr">Libye</common:Name>
+          <common:Name xml:lang="he">לוב</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="LIE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2270</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2290</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ليختنشتاين</common:Name>
+          <common:Name xml:lang="en">Liechtenstein</common:Name>
+          <common:Name xml:lang="fr">Liechtenstein</common:Name>
+          <common:Name xml:lang="he">ליכטנשטיין</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MDG">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2290</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2320</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مدغشقر</common:Name>
+          <common:Name xml:lang="en">Madagascar</common:Name>
+          <common:Name xml:lang="fr">Madagascar</common:Name>
+          <common:Name xml:lang="he">מדגסקר</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MWI">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2300</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2340</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مالاوي</common:Name>
+          <common:Name xml:lang="en">Malawi</common:Name>
+          <common:Name xml:lang="fr">Malawi</common:Name>
+          <common:Name xml:lang="he">מלאווי</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MYS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2310</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2330</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ماليزيا</common:Name>
+          <common:Name xml:lang="en">Malaysia</common:Name>
+          <common:Name xml:lang="fr">Malaisie</common:Name>
+          <common:Name xml:lang="he">מלזיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MDV">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2320</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2350</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">المالديف</common:Name>
+          <common:Name xml:lang="en">Maldives</common:Name>
+          <common:Name xml:lang="fr">Maldives</common:Name>
+          <common:Name xml:lang="he">המלדיוויים</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MLI">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2330</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2360</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مالي</common:Name>
+          <common:Name xml:lang="en">Mali</common:Name>
+          <common:Name xml:lang="fr">Mali</common:Name>
+          <common:Name xml:lang="he">מאלי</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MHL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2350</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2050</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جزر مارشال</common:Name>
+          <common:Name xml:lang="en">Marshall Islands</common:Name>
+          <common:Name xml:lang="fr">Îles Marshall</common:Name>
+          <common:Name xml:lang="he">איי מרשל</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MRT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2370</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2410</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">موريتانيا</common:Name>
+          <common:Name xml:lang="en">Mauritania</common:Name>
+          <common:Name xml:lang="fr">Mauritanie</common:Name>
+          <common:Name xml:lang="he">מאוריטניה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MUS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2380</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">موريشيوس</common:Name>
+          <common:Name xml:lang="en">Mauritius</common:Name>
+          <common:Name xml:lang="fr">Maurice</common:Name>
+          <common:Name xml:lang="he">מאוריציוס</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="FSM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2400</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2430</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ميكرونيسيا</common:Name>
+          <common:Name xml:lang="en">Micronesia</common:Name>
+          <common:Name xml:lang="fr">Micronésie</common:Name>
+          <common:Name xml:lang="he">מיקרונזיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MCO">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2420</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2450</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">موناكو</common:Name>
+          <common:Name xml:lang="en">Monaco</common:Name>
+          <common:Name xml:lang="fr">Monaco</common:Name>
+          <common:Name xml:lang="he">מונקו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MNG">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2430</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2460</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مونغوليا</common:Name>
+          <common:Name xml:lang="en">Mongolia</common:Name>
+          <common:Name xml:lang="fr">Mongolie</common:Name>
+          <common:Name xml:lang="he">מונגוליה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MNE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2440</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2470</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مونتينيغرو</common:Name>
+          <common:Name xml:lang="en">Montenegro</common:Name>
+          <common:Name xml:lang="fr">Monténégro</common:Name>
+          <common:Name xml:lang="he">מונטנגרו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MAR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2460</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2380</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">المغرب</common:Name>
+          <common:Name xml:lang="en">Morocco</common:Name>
+          <common:Name xml:lang="fr">Maroc</common:Name>
+          <common:Name xml:lang="he">מרוקו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MOZ">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2470</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2490</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">موزمبيق</common:Name>
+          <common:Name xml:lang="en">Mozambique</common:Name>
+          <common:Name xml:lang="fr">Mozambique</common:Name>
+          <common:Name xml:lang="he">מוזמביק</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MMR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2480</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2500</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ميانمار</common:Name>
+          <common:Name xml:lang="en">Myanmar</common:Name>
+          <common:Name xml:lang="fr">Myanmar</common:Name>
+          <common:Name xml:lang="he">מיאנמר</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NAM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2490</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2510</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ناميبيا</common:Name>
+          <common:Name xml:lang="en">Namibia</common:Name>
+          <common:Name xml:lang="fr">Namibie</common:Name>
+          <common:Name xml:lang="he">נמיביה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NRU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2500</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2520</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ناورو</common:Name>
+          <common:Name xml:lang="en">Nauru</common:Name>
+          <common:Name xml:lang="fr">Nauru</common:Name>
+          <common:Name xml:lang="he">נאורו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NPL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2510</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2530</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">نيبال</common:Name>
+          <common:Name xml:lang="en">Nepal</common:Name>
+          <common:Name xml:lang="fr">Népal</common:Name>
+          <common:Name xml:lang="he">נפאל</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NIC">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2530</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2540</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">نيكاراغوا</common:Name>
+          <common:Name xml:lang="en">Nicaragua</common:Name>
+          <common:Name xml:lang="fr">Nicaragua</common:Name>
+          <common:Name xml:lang="he">ניקרגואה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NER">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2540</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2550</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">النيجر</common:Name>
+          <common:Name xml:lang="en">Niger</common:Name>
+          <common:Name xml:lang="fr">Niger</common:Name>
+          <common:Name xml:lang="he">ניז'ר</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NGA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2550</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2560</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">نيجيريا</common:Name>
+          <common:Name xml:lang="en">Nigeria</common:Name>
+          <common:Name xml:lang="fr">Nigéria</common:Name>
+          <common:Name xml:lang="he">ניגריה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="NIU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2560</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2570</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">نييوي</common:Name>
+          <common:Name xml:lang="en">Niue</common:Name>
+          <common:Name xml:lang="fr">Niue</common:Name>
+          <common:Name xml:lang="he">ניואה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MKD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2580</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2310</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مقدونيا الشمالية</common:Name>
+          <common:Name xml:lang="en">North Macedonia</common:Name>
+          <common:Name xml:lang="fr">Macédoine du Nord</common:Name>
+          <common:Name xml:lang="he">מקדוניה הצפונית</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="OMN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2600</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2590</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سلطنة عمان</common:Name>
+          <common:Name xml:lang="en">Oman</common:Name>
+          <common:Name xml:lang="fr">Oman</common:Name>
+          <common:Name xml:lang="he">עומאן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="PAK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2610</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2620</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">باكستان</common:Name>
+          <common:Name xml:lang="en">Pakistan</common:Name>
+          <common:Name xml:lang="fr">Pakistan</common:Name>
+          <common:Name xml:lang="he">פקיסטן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="PLW">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2620</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2630</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بالاو</common:Name>
+          <common:Name xml:lang="en">Palau</common:Name>
+          <common:Name xml:lang="fr">Palaos</common:Name>
+          <common:Name xml:lang="he">פלאו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="PAN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2640</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2640</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بنما</common:Name>
+          <common:Name xml:lang="en">Panama</common:Name>
+          <common:Name xml:lang="fr">Panama</common:Name>
+          <common:Name xml:lang="he">פנמה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="PNG">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2650</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2650</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بابوا غينيا الجديدة</common:Name>
+          <common:Name xml:lang="en">Papua New Guinea</common:Name>
+          <common:Name xml:lang="fr">Papouasie-Nouvelle-Guinée</common:Name>
+          <common:Name xml:lang="he">פפואה גינאה החדשה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="PRY">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2660</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2660</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">باراغواي</common:Name>
+          <common:Name xml:lang="en">Paraguay</common:Name>
+          <common:Name xml:lang="fr">Paraguay</common:Name>
+          <common:Name xml:lang="he">פרגוואי</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="PER">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2670</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2670</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بيرو</common:Name>
+          <common:Name xml:lang="en">Peru</common:Name>
+          <common:Name xml:lang="fr">Pérou</common:Name>
+          <common:Name xml:lang="he">פרו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="PHL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2680</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2680</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الفلبين</common:Name>
+          <common:Name xml:lang="en">Philippines</common:Name>
+          <common:Name xml:lang="fr">Philippines</common:Name>
+          <common:Name xml:lang="he">הפיליפינים</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="QAT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2710</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2720</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">قطر</common:Name>
+          <common:Name xml:lang="en">Qatar</common:Name>
+          <common:Name xml:lang="fr">Qatar</common:Name>
+          <common:Name xml:lang="he">קטאר</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="RUS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2740</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2800</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">روسيا</common:Name>
+          <common:Name xml:lang="en">Russia</common:Name>
+          <common:Name xml:lang="fr">Russie</common:Name>
+          <common:Name xml:lang="he">רוסיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="RWA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2750</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2810</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">رواندا</common:Name>
+          <common:Name xml:lang="en">Rwanda</common:Name>
+          <common:Name xml:lang="fr">Rwanda</common:Name>
+          <common:Name xml:lang="he">רואנדה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="KNA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2780</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2860</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سانت كيتس ونيفيس</common:Name>
+          <common:Name xml:lang="en">Saint Kitts and Nevis</common:Name>
+          <common:Name xml:lang="fr">Saint-Kitts-et-Nevis</common:Name>
+          <common:Name xml:lang="he">סנט קיטס ונוויס</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="LCA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2800</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2850</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سانت لوسيا</common:Name>
+          <common:Name xml:lang="en">Saint Lucia</common:Name>
+          <common:Name xml:lang="fr">Sainte-Lucie</common:Name>
+          <common:Name xml:lang="he">סנט לוסייה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="VCT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2820</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2910</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Saint Vincent and the Grenadines</common:Name>
+          <common:Name xml:lang="fr">Saint-Vincent-et-les-Grenadines</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="WSM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2830</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2920</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ساموا</common:Name>
+          <common:Name xml:lang="en">Samoa</common:Name>
+          <common:Name xml:lang="fr">Samoa</common:Name>
+          <common:Name xml:lang="he">סמואה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SMR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2840</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2870</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سان مارينو</common:Name>
+          <common:Name xml:lang="en">San Marino</common:Name>
+          <common:Name xml:lang="fr">Saint-Marin</common:Name>
+          <common:Name xml:lang="he">סן מרינו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="STP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2850</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2940</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ساو تومي وبرينسيب</common:Name>
+          <common:Name xml:lang="en">Sao Tome and Principe</common:Name>
+          <common:Name xml:lang="fr">Sao Tomé-et-Principe</common:Name>
+          <common:Name xml:lang="he">סאו טומה ופרינסיפה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SAU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2860</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1280</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">المملكة العربية السعودية</common:Name>
+          <common:Name xml:lang="en">Saudi Arabia</common:Name>
+          <common:Name xml:lang="fr">Arabie saoudite</common:Name>
+          <common:Name xml:lang="he">ערב הסעודית</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SEN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2870</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2950</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">السنغال</common:Name>
+          <common:Name xml:lang="en">Senegal</common:Name>
+          <common:Name xml:lang="fr">Sénégal</common:Name>
+          <common:Name xml:lang="he">סנגאל</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SYC">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2890</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2970</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سيشيل</common:Name>
+          <common:Name xml:lang="en">Seychelles</common:Name>
+          <common:Name xml:lang="fr">Seychelles</common:Name>
+          <common:Name xml:lang="he">סיישל</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SLE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2900</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2980</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سيراليون</common:Name>
+          <common:Name xml:lang="en">Sierra Leone</common:Name>
+          <common:Name xml:lang="fr">Sierra Leone</common:Name>
+          <common:Name xml:lang="he">סיירה לאונה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SGP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2910</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2990</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سنغافورة</common:Name>
+          <common:Name xml:lang="en">Singapore</common:Name>
+          <common:Name xml:lang="fr">Singapour</common:Name>
+          <common:Name xml:lang="he">סינגפור</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SLB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2930</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2070</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جزر سليمان</common:Name>
+          <common:Name xml:lang="en">Solomon Islands</common:Name>
+          <common:Name xml:lang="fr">Îles Salomon</common:Name>
+          <common:Name xml:lang="he">איי שלמה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SOM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2940</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3010</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الصومال</common:Name>
+          <common:Name xml:lang="en">Somalia</common:Name>
+          <common:Name xml:lang="fr">Somalie</common:Name>
+          <common:Name xml:lang="he">סומליה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ZAF">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2950</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1190</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جنوب إفريقيا</common:Name>
+          <common:Name xml:lang="en">South Africa</common:Name>
+          <common:Name xml:lang="fr">Afrique du Sud</common:Name>
+          <common:Name xml:lang="he">דרום אפריקה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SSD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2970</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3030</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جنوب السودان</common:Name>
+          <common:Name xml:lang="en">South Sudan</common:Name>
+          <common:Name xml:lang="fr">Soudan du Sud</common:Name>
+          <common:Name xml:lang="he">קוריאה הדרומית</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="LKA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2980</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3040</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سريلانكا</common:Name>
+          <common:Name xml:lang="en">Sri Lanka</common:Name>
+          <common:Name xml:lang="fr">Sri Lanka</common:Name>
+          <common:Name xml:lang="he">סרי לנקה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SDN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2990</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3020</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">السودان</common:Name>
+          <common:Name xml:lang="en">Sudan</common:Name>
+          <common:Name xml:lang="fr">Soudan</common:Name>
+          <common:Name xml:lang="he">סודאן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SUR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3000</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3050</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سورينام</common:Name>
+          <common:Name xml:lang="en">Suriname</common:Name>
+          <common:Name xml:lang="fr">Suriname</common:Name>
+          <common:Name xml:lang="he">סורינאם</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SJM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3010</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3060</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Svalbard and Jan Mayen</common:Name>
+          <common:Name xml:lang="fr">Svalbard et Jan Mayen</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SYR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3020</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2730</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الجمهورية العربية السورية</common:Name>
+          <common:Name xml:lang="en">Syrian Arab Republic</common:Name>
+          <common:Name xml:lang="fr">République arabe syrienne</common:Name>
+          <common:Name xml:lang="he">הרפובליקה הערבית הסורית</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TWN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3030</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3080</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تايبيه الصينية</common:Name>
+          <common:Name xml:lang="en">Chinese Taipei</common:Name>
+          <common:Name xml:lang="fr">Taipei chinois</common:Name>
+          <common:Name xml:lang="he">טאיפיי הסינית</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TJK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3040</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3070</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">طاجيكستان</common:Name>
+          <common:Name xml:lang="en">Tajikistan</common:Name>
+          <common:Name xml:lang="fr">Tadjikistan</common:Name>
+          <common:Name xml:lang="he">טג'יקיסטן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TZA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3050</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3090</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تنزانيا</common:Name>
+          <common:Name xml:lang="en">Tanzania</common:Name>
+          <common:Name xml:lang="fr">Tanzanie</common:Name>
+          <common:Name xml:lang="he">טנזניה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="THA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3060</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3130</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تايلاند</common:Name>
+          <common:Name xml:lang="en">Thailand</common:Name>
+          <common:Name xml:lang="fr">Thaïlande</common:Name>
+          <common:Name xml:lang="he">תאילנד</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TLS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3070</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3140</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تيمور الشرقية</common:Name>
+          <common:Name xml:lang="en">Timor-Leste</common:Name>
+          <common:Name xml:lang="fr">Timor-Leste</common:Name>
+          <common:Name xml:lang="he">טימור המזרחית</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TGO">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3080</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3150</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">توغو</common:Name>
+          <common:Name xml:lang="en">Togo</common:Name>
+          <common:Name xml:lang="fr">Togo</common:Name>
+          <common:Name xml:lang="he">טוגו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TON">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3100</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3170</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تونغا</common:Name>
+          <common:Name xml:lang="en">Tonga</common:Name>
+          <common:Name xml:lang="fr">Tonga</common:Name>
+          <common:Name xml:lang="he">טונגה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TTO">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3110</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3180</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ترينيداد وتوباغو</common:Name>
+          <common:Name xml:lang="en">Trinidad and Tobago</common:Name>
+          <common:Name xml:lang="fr">Trinité-et-Tobago</common:Name>
+          <common:Name xml:lang="he">טרינידד וטובאגו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TUN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3120</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3190</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تونس</common:Name>
+          <common:Name xml:lang="en">Tunisia</common:Name>
+          <common:Name xml:lang="fr">Tunisie</common:Name>
+          <common:Name xml:lang="he">תוניסיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TKM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3130</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تركمانستان</common:Name>
+          <common:Name xml:lang="en">Turkmenistan</common:Name>
+          <common:Name xml:lang="fr">Turkménistan</common:Name>
+          <common:Name xml:lang="he">טורקמניסטן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="TUV">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3150</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3210</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">توفالو</common:Name>
+          <common:Name xml:lang="en">Tuvalu</common:Name>
+          <common:Name xml:lang="fr">Tuvalu</common:Name>
+          <common:Name xml:lang="he">טובאלו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="UGA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3160</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أوغندا</common:Name>
+          <common:Name xml:lang="en">Uganda</common:Name>
+          <common:Name xml:lang="fr">Ouganda</common:Name>
+          <common:Name xml:lang="he">אוגנדה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="UKR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3170</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3220</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أوكرانيا</common:Name>
+          <common:Name xml:lang="en">Ukraine</common:Name>
+          <common:Name xml:lang="fr">Ukraine</common:Name>
+          <common:Name xml:lang="he">אוקראינה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ARE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3180</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1680</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الإمارات العربية المتحدة</common:Name>
+          <common:Name xml:lang="en">United Arab Emirates</common:Name>
+          <common:Name xml:lang="fr">Émirats arabes unis</common:Name>
+          <common:Name xml:lang="he">איחוד האמירויות</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="URY">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3210</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3230</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الأوروغواي</common:Name>
+          <common:Name xml:lang="en">Uruguay</common:Name>
+          <common:Name xml:lang="fr">Uruguay</common:Name>
+          <common:Name xml:lang="he">אורוגוואי</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="UZB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3220</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2610</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أوزبكستان</common:Name>
+          <common:Name xml:lang="en">Uzbekistan</common:Name>
+          <common:Name xml:lang="fr">Ouzbékistan</common:Name>
+          <common:Name xml:lang="he">אוזבקיסטן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="VUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3230</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3240</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فانواتو</common:Name>
+          <common:Name xml:lang="en">Vanuatu</common:Name>
+          <common:Name xml:lang="fr">Vanuatu</common:Name>
+          <common:Name xml:lang="he">ונואטו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="VEN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3240</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3250</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فنزويلا</common:Name>
+          <common:Name xml:lang="en">Venezuela</common:Name>
+          <common:Name xml:lang="fr">Venezuela</common:Name>
+          <common:Name xml:lang="he">ונצואלה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="VNM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3250</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3260</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فيتنام</common:Name>
+          <common:Name xml:lang="en">Viet Nam</common:Name>
+          <common:Name xml:lang="fr">Viet Nam</common:Name>
+          <common:Name xml:lang="he">וייטנאם</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="YEM">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3280</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3280</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">اليمن</common:Name>
+          <common:Name xml:lang="en">Yemen</common:Name>
+          <common:Name xml:lang="fr">Yémen</common:Name>
+          <common:Name xml:lang="he">תימן</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ZMB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3290</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3290</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">زامبيا</common:Name>
+          <common:Name xml:lang="en">Zambia</common:Name>
+          <common:Name xml:lang="fr">Zambie</common:Name>
+          <common:Name xml:lang="he">זמבייה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ZWE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3300</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">زيمبابوي</common:Name>
+          <common:Name xml:lang="en">Zimbabwe</common:Name>
+          <common:Name xml:lang="fr">Zimbabwe</common:Name>
+          <common:Name xml:lang="he">זימבבואה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="W_O_X">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5430</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">5430</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Other countries unspecified</common:Name>
+          <common:Name xml:lang="fr">Autres pays non spécifiés</common:Name>
+        </structure:Code>
+        <structure:Code id="W">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>A+F+E+O+S+ATA+W_X+W_O</common:AnnotationTitle>
+              <common:AnnotationType>COMP_RULE</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5480</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">5480</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">العالم</common:Name>
+          <common:Name xml:lang="en">World</common:Name>
+          <common:Name xml:lang="fr">Monde</common:Name>
+          <common:Name xml:lang="he">העולם</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_UNIT_MEASURE" agencyID="OECD" version="1.19" isFinal="true">
+        <common:Name xml:lang="en">Codelist for Unit of measure</common:Name>
+        <common:Description xml:lang="en">Unit in which the data values are expressed.</common:Description>
+        <structure:Code id="PS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">910</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">910</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Persons</common:Name>
+          <common:Name xml:lang="fr">Personnes</common:Name>
+        </structure:Code>
+        <structure:Code id="PT_WR_PRF_HLTH">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6980</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">6980</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of workers in the same health profession</common:Name>
+          <common:Name xml:lang="fr">Pourcentage d'actifs occupés dans la même profession de santé</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_HEALTH_PROF" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for health professions</common:Name>
+        <structure:Code id="PHYS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">30</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Physicians</common:Name>
+          <common:Name xml:lang="fr">Médecins</common:Name>
+        </structure:Code>
+        <structure:Code id="MINU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">160</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Nurses</common:Name>
+          <common:Name xml:lang="fr">Personnel infirmier</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_MEASURE_WFMI" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Measure</common:Name>
+        <structure:Code id="HW">
+          <common:Name xml:lang="en">Health workforce stock</common:Name>
+          <common:Name xml:lang="fr">Stock du personnel de santé</common:Name>
+        </structure:Code>
+        <structure:Code id="HW_NB">
+          <common:Name xml:lang="en">Health workforce, native-born stock</common:Name>
+          <common:Name xml:lang="fr">Stock du personnel de santé né dans le pays</common:Name>
+        </structure:Code>
+        <structure:Code id="HW_AI">
+          <common:Name xml:lang="en">Health workforce inflow</common:Name>
+          <common:Name xml:lang="fr">Flux entrant du personnel de santé</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_TRAINING_PLACE" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for training place</common:Name>
+        <structure:Code id="_T">
+          <common:Name xml:lang="en">Total</common:Name>
+          <common:Name xml:lang="fr">Total</common:Name>
+        </structure:Code>
+        <structure:Code id="DOMESTIC">
+          <common:Name xml:lang="en">Domestic</common:Name>
+          <common:Name xml:lang="fr">Dans le pays</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="FOREIGN">
+          <common:Name xml:lang="en">Foreign</common:Name>
+          <common:Name xml:lang="fr">À l’étranger</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="_U">
+          <common:Name xml:lang="en">Unknown</common:Name>
+          <common:Name xml:lang="fr">Inconnu</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_FREQ" agencyID="SDMX" version="2.1" isFinal="true">
+        <common:Name xml:lang="en">Code list for concept "Frequency"</common:Name>
+        <common:Name xml:lang="fr">Codelist pour le concept "Fréquence"</common:Name>
+        <common:Description xml:lang="en">This code list provides a set of values indicating
+					the "frequency" of the data (e.g. weekly, monthly, quarterly). The concept
+					"frequency" may refer to various stages in the production process, e.g. data
+					collection or data dissemination. For example, a time series could be
+					disseminated at annual frequency but the underlying data are compiled monthly.
+					The code list is applicable for all different uses of
+					"frequency".</common:Description>
+        <common:Description xml:lang="fr">Cette liste de codes fournit un ensemble de valeurs
+					indiquant la "fréquence" des données (par exemple, hebdomadaire, mensuelle,
+					trimestrielle). Le concept de "fréquence" peut faire référence à différentes
+					étapes du processus de production, par ex. collecte ou diffusion de données. Par
+					exemple, une série chronologique pourrait être diffusée à une fréquence
+					annuelle, mais les données sous-jacentes sont compilées mensuellement. La liste
+					de codes est applicable pour toutes les différentes utilisations de
+					"fréquence".</common:Description>
+        <structure:Code id="A">
+          <common:Name xml:lang="en">Annual</common:Name>
+          <common:Name xml:lang="fr">Annuelle</common:Name>
+          <common:Description xml:lang="en">To be used for data collected or disseminated
+						every year</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+    <structure:Constraints>
+      <structure:ContentConstraint id="CC" agencyID="SDMX" version="1.0" type="Actual">
+        <common:Annotations>
+          <common:Annotation id="obs_count">
+            <common:AnnotationTitle>129910</common:AnnotationTitle>
+            <common:AnnotationType>sdmx_metrics</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Autogenerated content constraint</common:Name>
+        <structure:ConstraintAttachment>
+          <structure:Dataflow>
+            <Ref id="DSD_HEALTH_WFMI@DF_HEALTH_WFMI" version="1.0" agencyID="OECD.ELS.HD" package="datastructure" class="Dataflow" />
+          </structure:Dataflow>
+        </structure:ConstraintAttachment>
+        <structure:CubeRegion include="true">
+          <common:KeyValue id="REF_AREA">
+            <common:Value>ARG</common:Value>
+            <common:Value>AUS</common:Value>
+            <common:Value>AUT</common:Value>
+            <common:Value>BEL</common:Value>
+            <common:Value>BGR</common:Value>
+            <common:Value>CAN</common:Value>
+            <common:Value>CHE</common:Value>
+            <common:Value>CHL</common:Value>
+            <common:Value>COL</common:Value>
+            <common:Value>CRI</common:Value>
+            <common:Value>CYP</common:Value>
+            <common:Value>CZE</common:Value>
+            <common:Value>DEU</common:Value>
+            <common:Value>DNK</common:Value>
+            <common:Value>ESP</common:Value>
+            <common:Value>EST</common:Value>
+            <common:Value>FIN</common:Value>
+            <common:Value>FRA</common:Value>
+            <common:Value>GBR</common:Value>
+            <common:Value>GRC</common:Value>
+            <common:Value>HRV</common:Value>
+            <common:Value>HUN</common:Value>
+            <common:Value>IRL</common:Value>
+            <common:Value>ISL</common:Value>
+            <common:Value>ISR</common:Value>
+            <common:Value>ITA</common:Value>
+            <common:Value>KOR</common:Value>
+            <common:Value>LTU</common:Value>
+            <common:Value>LUX</common:Value>
+            <common:Value>LVA</common:Value>
+            <common:Value>MDA</common:Value>
+            <common:Value>MLT</common:Value>
+            <common:Value>NLD</common:Value>
+            <common:Value>NOR</common:Value>
+            <common:Value>NZL</common:Value>
+            <common:Value>POL</common:Value>
+            <common:Value>PRT</common:Value>
+            <common:Value>ROU</common:Value>
+            <common:Value>SRB</common:Value>
+            <common:Value>SVK</common:Value>
+            <common:Value>SVN</common:Value>
+            <common:Value>SWE</common:Value>
+            <common:Value>TUR</common:Value>
+            <common:Value>USA</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="FREQ">
+            <common:Value>A</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="MEASURE">
+            <common:Value>HW</common:Value>
+            <common:Value>HW_AI</common:Value>
+            <common:Value>HW_NB</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="UNIT_MEASURE">
+            <common:Value>PS</common:Value>
+            <common:Value>PT_WR_PRF_HLTH</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="ORIGIN">
+            <common:Value>AFG</common:Value>
+            <common:Value>AGO</common:Value>
+            <common:Value>ALB</common:Value>
+            <common:Value>AND</common:Value>
+            <common:Value>ARE</common:Value>
+            <common:Value>ARG</common:Value>
+            <common:Value>ARM</common:Value>
+            <common:Value>ATG</common:Value>
+            <common:Value>AUS</common:Value>
+            <common:Value>AUT</common:Value>
+            <common:Value>AZE</common:Value>
+            <common:Value>BDI</common:Value>
+            <common:Value>BEL</common:Value>
+            <common:Value>BEN</common:Value>
+            <common:Value>BFA</common:Value>
+            <common:Value>BGD</common:Value>
+            <common:Value>BGR</common:Value>
+            <common:Value>BHR</common:Value>
+            <common:Value>BHS</common:Value>
+            <common:Value>BIH</common:Value>
+            <common:Value>BLR</common:Value>
+            <common:Value>BLZ</common:Value>
+            <common:Value>BOL</common:Value>
+            <common:Value>BRA</common:Value>
+            <common:Value>BRB</common:Value>
+            <common:Value>BRN</common:Value>
+            <common:Value>BTN</common:Value>
+            <common:Value>BWA</common:Value>
+            <common:Value>CAF</common:Value>
+            <common:Value>CAN</common:Value>
+            <common:Value>CHE</common:Value>
+            <common:Value>CHL</common:Value>
+            <common:Value>CHN</common:Value>
+            <common:Value>CIV</common:Value>
+            <common:Value>CMR</common:Value>
+            <common:Value>COD</common:Value>
+            <common:Value>COG</common:Value>
+            <common:Value>COK</common:Value>
+            <common:Value>COL</common:Value>
+            <common:Value>COM</common:Value>
+            <common:Value>CPV</common:Value>
+            <common:Value>CRI</common:Value>
+            <common:Value>CUB</common:Value>
+            <common:Value>CYP</common:Value>
+            <common:Value>CZE</common:Value>
+            <common:Value>DEU</common:Value>
+            <common:Value>DJI</common:Value>
+            <common:Value>DMA</common:Value>
+            <common:Value>DNK</common:Value>
+            <common:Value>DOM</common:Value>
+            <common:Value>DZA</common:Value>
+            <common:Value>ECU</common:Value>
+            <common:Value>EGY</common:Value>
+            <common:Value>ERI</common:Value>
+            <common:Value>ESP</common:Value>
+            <common:Value>EST</common:Value>
+            <common:Value>ETH</common:Value>
+            <common:Value>FIN</common:Value>
+            <common:Value>FJI</common:Value>
+            <common:Value>FRA</common:Value>
+            <common:Value>FSM</common:Value>
+            <common:Value>GAB</common:Value>
+            <common:Value>GBR</common:Value>
+            <common:Value>GEO</common:Value>
+            <common:Value>GHA</common:Value>
+            <common:Value>GIN</common:Value>
+            <common:Value>GMB</common:Value>
+            <common:Value>GNB</common:Value>
+            <common:Value>GNQ</common:Value>
+            <common:Value>GRC</common:Value>
+            <common:Value>GRD</common:Value>
+            <common:Value>GTM</common:Value>
+            <common:Value>GUY</common:Value>
+            <common:Value>HND</common:Value>
+            <common:Value>HRV</common:Value>
+            <common:Value>HTI</common:Value>
+            <common:Value>HUN</common:Value>
+            <common:Value>IDN</common:Value>
+            <common:Value>IND</common:Value>
+            <common:Value>IRL</common:Value>
+            <common:Value>IRN</common:Value>
+            <common:Value>IRQ</common:Value>
+            <common:Value>ISL</common:Value>
+            <common:Value>ISR</common:Value>
+            <common:Value>ITA</common:Value>
+            <common:Value>JAM</common:Value>
+            <common:Value>JOR</common:Value>
+            <common:Value>JPN</common:Value>
+            <common:Value>KAZ</common:Value>
+            <common:Value>KEN</common:Value>
+            <common:Value>KGZ</common:Value>
+            <common:Value>KHM</common:Value>
+            <common:Value>KIR</common:Value>
+            <common:Value>KNA</common:Value>
+            <common:Value>KOR</common:Value>
+            <common:Value>KWT</common:Value>
+            <common:Value>LAO</common:Value>
+            <common:Value>LBN</common:Value>
+            <common:Value>LBR</common:Value>
+            <common:Value>LBY</common:Value>
+            <common:Value>LCA</common:Value>
+            <common:Value>LIE</common:Value>
+            <common:Value>LKA</common:Value>
+            <common:Value>LSO</common:Value>
+            <common:Value>LTU</common:Value>
+            <common:Value>LUX</common:Value>
+            <common:Value>LVA</common:Value>
+            <common:Value>MAR</common:Value>
+            <common:Value>MCO</common:Value>
+            <common:Value>MDA</common:Value>
+            <common:Value>MDG</common:Value>
+            <common:Value>MDV</common:Value>
+            <common:Value>MEX</common:Value>
+            <common:Value>MHL</common:Value>
+            <common:Value>MKD</common:Value>
+            <common:Value>MLI</common:Value>
+            <common:Value>MLT</common:Value>
+            <common:Value>MMR</common:Value>
+            <common:Value>MNE</common:Value>
+            <common:Value>MNG</common:Value>
+            <common:Value>MOZ</common:Value>
+            <common:Value>MRT</common:Value>
+            <common:Value>MUS</common:Value>
+            <common:Value>MWI</common:Value>
+            <common:Value>MYS</common:Value>
+            <common:Value>NAM</common:Value>
+            <common:Value>NER</common:Value>
+            <common:Value>NGA</common:Value>
+            <common:Value>NIC</common:Value>
+            <common:Value>NIU</common:Value>
+            <common:Value>NLD</common:Value>
+            <common:Value>NOR</common:Value>
+            <common:Value>NPL</common:Value>
+            <common:Value>NRU</common:Value>
+            <common:Value>NZL</common:Value>
+            <common:Value>OMN</common:Value>
+            <common:Value>PAK</common:Value>
+            <common:Value>PAN</common:Value>
+            <common:Value>PER</common:Value>
+            <common:Value>PHL</common:Value>
+            <common:Value>PLW</common:Value>
+            <common:Value>PNG</common:Value>
+            <common:Value>POL</common:Value>
+            <common:Value>PRK</common:Value>
+            <common:Value>PRT</common:Value>
+            <common:Value>PRY</common:Value>
+            <common:Value>QAT</common:Value>
+            <common:Value>ROU</common:Value>
+            <common:Value>RUS</common:Value>
+            <common:Value>RWA</common:Value>
+            <common:Value>SAU</common:Value>
+            <common:Value>SDN</common:Value>
+            <common:Value>SEN</common:Value>
+            <common:Value>SGP</common:Value>
+            <common:Value>SJM</common:Value>
+            <common:Value>SLB</common:Value>
+            <common:Value>SLE</common:Value>
+            <common:Value>SLV</common:Value>
+            <common:Value>SMR</common:Value>
+            <common:Value>SOM</common:Value>
+            <common:Value>SRB</common:Value>
+            <common:Value>SSD</common:Value>
+            <common:Value>STP</common:Value>
+            <common:Value>SUR</common:Value>
+            <common:Value>SVK</common:Value>
+            <common:Value>SVN</common:Value>
+            <common:Value>SWE</common:Value>
+            <common:Value>SWZ</common:Value>
+            <common:Value>SYC</common:Value>
+            <common:Value>SYR</common:Value>
+            <common:Value>TCD</common:Value>
+            <common:Value>TGO</common:Value>
+            <common:Value>THA</common:Value>
+            <common:Value>TJK</common:Value>
+            <common:Value>TKM</common:Value>
+            <common:Value>TLS</common:Value>
+            <common:Value>TON</common:Value>
+            <common:Value>TTO</common:Value>
+            <common:Value>TUN</common:Value>
+            <common:Value>TUR</common:Value>
+            <common:Value>TUV</common:Value>
+            <common:Value>TWN</common:Value>
+            <common:Value>TZA</common:Value>
+            <common:Value>UGA</common:Value>
+            <common:Value>UKR</common:Value>
+            <common:Value>URY</common:Value>
+            <common:Value>USA</common:Value>
+            <common:Value>UZB</common:Value>
+            <common:Value>VCT</common:Value>
+            <common:Value>VEN</common:Value>
+            <common:Value>VNM</common:Value>
+            <common:Value>VUT</common:Value>
+            <common:Value>W</common:Value>
+            <common:Value>W_O_X</common:Value>
+            <common:Value>WSM</common:Value>
+            <common:Value>YEM</common:Value>
+            <common:Value>ZAF</common:Value>
+            <common:Value>ZMB</common:Value>
+            <common:Value>ZWE</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="TRAINING_PLACE">
+            <common:Value>_T</common:Value>
+            <common:Value>_U</common:Value>
+            <common:Value>DOMESTIC</common:Value>
+            <common:Value>FOREIGN</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="HEALTH_PROF">
+            <common:Value>MINU</common:Value>
+            <common:Value>PHYS</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="TIME_PERIOD">
+            <common:TimeRange>
+              <common:StartPeriod isInclusive="true">2000-01-01T00:00:00</common:StartPeriod>
+              <common:EndPeriod isInclusive="true">2025-12-31T23:59:59</common:EndPeriod>
+            </common:TimeRange>
+          </common:KeyValue>
+        </structure:CubeRegion>
+      </structure:ContentConstraint>
+    </structure:Constraints>
+  </message:Structures>
+</message:Structure>

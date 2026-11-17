@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v10.11.8.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF58</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2026-11-17T04:05:03.4957274+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist isPartial="true" id="CL_AGE" agencyID="OECD" version="1.5" isFinal="true">
+        <common:Name xml:lang="en">Codelist for age</common:Name>
+        <common:Name xml:lang="fr">Codelist pour l'âge</common:Name>
+        <structure:Code id="_T">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Total</common:Name>
+          <common:Name xml:lang="fr">Total</common:Name>
+        </structure:Code>
+        <structure:Code id="Y45T54">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1960</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">From 45 to 54 years</common:Name>
+          <common:Name xml:lang="fr">De 45 à 54 ans</common:Name>
+        </structure:Code>
+        <structure:Code id="Y55T64">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2250</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">From 55 to 64 years</common:Name>
+          <common:Name xml:lang="fr">De 55 à 64 ans</common:Name>
+        </structure:Code>
+        <structure:Code id="Y65T74">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2500</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">From 65 to 74 years</common:Name>
+          <common:Name xml:lang="fr">De 65 à 74 ans</common:Name>
+        </structure:Code>
+        <structure:Code id="Y_GT75">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2820</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Over 75 years</common:Name>
+          <common:Name xml:lang="fr">Plus de 75 ans</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_ATTAINMENT_LEV" agencyID="OECD" version="1.3" isFinal="true">
+        <common:Name xml:lang="en">Code list for educational attainment</common:Name>
+        <structure:Code id="_T">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Total</common:Name>
+          <common:Name xml:lang="fr">Total</common:Name>
+        </structure:Code>
+        <structure:Code id="ISCED11A_0T2">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">230</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Below upper secondary education</common:Name>
+          <common:Name xml:lang="fr">Inférieur au deuxième cycle du secondaire</common:Name>
+        </structure:Code>
+        <structure:Code id="ISCED11A_3_4">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">250</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Upper secondary or post-secondary non-tertiary education</common:Name>
+          <common:Name xml:lang="fr">Deuxième cycle du secondaire ou post-secondaire non tertiaire</common:Name>
+        </structure:Code>
+        <structure:Code id="ISCED11A_5T8">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Tertiary education</common:Name>
+          <common:Name xml:lang="fr">Enseignement tertiaire</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_REGIONAL" agencyID="OECD" version="2.3" isFinal="true">
+        <common:Name xml:lang="en">Extended codelist for reference areas and geocoding</common:Name>
+        <common:Name xml:lang="fr">Liste de codes étendue pour les zones de référence</common:Name>
+        <structure:Code id="AUS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2815</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Australia</common:Name>
+          <common:Name xml:lang="fr">Australie</common:Name>
+        </structure:Code>
+        <structure:Code id="BEL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">565</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3380</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Belgium</common:Name>
+          <common:Name xml:lang="fr">Belgique</common:Name>
+        </structure:Code>
+        <structure:Code id="CAN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">925</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3740</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Canada</common:Name>
+          <common:Name xml:lang="fr">Canada</common:Name>
+        </structure:Code>
+        <structure:Code id="CZE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4315</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">16555</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Czechia</common:Name>
+          <common:Name xml:lang="fr">Tchèquie</common:Name>
+          <common:Description xml:lang="en">Česko</common:Description>
+        </structure:Code>
+        <structure:Code id="FRA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4785</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">9270</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">France</common:Name>
+          <common:Name xml:lang="fr">France</common:Name>
+        </structure:Code>
+        <structure:Code id="GRC">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8325</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">9995</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Greece</common:Name>
+          <common:Name xml:lang="fr">Grèce</common:Name>
+          <common:Description xml:lang="en">Ελλάδα</common:Description>
+        </structure:Code>
+        <structure:Code id="ISL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8865</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10615</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Iceland</common:Name>
+          <common:Name xml:lang="fr">Islande</common:Name>
+          <common:Description xml:lang="en">Ísland</common:Description>
+        </structure:Code>
+        <structure:Code id="ITA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">9085</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10755</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Italy</common:Name>
+          <common:Name xml:lang="fr">Italie</common:Name>
+          <common:Description xml:lang="en">Italia</common:Description>
+        </structure:Code>
+        <structure:Code id="LUX">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10390</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">11925</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Luxembourg</common:Name>
+          <common:Name xml:lang="fr">Luxembourg</common:Name>
+          <common:Description xml:lang="en">Luxembourg</common:Description>
+        </structure:Code>
+        <structure:Code id="NLD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">11670</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">13590</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Netherlands</common:Name>
+          <common:Name xml:lang="fr">Pays-Bas</common:Name>
+          <common:Description xml:lang="en">Nederland</common:Description>
+        </structure:Code>
+        <structure:Code id="NOR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">12225</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">13205</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Norway</common:Name>
+          <common:Name xml:lang="fr">Norvège</common:Name>
+          <common:Description xml:lang="en">Norge</common:Description>
+        </structure:Code>
+        <structure:Code id="PRT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">12950</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">14485</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Portugal</common:Name>
+          <common:Name xml:lang="fr">Portugal</common:Name>
+          <common:Description xml:lang="en">Portugal</common:Description>
+        </structure:Code>
+        <structure:Code id="SVN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">13320</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">16110</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Slovenia</common:Name>
+          <common:Name xml:lang="fr">Slovénie</common:Name>
+          <common:Description xml:lang="en">Slovenija</common:Description>
+        </structure:Code>
+        <structure:Code id="ESP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">13405</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">7360</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Spain</common:Name>
+          <common:Name xml:lang="fr">Espagne</common:Name>
+          <common:Description xml:lang="en">España</common:Description>
+        </structure:Code>
+        <structure:Code id="CHE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">14030</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">16375</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Switzerland</common:Name>
+          <common:Name xml:lang="fr">Suisse</common:Name>
+          <common:Description xml:lang="en">Schweiz/Suisse/Svizzera</common:Description>
+        </structure:Code>
+        <structure:Code id="UKL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>TL2</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">15730</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">15760</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Wales</common:Name>
+          <common:Name xml:lang="fr">Pays de Galles</common:Name>
+          <structure:Parent>
+            <Ref id="GBR" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="USA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">16080</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">7860</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">United States</common:Name>
+          <common:Name xml:lang="fr">États-Unis</common:Name>
+        </structure:Code>
+        <structure:Code id="ROU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">20010</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">20090</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Romania</common:Name>
+          <common:Name xml:lang="fr">Roumanie</common:Name>
+          <common:Description xml:lang="en">România</common:Description>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SAU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">20780</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">17840</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Saudi Arabia</common:Name>
+          <common:Name xml:lang="fr">Arabie saoudite</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="WXOECD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">17605</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">17605</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Non-OECD economies</common:Name>
+          <common:Name xml:lang="fr">Non-OCDE économies</common:Name>
+        </structure:Code>
+        <structure:Code id="GBR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationTitle>CTRY</common:AnnotationTitle>
+              <common:AnnotationType>COMPLEMENT</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation>
+              <common:AnnotationTitle>TL2024+TL2021</common:AnnotationTitle>
+              <common:AnnotationType>FAMILY_LABEL</common:AnnotationType>
+            </common:Annotation>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">14825</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">14855</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">United Kingdom</common:Name>
+          <common:Name xml:lang="fr">Royaume-Uni</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_SEX" agencyID="OECD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for concept "Sex"</common:Name>
+        <common:Name xml:lang="fr">Codelist pour concept "Sexe"</common:Name>
+        <common:Description xml:lang="en">This code list provides coded information about the state of being male or female.</common:Description>
+        <structure:Code id="F">
+          <common:Name xml:lang="en">Female</common:Name>
+          <common:Name xml:lang="fr">Sexe féminin</common:Name>
+        </structure:Code>
+        <structure:Code id="M">
+          <common:Name xml:lang="en">Male</common:Name>
+          <common:Name xml:lang="fr">Sexe masculin</common:Name>
+        </structure:Code>
+        <structure:Code id="_T">
+          <common:Name xml:lang="en">Total</common:Name>
+          <common:Name xml:lang="fr">Total</common:Name>
+          <common:Description xml:lang="en">Used for expressing totals.</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_UNIT_MEASURE" agencyID="OECD" version="1.28" isFinal="true">
+        <common:Name xml:lang="en">Codelist for Unit of measure</common:Name>
+        <common:Description xml:lang="en">Unit in which the data values are expressed.</common:Description>
+        <structure:Code id="PT_PAT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">9390</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">9390</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of patients</common:Name>
+          <common:Name xml:lang="fr">Pourcentage de patients</common:Name>
+        </structure:Code>
+        <structure:Code id="0_TO_100">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10670</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10670</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">0-100 scale</common:Name>
+          <common:Name xml:lang="fr">Échelle 0-100</common:Name>
+        </structure:Code>
+        <structure:Code id="PO">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10700</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10700</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Points</common:Name>
+          <common:Name xml:lang="fr">Points</common:Name>
+        </structure:Code>
+        <structure:Code id="SCR_PROMIS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10705</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10705</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">PROMIS score</common:Name>
+          <common:Name xml:lang="fr">Score PROMIS</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_MEASURE_PARIS" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Measure items for PaRIS data</common:Name>
+        <structure:Code id="PHSCORE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Physical health</common:Name>
+          <common:Name xml:lang="fr">Score de santé physique</common:Name>
+          <common:Description xml:lang="en">Individual’s ability to carry out everyday physical activities, considering degree of pain and fatigue.</common:Description>
+        </structure:Code>
+        <structure:Code id="PHPOSOUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">20</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Physical health - patients reporting positive outcomes</common:Name>
+          <common:Name xml:lang="fr">Santé physique (Patients déclarant un résultat positif)</common:Name>
+          <common:Description xml:lang="en">Individual’s ability to carry out everyday physical activities, considering degree of pain and fatigue.</common:Description>
+        </structure:Code>
+        <structure:Code id="MHSCORE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">30</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Mental health</common:Name>
+          <common:Name xml:lang="fr">Score de santé mentale</common:Name>
+          <common:Description xml:lang="en">Emotional, psychological, and social well-being, influencing how individuals think, feel, and act.</common:Description>
+        </structure:Code>
+        <structure:Code id="MHPOSOUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">40</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Mental health - patients reporting positive outcomes</common:Name>
+          <common:Name xml:lang="fr">Santé mentale (Patients déclarant un résultat positif)</common:Name>
+          <common:Description xml:lang="en">Emotional, psychological, and social well-being, influencing how individuals think, feel, and act.</common:Description>
+        </structure:Code>
+        <structure:Code id="WBINDEX">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">60</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Well being - WHO5 Index</common:Name>
+          <common:Name xml:lang="fr">Bien-être (Indice OMS-5)</common:Name>
+          <common:Description xml:lang="en">Extent to which a person can carry out their usual social activities and roles.</common:Description>
+        </structure:Code>
+        <structure:Code id="WBPOSOUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">70</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Well being - patients reporting positive outcomes</common:Name>
+          <common:Name xml:lang="fr">Bien-être (Patients déclarant un résultat positif)</common:Name>
+          <common:Description xml:lang="en">Extent to which a person can carry out their usual social activities and roles.</common:Description>
+        </structure:Code>
+        <structure:Code id="ECSCORE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Experienced coordination</common:Name>
+          <common:Name xml:lang="fr">Score de coordination perçue</common:Name>
+          <common:Description xml:lang="en">Extent to which a person experiences a seamless and continuous journey through different healthcare practices and settings.</common:Description>
+        </structure:Code>
+        <structure:Code id="ECPOSOUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">110</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Experienced coordination - patients reporting positive experiences</common:Name>
+          <common:Name xml:lang="fr">Coordination perçue (Patients déclarant un résultat positif)</common:Name>
+          <common:Description xml:lang="en">Extent to which a person experiences a seamless and continuous journey through different healthcare practices and settings.</common:Description>
+        </structure:Code>
+        <structure:Code id="PCCSCORE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">120</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Person centred care</common:Name>
+          <common:Name xml:lang="fr">Score de soins centrés sur la personne</common:Name>
+          <common:Description xml:lang="en">Healthcare that are organised around the preferences, needs, and values of people.</common:Description>
+        </structure:Code>
+        <structure:Code id="PCCPOSOUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">130</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Person centred care - patients reporting positive experiences</common:Name>
+          <common:Name xml:lang="fr">Soins centrés sur la personne (Patients déclarant un résultat positif)</common:Name>
+          <common:Description xml:lang="en">Healthcare that are organised around the preferences, needs, and values of people.</common:Description>
+        </structure:Code>
+        <structure:Code id="SFPOSOUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">50</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Social functioning - patients reporting positive outcomes</common:Name>
+          <common:Name xml:lang="fr">Fonctionnement social (Patients déclarant un résultat positif)</common:Name>
+          <common:Description xml:lang="en">Extent to which a person can carry out their usual social activities and roles.</common:Description>
+        </structure:Code>
+        <structure:Code id="GHPOSOUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">80</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">General health - patients reporting positive outcomes</common:Name>
+          <common:Name xml:lang="fr">Santé générale (Patients déclarant un résultat positif)</common:Name>
+          <common:Description xml:lang="en">Individual’s perception of their overall health status.</common:Description>
+        </structure:Code>
+        <structure:Code id="CSMPOSOUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">90</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Confidence to self manage - patients reporting positive experiences</common:Name>
+          <common:Name xml:lang="fr">Confiance dans l'autogestion (Patients déclarant un résultat positif)</common:Name>
+          <common:Description xml:lang="en">Degree of confidence to manage one’s own health and well-being.</common:Description>
+        </structure:Code>
+        <structure:Code id="EQPOSOUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">140</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Experienced quality - patients reporting positive experiences</common:Name>
+          <common:Name xml:lang="fr">Qualité perçue (Patients déclarant un résultat positif)</common:Name>
+          <common:Description xml:lang="en">Overall measure of how a person rates the care they have received over the past 12 months.</common:Description>
+        </structure:Code>
+        <structure:Code id="THPOSOUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">150</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Trust in healthcare system - patients reporting positive experiences</common:Name>
+          <common:Name xml:lang="fr">Confiance dans le système de santé (Patients déclarant un résultat positif)</common:Name>
+          <common:Description xml:lang="en">Degree to which a person trusts the healthcare system overall.</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_PATIENT_STATUS" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Patient Status</common:Name>
+        <structure:Code id="ALL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">All patients</common:Name>
+          <common:Name xml:lang="fr">Tous les patients</common:Name>
+        </structure:Code>
+        <structure:Code id="CHRONIC">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">20</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Patients with chronic health conditions</common:Name>
+          <common:Name xml:lang="fr">Patients atteints de maladies chroniques</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_FREQ" agencyID="SDMX" version="2.1" isFinal="true">
+        <common:Name xml:lang="en">Code list for concept "Frequency"</common:Name>
+        <common:Name xml:lang="fr">Codelist pour le concept "Fréquence"</common:Name>
+        <common:Description xml:lang="en">This code list provides a set of values indicating
+					the "frequency" of the data (e.g. weekly, monthly, quarterly). The concept
+					"frequency" may refer to various stages in the production process, e.g. data
+					collection or data dissemination. For example, a time series could be
+					disseminated at annual frequency but the underlying data are compiled monthly.
+					The code list is applicable for all different uses of
+					"frequency".</common:Description>
+        <common:Description xml:lang="fr">Cette liste de codes fournit un ensemble de valeurs
+					indiquant la "fréquence" des données (par exemple, hebdomadaire, mensuelle,
+					trimestrielle). Le concept de "fréquence" peut faire référence à différentes
+					étapes du processus de production, par ex. collecte ou diffusion de données. Par
+					exemple, une série chronologique pourrait être diffusée à une fréquence
+					annuelle, mais les données sous-jacentes sont compilées mensuellement. La liste
+					de codes est applicable pour toutes les différentes utilisations de
+					"fréquence".</common:Description>
+        <structure:Code id="I">
+          <common:Name xml:lang="en">Irregular</common:Name>
+          <common:Name xml:lang="fr">Irrégulière</common:Name>
+          <common:Description xml:lang="en">To be used with irregular time series that stores
+						data for a sequence of arbitrary timepoints. Irregular time series are
+						appropriate when the data arrives unpredictably, such as when the
+						application records every stock trade or when random events are recorded
+						(the interval between each element can be a different
+						length)</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+    <structure:Constraints>
+      <structure:ContentConstraint id="CC" agencyID="SDMX" version="1.0" type="Actual">
+        <common:Annotations>
+          <common:Annotation id="obs_count">
+            <common:AnnotationTitle>4666</common:AnnotationTitle>
+            <common:AnnotationType>sdmx_metrics</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Autogenerated content constraint</common:Name>
+        <structure:ConstraintAttachment>
+          <structure:Dataflow>
+            <Ref id="DSD_PARIS@DF_PARIS" version="1.0" agencyID="OECD.ELS.HD" package="datastructure" class="Dataflow" />
+          </structure:Dataflow>
+        </structure:ConstraintAttachment>
+        <structure:CubeRegion include="true">
+          <common:KeyValue id="REF_AREA">
+            <common:Value>AUS</common:Value>
+            <common:Value>BEL</common:Value>
+            <common:Value>CAN</common:Value>
+            <common:Value>CHE</common:Value>
+            <common:Value>CZE</common:Value>
+            <common:Value>ESP</common:Value>
+            <common:Value>FRA</common:Value>
+            <common:Value>GRC</common:Value>
+            <common:Value>ISL</common:Value>
+            <common:Value>ITA</common:Value>
+            <common:Value>LUX</common:Value>
+            <common:Value>NLD</common:Value>
+            <common:Value>NOR</common:Value>
+            <common:Value>PRT</common:Value>
+            <common:Value>ROU</common:Value>
+            <common:Value>SAU</common:Value>
+            <common:Value>SVN</common:Value>
+            <common:Value>UKL</common:Value>
+            <common:Value>USA</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="MEASURE">
+            <common:Value>CSMPOSOUT</common:Value>
+            <common:Value>ECPOSOUT</common:Value>
+            <common:Value>ECSCORE</common:Value>
+            <common:Value>EQPOSOUT</common:Value>
+            <common:Value>GHPOSOUT</common:Value>
+            <common:Value>MHPOSOUT</common:Value>
+            <common:Value>MHSCORE</common:Value>
+            <common:Value>PCCPOSOUT</common:Value>
+            <common:Value>PCCSCORE</common:Value>
+            <common:Value>PHPOSOUT</common:Value>
+            <common:Value>PHSCORE</common:Value>
+            <common:Value>SFPOSOUT</common:Value>
+            <common:Value>THPOSOUT</common:Value>
+            <common:Value>WBINDEX</common:Value>
+            <common:Value>WBPOSOUT</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="PATIENT_STATUS">
+            <common:Value>ALL</common:Value>
+            <common:Value>CHRONIC</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="SEX">
+            <common:Value>_T</common:Value>
+            <common:Value>F</common:Value>
+            <common:Value>M</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="AGE">
+            <common:Value>_T</common:Value>
+            <common:Value>Y_GT75</common:Value>
+            <common:Value>Y45T54</common:Value>
+            <common:Value>Y55T64</common:Value>
+            <common:Value>Y65T74</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="ATTAINMENT_LEV">
+            <common:Value>_T</common:Value>
+            <common:Value>ISCED11A_0T2</common:Value>
+            <common:Value>ISCED11A_3_4</common:Value>
+            <common:Value>ISCED11A_5T8</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="UNIT_MEASURE">
+            <common:Value>0_TO_100</common:Value>
+            <common:Value>PO</common:Value>
+            <common:Value>PT_PAT</common:Value>
+            <common:Value>SCR_PROMIS</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="FREQ">
+            <common:Value>I</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="TIME_PERIOD">
+            <common:TimeRange>
+              <common:StartPeriod isInclusive="true">2023-01-01T00:00:00</common:StartPeriod>
+              <common:EndPeriod isInclusive="true">2023-01-01T00:00:00</common:EndPeriod>
+            </common:TimeRange>
+          </common:KeyValue>
+        </structure:CubeRegion>
+      </structure:ContentConstraint>
+    </structure:Constraints>
+  </message:Structures>
+</message:Structure>

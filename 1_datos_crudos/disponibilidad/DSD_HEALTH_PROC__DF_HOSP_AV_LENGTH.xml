@@ -1,0 +1,2171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v10.11.8.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF46</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2026-11-17T04:03:00.5212704+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist isPartial="true" id="CL_AGE" agencyID="OECD" version="1.1" isFinal="true">
+        <common:Name xml:lang="en">Codelist for age</common:Name>
+        <common:Name xml:lang="fr">Codelist pour l'âge</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2950</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Non applicable</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_AREA" agencyID="OECD" version="1.1" isFinal="true">
+        <common:Name xml:lang="en">Codelist for reference areas and geocoding</common:Name>
+        <common:Name xml:lang="fr">Codelist pour les zones de référence</common:Name>
+        <structure:Code id="AUS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">20</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أستراليا</common:Name>
+          <common:Name xml:lang="en">Australia</common:Name>
+          <common:Name xml:lang="fr">Australie</common:Name>
+          <common:Name xml:lang="he">אוסטרליה</common:Name>
+        </structure:Code>
+        <structure:Code id="AUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">20</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">30</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">النمسا</common:Name>
+          <common:Name xml:lang="en">Austria</common:Name>
+          <common:Name xml:lang="fr">Autriche</common:Name>
+          <common:Name xml:lang="he">אוסטרייה</common:Name>
+        </structure:Code>
+        <structure:Code id="BEL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">30</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">40</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بلجيكا</common:Name>
+          <common:Name xml:lang="en">Belgium</common:Name>
+          <common:Name xml:lang="fr">Belgique</common:Name>
+          <common:Name xml:lang="he">בלגייה</common:Name>
+        </structure:Code>
+        <structure:Code id="CAN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">40</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">50</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كندا</common:Name>
+          <common:Name xml:lang="en">Canada</common:Name>
+          <common:Name xml:lang="fr">Canada</common:Name>
+          <common:Name xml:lang="he">קנדה</common:Name>
+        </structure:Code>
+        <structure:Code id="CHL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">50</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">60</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تشيلي</common:Name>
+          <common:Name xml:lang="en">Chile</common:Name>
+          <common:Name xml:lang="fr">Chili</common:Name>
+          <common:Name xml:lang="he">צ'ילה</common:Name>
+        </structure:Code>
+        <structure:Code id="COL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">60</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">70</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كولومبيا</common:Name>
+          <common:Name xml:lang="en">Colombia</common:Name>
+          <common:Name xml:lang="fr">Colombie</common:Name>
+          <common:Name xml:lang="he">קולומבייה</common:Name>
+        </structure:Code>
+        <structure:Code id="CRI">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">70</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">90</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كوستاريكا</common:Name>
+          <common:Name xml:lang="en">Costa Rica</common:Name>
+          <common:Name xml:lang="fr">Costa Rica</common:Name>
+          <common:Name xml:lang="he">קוסטה ריקה</common:Name>
+        </structure:Code>
+        <structure:Code id="CZE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">80</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">370</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية التشيك</common:Name>
+          <common:Name xml:lang="en">Czechia</common:Name>
+          <common:Name xml:lang="fr">Tchéquie</common:Name>
+          <common:Name xml:lang="he">צ'כיה</common:Name>
+        </structure:Code>
+        <structure:Code id="DNK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">90</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الدنمارك</common:Name>
+          <common:Name xml:lang="en">Denmark</common:Name>
+          <common:Name xml:lang="fr">Danemark</common:Name>
+          <common:Name xml:lang="he">דנמרק</common:Name>
+        </structure:Code>
+        <structure:Code id="EST">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">100</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">120</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إستونيا</common:Name>
+          <common:Name xml:lang="en">Estonia</common:Name>
+          <common:Name xml:lang="fr">Estonie</common:Name>
+          <common:Name xml:lang="he">אסטוניה</common:Name>
+        </structure:Code>
+        <structure:Code id="FIN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">110</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">140</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فنلندا</common:Name>
+          <common:Name xml:lang="en">Finland</common:Name>
+          <common:Name xml:lang="fr">Finlande</common:Name>
+          <common:Name xml:lang="he">פינלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="FRA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">120</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">150</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فرنسا</common:Name>
+          <common:Name xml:lang="en">France</common:Name>
+          <common:Name xml:lang="fr">France</common:Name>
+          <common:Name xml:lang="he">צרפת</common:Name>
+        </structure:Code>
+        <structure:Code id="DEU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">130</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ألمانيا</common:Name>
+          <common:Name xml:lang="en">Germany</common:Name>
+          <common:Name xml:lang="fr">Allemagne</common:Name>
+          <common:Name xml:lang="he">גרמניה</common:Name>
+        </structure:Code>
+        <structure:Code id="GRC">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">140</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">160</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">اليونان</common:Name>
+          <common:Name xml:lang="en">Greece</common:Name>
+          <common:Name xml:lang="fr">Grèce</common:Name>
+          <common:Name xml:lang="he">יוון</common:Name>
+        </structure:Code>
+        <structure:Code id="HUN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">150</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">170</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">هنغاريا</common:Name>
+          <common:Name xml:lang="en">Hungary</common:Name>
+          <common:Name xml:lang="fr">Hongrie</common:Name>
+          <common:Name xml:lang="he">הונגריה</common:Name>
+        </structure:Code>
+        <structure:Code id="ISL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">160</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">190</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">آيسلندا</common:Name>
+          <common:Name xml:lang="en">Iceland</common:Name>
+          <common:Name xml:lang="fr">Islande</common:Name>
+          <common:Name xml:lang="he">איסלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="IRL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">170</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">180</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أيرلندا</common:Name>
+          <common:Name xml:lang="en">Ireland</common:Name>
+          <common:Name xml:lang="fr">Irlande</common:Name>
+          <common:Name xml:lang="he">אירלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="ISR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">180</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إسرائيل</common:Name>
+          <common:Name xml:lang="en">Israel</common:Name>
+          <common:Name xml:lang="fr">Israël</common:Name>
+          <common:Name xml:lang="he">ישראל</common:Name>
+        </structure:Code>
+        <structure:Code id="ITA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">190</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">210</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إيطاليا</common:Name>
+          <common:Name xml:lang="en">Italy</common:Name>
+          <common:Name xml:lang="fr">Italie</common:Name>
+          <common:Name xml:lang="he">איטליה</common:Name>
+        </structure:Code>
+        <structure:Code id="KOR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">210</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">80</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كوريا</common:Name>
+          <common:Name xml:lang="en">Korea</common:Name>
+          <common:Name xml:lang="fr">Corée</common:Name>
+          <common:Name xml:lang="he">קוריאה</common:Name>
+        </structure:Code>
+        <structure:Code id="LVA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">220</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">230</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">لاتفيا</common:Name>
+          <common:Name xml:lang="en">Latvia</common:Name>
+          <common:Name xml:lang="fr">Lettonie</common:Name>
+          <common:Name xml:lang="he">לטבייה</common:Name>
+        </structure:Code>
+        <structure:Code id="LTU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">230</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">240</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ليتوانيا</common:Name>
+          <common:Name xml:lang="en">Lithuania</common:Name>
+          <common:Name xml:lang="fr">Lituanie</common:Name>
+          <common:Name xml:lang="he">ליטא</common:Name>
+        </structure:Code>
+        <structure:Code id="LUX">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">240</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">250</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">لوكسمبورغ</common:Name>
+          <common:Name xml:lang="en">Luxembourg</common:Name>
+          <common:Name xml:lang="fr">Luxembourg</common:Name>
+          <common:Name xml:lang="he">לוקסמבורג</common:Name>
+        </structure:Code>
+        <structure:Code id="MEX">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">250</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">260</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">المكسيك</common:Name>
+          <common:Name xml:lang="en">Mexico</common:Name>
+          <common:Name xml:lang="fr">Mexique</common:Name>
+          <common:Name xml:lang="he">מקסיקו</common:Name>
+        </structure:Code>
+        <structure:Code id="NLD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">260</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">290</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">هولندا</common:Name>
+          <common:Name xml:lang="en">Netherlands</common:Name>
+          <common:Name xml:lang="fr">Pays-Bas</common:Name>
+          <common:Name xml:lang="he">הולנד</common:Name>
+        </structure:Code>
+        <structure:Code id="NZL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">270</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">280</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">نيوزيلندا</common:Name>
+          <common:Name xml:lang="en">New Zealand</common:Name>
+          <common:Name xml:lang="fr">Nouvelle-Zélande</common:Name>
+          <common:Name xml:lang="he">ניו זילנד</common:Name>
+        </structure:Code>
+        <structure:Code id="NOR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">280</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">270</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">النرويج</common:Name>
+          <common:Name xml:lang="en">Norway</common:Name>
+          <common:Name xml:lang="fr">Norvège</common:Name>
+          <common:Name xml:lang="he">נורווגיה</common:Name>
+        </structure:Code>
+        <structure:Code id="POL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">290</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بولندا</common:Name>
+          <common:Name xml:lang="en">Poland</common:Name>
+          <common:Name xml:lang="fr">Pologne</common:Name>
+          <common:Name xml:lang="he">פולין</common:Name>
+        </structure:Code>
+        <structure:Code id="PRT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">300</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">310</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">البرتغال</common:Name>
+          <common:Name xml:lang="en">Portugal</common:Name>
+          <common:Name xml:lang="fr">Portugal</common:Name>
+          <common:Name xml:lang="he">פורטוגל</common:Name>
+        </structure:Code>
+        <structure:Code id="SVK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">310</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">320</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية سلوفاكيا</common:Name>
+          <common:Name xml:lang="en">Slovak Republic</common:Name>
+          <common:Name xml:lang="fr">République slovaque</common:Name>
+          <common:Name xml:lang="he">סלובקיה</common:Name>
+        </structure:Code>
+        <structure:Code id="SVN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">320</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">340</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سلوفينيا</common:Name>
+          <common:Name xml:lang="en">Slovenia</common:Name>
+          <common:Name xml:lang="fr">Slovénie</common:Name>
+          <common:Name xml:lang="he">סלובניה</common:Name>
+        </structure:Code>
+        <structure:Code id="ESP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">330</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">110</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إسبانيا</common:Name>
+          <common:Name xml:lang="en">Spain</common:Name>
+          <common:Name xml:lang="fr">Espagne</common:Name>
+          <common:Name xml:lang="he">ספרד</common:Name>
+        </structure:Code>
+        <structure:Code id="SWE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">340</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">350</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">السويد</common:Name>
+          <common:Name xml:lang="en">Sweden</common:Name>
+          <common:Name xml:lang="fr">Suède</common:Name>
+          <common:Name xml:lang="he">שוודיה</common:Name>
+        </structure:Code>
+        <structure:Code id="CHE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">350</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">360</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سويسرا</common:Name>
+          <common:Name xml:lang="en">Switzerland</common:Name>
+          <common:Name xml:lang="fr">Suisse</common:Name>
+          <common:Name xml:lang="he">שוויץ</common:Name>
+        </structure:Code>
+        <structure:Code id="TUR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">360</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">380</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تركيا</common:Name>
+          <common:Name xml:lang="en">Türkiye</common:Name>
+          <common:Name xml:lang="fr">Türkiye</common:Name>
+          <common:Name xml:lang="he">טורקייה</common:Name>
+        </structure:Code>
+        <structure:Code id="GBR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">370</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">330</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">المملكة المتحدة</common:Name>
+          <common:Name xml:lang="en">United Kingdom</common:Name>
+          <common:Name xml:lang="fr">Royaume-Uni</common:Name>
+          <common:Name xml:lang="he">הממלכה המאוחדת</common:Name>
+        </structure:Code>
+        <structure:Code id="USA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">380</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">130</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الولايات المتحدة الأميركية</common:Name>
+          <common:Name xml:lang="en">United States</common:Name>
+          <common:Name xml:lang="fr">États-Unis</common:Name>
+          <common:Name xml:lang="he">ארצות הברית</common:Name>
+        </structure:Code>
+        <structure:Code id="ARG">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1220</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1230</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الأرجنتين</common:Name>
+          <common:Name xml:lang="en">Argentina</common:Name>
+          <common:Name xml:lang="fr">Argentine</common:Name>
+          <common:Name xml:lang="he">ארגנטינה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BGR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1450</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1440</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بلغاريا</common:Name>
+          <common:Name xml:lang="en">Bulgaria</common:Name>
+          <common:Name xml:lang="fr">Bulgarie</common:Name>
+          <common:Name xml:lang="he">בולגריה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HRV">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1610</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1550</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كرواتيا</common:Name>
+          <common:Name xml:lang="en">Croatia</common:Name>
+          <common:Name xml:lang="fr">Croatie</common:Name>
+          <common:Name xml:lang="he">קרואטיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="CYP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1640</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1510</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">قبرص</common:Name>
+          <common:Name xml:lang="en">Cyprus</common:Name>
+          <common:Name xml:lang="fr">Chypre</common:Name>
+          <common:Name xml:lang="he">קפריסין</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MLT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2270</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مالطا</common:Name>
+          <common:Name xml:lang="en">Malta</common:Name>
+          <common:Name xml:lang="fr">Malte</common:Name>
+          <common:Name xml:lang="he">מלטה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="MNE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2370</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">مونتينيغرو</common:Name>
+          <common:Name xml:lang="en">Montenegro</common:Name>
+          <common:Name xml:lang="fr">Monténégro</common:Name>
+          <common:Name xml:lang="he">מונטנגרו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ROU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2660</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2720</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">رومانيا</common:Name>
+          <common:Name xml:lang="en">Romania</common:Name>
+          <common:Name xml:lang="fr">Roumanie</common:Name>
+          <common:Name xml:lang="he">רומניה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="SRB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2810</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2890</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">صربيا</common:Name>
+          <common:Name xml:lang="en">Serbia</common:Name>
+          <common:Name xml:lang="fr">Serbie</common:Name>
+          <common:Name xml:lang="he">סרבייה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="WXOECD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1000</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Non-OECD economies</common:Name>
+          <common:Name xml:lang="fr">Non-OCDE économies</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_OCCUPATION_ISCO2008" agencyID="OECD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Code list for Occupation version 2008 (ISCO-08)</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6210</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_SEX" agencyID="OECD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for concept "Sex"</common:Name>
+        <common:Name xml:lang="fr">Codelist pour concept "Sexe"</common:Name>
+        <common:Description xml:lang="en">This code list provides coded information about the state of being male or female.</common:Description>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Non applicable</common:Name>
+          <common:Description xml:lang="en">Used in response to a question or a request for information that does not apply to the circumstances of the unit being surveyed. This concept is to be understood as meaning "statistically not applicable"; i.e. _Z is to be used only for statistical purposes.</common:Description>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_UNIT_MEASURE" agencyID="OECD" version="1.29" isFinal="true">
+        <common:Name xml:lang="en">Codelist for Unit of measure</common:Name>
+        <common:Description xml:lang="en">Unit in which the data values are expressed.</common:Description>
+        <structure:Code id="D">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">60</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">60</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Days</common:Name>
+          <common:Name xml:lang="fr">Jours</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_CANCER_SITE" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for cancer site</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_CARE_TYPE" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Care type</common:Name>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_CONSULTATION_TYPE" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Consultation type</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">40</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_DATA_SRCE" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Data source</common:Name>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_DIAGNOSTIC_TYPE" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Diagnostic category</common:Name>
+        <structure:Code id="DICDA000">
+          <common:Name xml:lang="en">All causes</common:Name>
+          <common:Name xml:lang="fr">Toutes causes</common:Name>
+        </structure:Code>
+        <structure:Code id="DICDA100">
+          <common:Name xml:lang="en">Infectious and parasitic diseases</common:Name>
+          <common:Name xml:lang="fr">Maladies infectieuses et parasitaires</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA101">
+          <common:Name xml:lang="en">Intestinal infectious diseases except diarrhoea</common:Name>
+          <common:Name xml:lang="fr">Maladies intestinales infectieuses, excluant diarrhée</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA102">
+          <common:Name xml:lang="en">Diarrhoea and gastroenteritis of presumed infectious origin</common:Name>
+          <common:Name xml:lang="fr">Diarrhée et gastro-entérite d'origine présumée infectieuse</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA103">
+          <common:Name xml:lang="en">Tuberculosis</common:Name>
+          <common:Name xml:lang="fr">Tuberculose</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA104">
+          <common:Name xml:lang="en">Septicaemia</common:Name>
+          <common:Name xml:lang="fr">Septicémies</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA105">
+          <common:Name xml:lang="en">Human immunodeficiency virus (HIV) disease</common:Name>
+          <common:Name xml:lang="fr">Maladies dues au virus d'immunodéficience humaine (VIH)</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA106">
+          <common:Name xml:lang="en">Other infectious and parasitic diseases</common:Name>
+          <common:Name xml:lang="fr">Autres maladies infectieuses et parasitaires</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA200">
+          <common:Name xml:lang="en">Neoplasms</common:Name>
+          <common:Name xml:lang="fr">Tumeurs</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA201">
+          <common:Name xml:lang="en">Malignant neoplasm of colon, rectum and anus</common:Name>
+          <common:Name xml:lang="fr">Tumeur maligne du côlon, rectum et anus</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA202">
+          <common:Name xml:lang="en">Malignant neoplasm of trachea, bronchus and lung</common:Name>
+          <common:Name xml:lang="fr">Tumeur maligne de la trachée, des bronches et du poumon</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA203">
+          <common:Name xml:lang="en">Malignant neoplasm of skin</common:Name>
+          <common:Name xml:lang="fr">Tumeur maligne de la peau</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA204">
+          <common:Name xml:lang="en">Malignant neoplasm of breast</common:Name>
+          <common:Name xml:lang="fr">Tumeur maligne du sein</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA205">
+          <common:Name xml:lang="en">Malignant neoplasm of uterus</common:Name>
+          <common:Name xml:lang="fr">Tumeur maligne de l'utérus</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA206">
+          <common:Name xml:lang="en">Malignant neoplasm of ovary</common:Name>
+          <common:Name xml:lang="fr">Tumeur maligne de l'ovaire</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA207">
+          <common:Name xml:lang="en">Malignant neoplasm of prostate</common:Name>
+          <common:Name xml:lang="fr">Tumeur maligne de la prostate</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA208">
+          <common:Name xml:lang="en">Malignant neoplasm of bladder</common:Name>
+          <common:Name xml:lang="fr">Tumeur maligne de la vessie</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA209">
+          <common:Name xml:lang="en">Other malignant neoplasms</common:Name>
+          <common:Name xml:lang="fr">Autres tumeurs malignes</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA210">
+          <common:Name xml:lang="en">Carcinoma in situ</common:Name>
+          <common:Name xml:lang="fr">Tumeurs in situ</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA211">
+          <common:Name xml:lang="en">Benign neoplasm of colon, rectum and anus</common:Name>
+          <common:Name xml:lang="fr">Tumeur bénigne du côlon, rectum et anus</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA212">
+          <common:Name xml:lang="en">Leiomyoma of uterus</common:Name>
+          <common:Name xml:lang="fr">Léiomyome de l'utérus</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA213">
+          <common:Name xml:lang="en">Other benign neoplasms and neoplasms of uncertain or unknown behaviour</common:Name>
+          <common:Name xml:lang="fr">Autres tumeurs bénignes et à évolution imprévisible</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA300">
+          <common:Name xml:lang="en">Diseases of the blood and bloodforming organs</common:Name>
+          <common:Name xml:lang="fr">Maladies du sang et des organes hématopoïétiques</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA301">
+          <common:Name xml:lang="en">Anaemias</common:Name>
+          <common:Name xml:lang="fr">Anémies</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA302">
+          <common:Name xml:lang="en">Other diseases of the blood and bloodforming organs</common:Name>
+          <common:Name xml:lang="fr">Autres maladies du sang et des organes hématopoïétiques</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA400">
+          <common:Name xml:lang="en">Endocrine, nutritional and metabolic diseases</common:Name>
+          <common:Name xml:lang="fr">Maladies endocriniennes, nutritionelles et métaboliques</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA401">
+          <common:Name xml:lang="en">Diabetes mellitus</common:Name>
+          <common:Name xml:lang="fr">Diabète sucré</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA402">
+          <common:Name xml:lang="en">Other endocrine, nutritional and metabolic diseases</common:Name>
+          <common:Name xml:lang="fr">Autres maladies endocriniennes, nutritionelles et métaboliques</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA500">
+          <common:Name xml:lang="en">Mental and behavioural disorders</common:Name>
+          <common:Name xml:lang="fr">Troubles mentaux et du comportement</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA501">
+          <common:Name xml:lang="en">Dementia</common:Name>
+          <common:Name xml:lang="fr">Démence</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA502">
+          <common:Name xml:lang="en">Mental and behavioural disorders due to alcohol</common:Name>
+          <common:Name xml:lang="fr">Troubles mentaux et du comportement liés à l'alcool</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA503">
+          <common:Name xml:lang="en">Mental and behavioural disorders due to use of other psychoactive substance</common:Name>
+          <common:Name xml:lang="fr">Troubles mentaux et du comportement liés à l'usage de substances psycho-actives</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA504">
+          <common:Name xml:lang="en">Schizophrenia, schizotypal and delusional disorders</common:Name>
+          <common:Name xml:lang="fr">Schizophrénie, troubles schizotypiques et délirants</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA505">
+          <common:Name xml:lang="en">Mood (affective) disorders</common:Name>
+          <common:Name xml:lang="fr">Troubles de l'humeur (affectifs)</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA506">
+          <common:Name xml:lang="en">Other mental and behavioural disorders</common:Name>
+          <common:Name xml:lang="fr">Autres troubles mentaux et du comportement</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA600">
+          <common:Name xml:lang="en">Diseases of the nervous system</common:Name>
+          <common:Name xml:lang="fr">Maladies du système nerveux</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA601">
+          <common:Name xml:lang="en">Alzheimer's disease</common:Name>
+          <common:Name xml:lang="fr">Maladie d'Alzheimer</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA600" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA602">
+          <common:Name xml:lang="en">Multiple sclerosis</common:Name>
+          <common:Name xml:lang="fr">Sclérose en plaques</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA600" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA603">
+          <common:Name xml:lang="en">Epilepsy</common:Name>
+          <common:Name xml:lang="fr">Epilepsie</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA600" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA604">
+          <common:Name xml:lang="en">Transient cerebral ischaemic attacks and related syndromes</common:Name>
+          <common:Name xml:lang="fr">Accidents ischémiques cérébraux transitoires et syndromes apparentés</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA600" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA605">
+          <common:Name xml:lang="en">Other diseases of the nervous system</common:Name>
+          <common:Name xml:lang="fr">Autres maladies du système nerveux</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA600" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA700">
+          <common:Name xml:lang="en">Diseases of the eye and adnexa</common:Name>
+          <common:Name xml:lang="fr">Maladies de l'oeil et de ses annexes</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA701">
+          <common:Name xml:lang="en">Cataract</common:Name>
+          <common:Name xml:lang="fr">Cataracte</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA700" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA702">
+          <common:Name xml:lang="en">Other diseases of the eye and adnexa</common:Name>
+          <common:Name xml:lang="fr">Autres maladies de l'oeil et de ses annexes</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA700" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA800">
+          <common:Name xml:lang="en">Diseases of the ear and mastoid process</common:Name>
+          <common:Name xml:lang="fr">Maladies de l'oreille et de l'apophyse mastoïde</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA900">
+          <common:Name xml:lang="en">Diseases of the circulatory system</common:Name>
+          <common:Name xml:lang="fr">Maladies de l'appareil circulatoire</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA901">
+          <common:Name xml:lang="en">Hypertensive diseases</common:Name>
+          <common:Name xml:lang="fr">Maladies hypertensives</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA902">
+          <common:Name xml:lang="en">Angina pectoris</common:Name>
+          <common:Name xml:lang="fr">Angine de poitrine</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA903">
+          <common:Name xml:lang="en">Acute myocardial infarction</common:Name>
+          <common:Name xml:lang="fr">Infarctus du myocarde</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA904">
+          <common:Name xml:lang="en">Other ischaemic heart disease</common:Name>
+          <common:Name xml:lang="fr">Autres cardiopathies ischémiques</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA905">
+          <common:Name xml:lang="en">Pulmonary heart disease and diseases of pulmonary circulation</common:Name>
+          <common:Name xml:lang="fr">Affections cardiopulmonaires et maladies de la circulation pulmonaire</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA906">
+          <common:Name xml:lang="en">Conduction disorders and cardiac arrhythmias</common:Name>
+          <common:Name xml:lang="fr">Troubles de la conduction et arythmies cardiaques</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA907">
+          <common:Name xml:lang="en">Heart failure</common:Name>
+          <common:Name xml:lang="fr">Insuffisance cardiaque</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA908">
+          <common:Name xml:lang="en">Cerebrovascular diseases</common:Name>
+          <common:Name xml:lang="fr">Maladies cérébrovasculaires</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA909">
+          <common:Name xml:lang="en">Atherosclerosis</common:Name>
+          <common:Name xml:lang="fr">Athérosclérose</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA910">
+          <common:Name xml:lang="en">Varicose veins of lower extremities</common:Name>
+          <common:Name xml:lang="fr">Varice des membres inférieurs</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDA911">
+          <common:Name xml:lang="en">Other diseases of the circulatory system</common:Name>
+          <common:Name xml:lang="fr">Autres maladies de l'appareil circulatoire</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB000">
+          <common:Name xml:lang="en">Diseases of the respiratory system</common:Name>
+          <common:Name xml:lang="fr">Maladies de l'appareil respiratoire</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB001">
+          <common:Name xml:lang="en">Acute upper respiratory infections and influenza</common:Name>
+          <common:Name xml:lang="fr">Affections aiguës des voies respiratoires supérieures et grippe</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB002">
+          <common:Name xml:lang="en">Pneumonia</common:Name>
+          <common:Name xml:lang="fr">Pneumopathie</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB003">
+          <common:Name xml:lang="en">Other acute lower respiratory infections</common:Name>
+          <common:Name xml:lang="fr">Autres affections aiguës des voies respiratoires inférieures</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB004">
+          <common:Name xml:lang="en">Chronic diseases of tonsils and adenoids</common:Name>
+          <common:Name xml:lang="fr">Maladies chroniques des amygdales et végétations adénoïdes</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB005">
+          <common:Name xml:lang="en">Other diseases of upper respiratory tract</common:Name>
+          <common:Name xml:lang="fr">Autres maladies des voies respiratoires supérieures</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB006">
+          <common:Name xml:lang="en">Chronic obstructive pulmonary disease and bronchiectasis</common:Name>
+          <common:Name xml:lang="fr">Maladies pulmonaires obstructives chroniques et bronchectasie</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB007">
+          <common:Name xml:lang="en">Asthma</common:Name>
+          <common:Name xml:lang="fr">Asthme</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB008">
+          <common:Name xml:lang="en">Other diseases of the respiratory system</common:Name>
+          <common:Name xml:lang="fr">Autres maladies de l'appareil respiratoire</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB100">
+          <common:Name xml:lang="en">Diseases of the digestive system</common:Name>
+          <common:Name xml:lang="fr">Maladies de l'appareil digestif</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB101">
+          <common:Name xml:lang="en">Disorders of teeth and supporting structures</common:Name>
+          <common:Name xml:lang="fr">Affections des dents et du parodonte</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB102">
+          <common:Name xml:lang="en">Other diseases of oral cavity, salivary glands and jaws</common:Name>
+          <common:Name xml:lang="fr">Autres maladies de la cavité buccale, glandes salivaires et des maxillaires</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB103">
+          <common:Name xml:lang="en">Diseases of oesophagus</common:Name>
+          <common:Name xml:lang="fr">Maladies de l'oesophage</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB104">
+          <common:Name xml:lang="en">Peptic ulcer</common:Name>
+          <common:Name xml:lang="fr">Ulcère digestif</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB105">
+          <common:Name xml:lang="en">Dyspepsia and other diseases of stomach and duodenum</common:Name>
+          <common:Name xml:lang="fr">Dyspepsie et autres maladies de l'estomac et du duodénum</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB106">
+          <common:Name xml:lang="en">Diseases of appendix</common:Name>
+          <common:Name xml:lang="fr">Maladies de l'appendice</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB107">
+          <common:Name xml:lang="en">Inguinal hernia</common:Name>
+          <common:Name xml:lang="fr">Hernie inguinale</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB108">
+          <common:Name xml:lang="en">Other abdominal hernia</common:Name>
+          <common:Name xml:lang="fr">Autres hernies abdominales</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB109">
+          <common:Name xml:lang="en">Crohn's disease and ulcerative colitis</common:Name>
+          <common:Name xml:lang="fr">Maladie de Crohn et recto-colite hémorragique</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB110">
+          <common:Name xml:lang="en">Other noninfective gastroenteritis and colitis</common:Name>
+          <common:Name xml:lang="fr">Autres gastro-entérites et colites non infectieuses</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB111">
+          <common:Name xml:lang="en">Paralytic ileus and Intestinal obstruction without hernia</common:Name>
+          <common:Name xml:lang="fr">Iléus paralytique et occlusion intestinale sans hernie</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB112">
+          <common:Name xml:lang="en">Diverticular disease of intestine</common:Name>
+          <common:Name xml:lang="fr">Diverticulose de l'intestin</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB113">
+          <common:Name xml:lang="en">Diseases of anus and rectum</common:Name>
+          <common:Name xml:lang="fr">Maladies de l'anus et du rectum</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB114">
+          <common:Name xml:lang="en">Other diseases of intestine</common:Name>
+          <common:Name xml:lang="fr">Autres maladies de l'intestin</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB115">
+          <common:Name xml:lang="en">Alcoholic liver disease</common:Name>
+          <common:Name xml:lang="fr">Maladie alcoolique du foie</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB116">
+          <common:Name xml:lang="en">Other diseases of liver</common:Name>
+          <common:Name xml:lang="fr">Autres maladies du foie</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB117">
+          <common:Name xml:lang="en">Cholelithiasis</common:Name>
+          <common:Name xml:lang="fr">Cholélithiase</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB118">
+          <common:Name xml:lang="en">Other diseases of gall bladder and biliary tract</common:Name>
+          <common:Name xml:lang="fr">Autres maladies de la vésicule biliaire et des voies biliaires</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB119">
+          <common:Name xml:lang="en">Diseases of pancreas</common:Name>
+          <common:Name xml:lang="fr">Maladies du pancréas</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB120">
+          <common:Name xml:lang="en">Other diseases of the digestive system</common:Name>
+          <common:Name xml:lang="fr">Autres maladies de l'appareil digestif</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB200">
+          <common:Name xml:lang="en">Diseases of the skin and subcutaneous tissue</common:Name>
+          <common:Name xml:lang="fr">Maladies de la peau et du tissu cellulaire sous-cutané</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB201">
+          <common:Name xml:lang="en">Infections of the skin and subcutaneous tissue</common:Name>
+          <common:Name xml:lang="fr">Infections de la peau et du tissu cellulaire sous-cutané</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB202">
+          <common:Name xml:lang="en">Dermatitis, eczema and papulosquamous disorders</common:Name>
+          <common:Name xml:lang="fr">Dermatoses, eczémas et lésions papulo-squameuses</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB203">
+          <common:Name xml:lang="en">Other diseases of the skin and subcutaneous tissue</common:Name>
+          <common:Name xml:lang="fr">Autres maladies de la peau et du tissu cellulaire sous-cutané</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB300">
+          <common:Name xml:lang="en">Diseases of musculoskeletal system and connective tissue</common:Name>
+          <common:Name xml:lang="fr">Maladies du système ostéo-articulaire, des muscles et du tissu conjonctif</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB301">
+          <common:Name xml:lang="en">Coxarthrosis (arthrosis of hip)</common:Name>
+          <common:Name xml:lang="fr">Coxarthrose (arthrose de la hanche)</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB302">
+          <common:Name xml:lang="en">Gonarthrosis (arthrosis of knee)</common:Name>
+          <common:Name xml:lang="fr">Gonarthrose (arthrose du genou)</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB303">
+          <common:Name xml:lang="en">Internal derangement of knee</common:Name>
+          <common:Name xml:lang="fr">Lésion interne du genou</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB304">
+          <common:Name xml:lang="en">Other arthropathies</common:Name>
+          <common:Name xml:lang="fr">Autres arthropathies</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB305">
+          <common:Name xml:lang="en">Systemic connective tissue disorders</common:Name>
+          <common:Name xml:lang="fr">Affections disséminées du tissu conjonctif</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB306">
+          <common:Name xml:lang="en">Deforming dorsopathies and spondylopathies</common:Name>
+          <common:Name xml:lang="fr">Dorsopathies avec déformation et spondylopathies</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB307">
+          <common:Name xml:lang="en">Intervertebral disc disorders</common:Name>
+          <common:Name xml:lang="fr">Atteintes des disques intervertébraux</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB308">
+          <common:Name xml:lang="en">Dorsalgia</common:Name>
+          <common:Name xml:lang="fr">Dorsalgies</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB309">
+          <common:Name xml:lang="en">Soft tissue disorders</common:Name>
+          <common:Name xml:lang="fr">Affections des tissus mous</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB310">
+          <common:Name xml:lang="en">Other disorders of the musculoskeletal system and connective tissue</common:Name>
+          <common:Name xml:lang="fr">Autres maladies du système ostéo-articulaire, des muscles et du tissu conjonctif</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB300" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB400">
+          <common:Name xml:lang="en">Diseases of the genitourinary system</common:Name>
+          <common:Name xml:lang="fr">Maladies de l'appareil génito-urinaire</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB401">
+          <common:Name xml:lang="en">Glomerular and renal tubulo-interstitial diseases</common:Name>
+          <common:Name xml:lang="fr">Glomérulopathies et maladies rénales tubulo-interstitielles</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB402">
+          <common:Name xml:lang="en">Renal failure</common:Name>
+          <common:Name xml:lang="fr">Insuffisance rénale</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB403">
+          <common:Name xml:lang="en">Urolithiasis</common:Name>
+          <common:Name xml:lang="fr">Lithiases urinaires</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB404">
+          <common:Name xml:lang="en">Other diseases of the urinary system</common:Name>
+          <common:Name xml:lang="fr">Autres maladies de l'appareil urinaire</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB405">
+          <common:Name xml:lang="en">Hyperplasia of prostate</common:Name>
+          <common:Name xml:lang="fr">Hyperplasie de la prostate</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB406">
+          <common:Name xml:lang="en">Other diseases of male genital organs</common:Name>
+          <common:Name xml:lang="fr">Autres maladies des organes génitaux de l'homme</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB407">
+          <common:Name xml:lang="en">Disorders of breast</common:Name>
+          <common:Name xml:lang="fr">Affections du sein</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB408">
+          <common:Name xml:lang="en">Inflammatory diseases offemale pelvic organs</common:Name>
+          <common:Name xml:lang="fr">Affections inflammatoires des organes pelviens de la femme</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB409">
+          <common:Name xml:lang="en">Menstrual, menopausal and other female genital conditions</common:Name>
+          <common:Name xml:lang="fr">Affections liées à la menstruation, ménopause, organes génitaux féminins</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB410">
+          <common:Name xml:lang="en">Other disorders of the genitourinary system</common:Name>
+          <common:Name xml:lang="fr">Autres maladies de l'appareil génito-urinaire</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB400" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB500">
+          <common:Name xml:lang="en">Pregnancy, childbirth and the puerperium</common:Name>
+          <common:Name xml:lang="fr">Grossesse, accouchement et puerpéralité</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB501">
+          <common:Name xml:lang="en">Medical abortion</common:Name>
+          <common:Name xml:lang="fr">Avortement médical</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB502">
+          <common:Name xml:lang="en">Other pregnancy with abortive outcome</common:Name>
+          <common:Name xml:lang="fr">Autres grossesses se terminant par un avortement</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB503">
+          <common:Name xml:lang="en">Complications of pregnancy in the antenatal period</common:Name>
+          <common:Name xml:lang="fr">Complications principalement liées à la grossesse</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB504">
+          <common:Name xml:lang="en">Complications of pregnancy predominantly during labour and delivery</common:Name>
+          <common:Name xml:lang="fr">Complications principalement liées au travail et à l'accouchement</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB505">
+          <common:Name xml:lang="en">Single spontaneous delivery</common:Name>
+          <common:Name xml:lang="fr">Accouchement unique et spontané</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB506">
+          <common:Name xml:lang="en">Other delivery</common:Name>
+          <common:Name xml:lang="fr">Autres accouchements</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB507">
+          <common:Name xml:lang="en">Complications predominantly related to the puerperium</common:Name>
+          <common:Name xml:lang="fr">Complications principalement liées à la puerpéralité</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB508">
+          <common:Name xml:lang="en">Other obstetric conditions</common:Name>
+          <common:Name xml:lang="fr">Autres problèmes obstétricaux</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB500" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB600">
+          <common:Name xml:lang="en">Certain conditions originating in the perinatal period</common:Name>
+          <common:Name xml:lang="fr">Certaines affections dont l'origine se situe dans la période périnatale</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB601">
+          <common:Name xml:lang="en">Disorders related to short gestation and low birthweight</common:Name>
+          <common:Name xml:lang="fr">Anomalies liées à une brève gestation et à un faible poids à la naissance</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB600" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB602">
+          <common:Name xml:lang="en">Other conditions originating in the perinatal period</common:Name>
+          <common:Name xml:lang="fr">Autres affections dont l'origine se situe dans la période périnatale</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB600" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB700">
+          <common:Name xml:lang="en">Congenital malformations, deformations and chromosomal abnormalities</common:Name>
+          <common:Name xml:lang="fr">Malformations congénitales et anomalies chromosomiques</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB800">
+          <common:Name xml:lang="en">Symptoms, signs and abnormal clinical and laboratory findings, n.e.c.</common:Name>
+          <common:Name xml:lang="fr">Symptômes, signes et résultats anormaux d'examens cliniques et de laboratoire, n.c.a.</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB801">
+          <common:Name xml:lang="en">Pain in throat and chest</common:Name>
+          <common:Name xml:lang="fr">Douleur au niveau de la gorge et du thorax</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB800" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB802">
+          <common:Name xml:lang="en">Abdominal and pelvic pain</common:Name>
+          <common:Name xml:lang="fr">Douleur abdominale et pelvienne</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB800" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB803">
+          <common:Name xml:lang="en">Unknown and unspecified causes of morbidity</common:Name>
+          <common:Name xml:lang="fr">Causes inconnues et non spécifiées de morbidité</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB800" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB804">
+          <common:Name xml:lang="en">Other symptoms, signs and abnormal clinical and laboratory findings</common:Name>
+          <common:Name xml:lang="fr">Autres symptômes, signes et résultats anormaux d'examens cliniques et de laboratoire</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB800" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB900">
+          <common:Name xml:lang="en">Injury, poisoning and other consequences of external causes</common:Name>
+          <common:Name xml:lang="fr">Lésions traumatiques, empoisonnements et autres conséquences de causes externes</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB901">
+          <common:Name xml:lang="en">Intracranial injury</common:Name>
+          <common:Name xml:lang="fr">Lésion traumatique intracrânienne</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB902">
+          <common:Name xml:lang="en">Other injuries to the head</common:Name>
+          <common:Name xml:lang="fr">Autres lésions traumatiques de la tête</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB903">
+          <common:Name xml:lang="en">Fracture of forearm</common:Name>
+          <common:Name xml:lang="fr">Fracture de l'avant-bras</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB904">
+          <common:Name xml:lang="en">Fracture of femur</common:Name>
+          <common:Name xml:lang="fr">Fracture du fémur</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB905">
+          <common:Name xml:lang="en">Fracture of lower leg, including ankle</common:Name>
+          <common:Name xml:lang="fr">Fracture de la jambe, y compris la cheville</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB906">
+          <common:Name xml:lang="en">Other injuries</common:Name>
+          <common:Name xml:lang="fr">Autres lésions traumatiques</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB907">
+          <common:Name xml:lang="en">Burns and corrosions</common:Name>
+          <common:Name xml:lang="fr">Brûlures et corrosions</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB908">
+          <common:Name xml:lang="en">Poisonings by drugs, medicaments, and biological substances and toxic effects</common:Name>
+          <common:Name xml:lang="fr">Intoxications par médicaments, substances et effets toxiques</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB909">
+          <common:Name xml:lang="en">Complications of surgical and medical care, n.e.c.</common:Name>
+          <common:Name xml:lang="fr">Complications de soins chirurgicaux et médicaux, n.c.a.</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB910">
+          <common:Name xml:lang="en">Sequelae of injuries, of poisoning and of other external causes</common:Name>
+          <common:Name xml:lang="fr">Séquelles de lésions traumatiques, empoisonnements et autres causes externes</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDB911">
+          <common:Name xml:lang="en">Other and unspecified effects of external causes</common:Name>
+          <common:Name xml:lang="fr">Effets de causes externes, autres et sans précision</common:Name>
+          <structure:Parent>
+            <Ref id="DICDB900" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC100">
+          <common:Name xml:lang="en">Factors influencing health status and contact with health services</common:Name>
+          <common:Name xml:lang="fr">Facteurs influant sur l'état de santé et motifs de recours aux services de santé</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC101">
+          <common:Name xml:lang="en">Medical observation and evaluation for suspected diseases and conditions</common:Name>
+          <common:Name xml:lang="fr">Mise en observation et examen médical si suspicion de maladies</common:Name>
+          <structure:Parent>
+            <Ref id="DICDC100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC102">
+          <common:Name xml:lang="en">Contraceptive management</common:Name>
+          <common:Name xml:lang="fr">Prise en charge d'une contraception</common:Name>
+          <structure:Parent>
+            <Ref id="DICDC100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC103">
+          <common:Name xml:lang="en">Liveborn infants according to place of birth</common:Name>
+          <common:Name xml:lang="fr">Enfants nés vivants, selon le lieu de naissance</common:Name>
+          <structure:Parent>
+            <Ref id="DICDC100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC104">
+          <common:Name xml:lang="en">Other medical care (including radiotherapy and chemotherapy sessions)</common:Name>
+          <common:Name xml:lang="fr">Autres soins médicaux (incluant radiothérapie et chimiothérapie)</common:Name>
+          <structure:Parent>
+            <Ref id="DICDC100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC105">
+          <common:Name xml:lang="en">Other factors influencing health status and contact with Health services</common:Name>
+          <common:Name xml:lang="fr">Autres facteurs influant l'état de santé et motifs de recours aux services de santé</common:Name>
+          <structure:Parent>
+            <Ref id="DICDC100" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC200">
+          <common:Name xml:lang="en">Provisional assignment of new diseases of uncertain etiology or emergency use</common:Name>
+          <common:Name xml:lang="fr">Affectation provisoire de nouvelles maladies d'étiologie incertaine ou d'utilisation en urgence</common:Name>
+          <structure:Parent>
+            <Ref id="DICDA000" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC201">
+          <common:Name xml:lang="en">COVID-19, virus identified and not identified</common:Name>
+          <common:Name xml:lang="fr">COVID-19, virus identifié et non identifié</common:Name>
+          <structure:Parent>
+            <Ref id="DICDC200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC202">
+          <common:Name xml:lang="en">Personal history of COVID-19 and post COVID-19 condition</common:Name>
+          <common:Name xml:lang="fr">Antécédents personnels de COVID-19 et état post-COVID-19</common:Name>
+          <structure:Parent>
+            <Ref id="DICDC200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC203">
+          <common:Name xml:lang="en">Multisystem inflammatory syndrome associated with COVID-19</common:Name>
+          <common:Name xml:lang="fr">Syndrome inflammatoire multisystémique associé au COVID-19</common:Name>
+          <structure:Parent>
+            <Ref id="DICDC200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC204">
+          <common:Name xml:lang="en">Need for immunization against COVID-19 and COVID-19 vaccines causing adverse effects in therapeutic use</common:Name>
+          <common:Name xml:lang="fr">Besoin de vaccination contre le COVID-19 et vaccins anti COVID-19 provoquant des effets indésirables en usage thérapeutique</common:Name>
+          <structure:Parent>
+            <Ref id="DICDC200" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="DICDC205">
+          <common:Name xml:lang="en">Other new diseases of uncertain etiology or emergency use</common:Name>
+          <common:Name xml:lang="fr">Autres nouvelles maladies d'étiologie incertaine ou d'utilisation d'urgence</common:Name>
+          <structure:Parent>
+            <Ref id="DICDC200" />
+          </structure:Parent>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_DISEASE" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for diseases</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_HEALTH_CARE_PROVIDER" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Healthcare provider</common:Name>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Non applicable</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_HEALTH_FACILITY" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Health facility</common:Name>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_HEALTH_FUNCTION" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for health function</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">690</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_MEASURE_PROC" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for data element that represents a simple aggregation and which takes one or more vectors as arguments and returns a  
+ scalar</common:Name>
+        <structure:Code id="STAY">
+          <common:Name xml:lang="en">Hospital average length of stay</common:Name>
+          <common:Name xml:lang="fr">Durée moyenne de séjour à l'hôpital</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_MEDICAL_PROCEDURE" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Medical procedure</common:Name>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_MODE_PROVISION" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Mode of provision</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">60</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_WAITING_TIME" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for waiting time</common:Name>
+        <structure:Code id="_Z">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">30</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+    <structure:Constraints>
+      <structure:ContentConstraint id="CC" agencyID="SDMX" version="1.0" type="Actual">
+        <common:Annotations>
+          <common:Annotation id="obs_count">
+            <common:AnnotationTitle>142721</common:AnnotationTitle>
+            <common:AnnotationType>sdmx_metrics</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Autogenerated content constraint</common:Name>
+        <structure:ConstraintAttachment>
+          <structure:Dataflow>
+            <Ref id="DSD_HEALTH_PROC@DF_HOSP_AV_LENGTH" version="1.2" agencyID="OECD.ELS.HD" package="datastructure" class="Dataflow" />
+          </structure:Dataflow>
+        </structure:ConstraintAttachment>
+        <structure:CubeRegion include="true">
+          <common:KeyValue id="REF_AREA">
+            <common:Value>ARG</common:Value>
+            <common:Value>AUS</common:Value>
+            <common:Value>AUT</common:Value>
+            <common:Value>BEL</common:Value>
+            <common:Value>BGR</common:Value>
+            <common:Value>CAN</common:Value>
+            <common:Value>CHE</common:Value>
+            <common:Value>CHL</common:Value>
+            <common:Value>COL</common:Value>
+            <common:Value>CRI</common:Value>
+            <common:Value>CYP</common:Value>
+            <common:Value>CZE</common:Value>
+            <common:Value>DEU</common:Value>
+            <common:Value>DNK</common:Value>
+            <common:Value>ESP</common:Value>
+            <common:Value>EST</common:Value>
+            <common:Value>FIN</common:Value>
+            <common:Value>FRA</common:Value>
+            <common:Value>GBR</common:Value>
+            <common:Value>GRC</common:Value>
+            <common:Value>HRV</common:Value>
+            <common:Value>HUN</common:Value>
+            <common:Value>IRL</common:Value>
+            <common:Value>ISL</common:Value>
+            <common:Value>ISR</common:Value>
+            <common:Value>ITA</common:Value>
+            <common:Value>KOR</common:Value>
+            <common:Value>LTU</common:Value>
+            <common:Value>LUX</common:Value>
+            <common:Value>LVA</common:Value>
+            <common:Value>MEX</common:Value>
+            <common:Value>MLT</common:Value>
+            <common:Value>MNE</common:Value>
+            <common:Value>NLD</common:Value>
+            <common:Value>NOR</common:Value>
+            <common:Value>NZL</common:Value>
+            <common:Value>POL</common:Value>
+            <common:Value>PRT</common:Value>
+            <common:Value>ROU</common:Value>
+            <common:Value>SRB</common:Value>
+            <common:Value>SVK</common:Value>
+            <common:Value>SVN</common:Value>
+            <common:Value>SWE</common:Value>
+            <common:Value>TUR</common:Value>
+            <common:Value>USA</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="MEASURE">
+            <common:Value>STAY</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="UNIT_MEASURE">
+            <common:Value>D</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="MEDICAL_PROCEDURE">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="OCCUPATION">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="DIAGNOSTIC_TYPE">
+            <common:Value>DICDA000</common:Value>
+            <common:Value>DICDA100</common:Value>
+            <common:Value>DICDA101</common:Value>
+            <common:Value>DICDA102</common:Value>
+            <common:Value>DICDA103</common:Value>
+            <common:Value>DICDA104</common:Value>
+            <common:Value>DICDA105</common:Value>
+            <common:Value>DICDA106</common:Value>
+            <common:Value>DICDA200</common:Value>
+            <common:Value>DICDA201</common:Value>
+            <common:Value>DICDA202</common:Value>
+            <common:Value>DICDA203</common:Value>
+            <common:Value>DICDA204</common:Value>
+            <common:Value>DICDA205</common:Value>
+            <common:Value>DICDA206</common:Value>
+            <common:Value>DICDA207</common:Value>
+            <common:Value>DICDA208</common:Value>
+            <common:Value>DICDA209</common:Value>
+            <common:Value>DICDA210</common:Value>
+            <common:Value>DICDA211</common:Value>
+            <common:Value>DICDA212</common:Value>
+            <common:Value>DICDA213</common:Value>
+            <common:Value>DICDA300</common:Value>
+            <common:Value>DICDA301</common:Value>
+            <common:Value>DICDA302</common:Value>
+            <common:Value>DICDA400</common:Value>
+            <common:Value>DICDA401</common:Value>
+            <common:Value>DICDA402</common:Value>
+            <common:Value>DICDA500</common:Value>
+            <common:Value>DICDA501</common:Value>
+            <common:Value>DICDA502</common:Value>
+            <common:Value>DICDA503</common:Value>
+            <common:Value>DICDA504</common:Value>
+            <common:Value>DICDA505</common:Value>
+            <common:Value>DICDA506</common:Value>
+            <common:Value>DICDA600</common:Value>
+            <common:Value>DICDA601</common:Value>
+            <common:Value>DICDA602</common:Value>
+            <common:Value>DICDA603</common:Value>
+            <common:Value>DICDA604</common:Value>
+            <common:Value>DICDA605</common:Value>
+            <common:Value>DICDA700</common:Value>
+            <common:Value>DICDA701</common:Value>
+            <common:Value>DICDA702</common:Value>
+            <common:Value>DICDA800</common:Value>
+            <common:Value>DICDA900</common:Value>
+            <common:Value>DICDA901</common:Value>
+            <common:Value>DICDA902</common:Value>
+            <common:Value>DICDA903</common:Value>
+            <common:Value>DICDA904</common:Value>
+            <common:Value>DICDA905</common:Value>
+            <common:Value>DICDA906</common:Value>
+            <common:Value>DICDA907</common:Value>
+            <common:Value>DICDA908</common:Value>
+            <common:Value>DICDA909</common:Value>
+            <common:Value>DICDA910</common:Value>
+            <common:Value>DICDA911</common:Value>
+            <common:Value>DICDB000</common:Value>
+            <common:Value>DICDB001</common:Value>
+            <common:Value>DICDB002</common:Value>
+            <common:Value>DICDB003</common:Value>
+            <common:Value>DICDB004</common:Value>
+            <common:Value>DICDB005</common:Value>
+            <common:Value>DICDB006</common:Value>
+            <common:Value>DICDB007</common:Value>
+            <common:Value>DICDB008</common:Value>
+            <common:Value>DICDB100</common:Value>
+            <common:Value>DICDB101</common:Value>
+            <common:Value>DICDB102</common:Value>
+            <common:Value>DICDB103</common:Value>
+            <common:Value>DICDB104</common:Value>
+            <common:Value>DICDB105</common:Value>
+            <common:Value>DICDB106</common:Value>
+            <common:Value>DICDB107</common:Value>
+            <common:Value>DICDB108</common:Value>
+            <common:Value>DICDB109</common:Value>
+            <common:Value>DICDB110</common:Value>
+            <common:Value>DICDB111</common:Value>
+            <common:Value>DICDB112</common:Value>
+            <common:Value>DICDB113</common:Value>
+            <common:Value>DICDB114</common:Value>
+            <common:Value>DICDB115</common:Value>
+            <common:Value>DICDB116</common:Value>
+            <common:Value>DICDB117</common:Value>
+            <common:Value>DICDB118</common:Value>
+            <common:Value>DICDB119</common:Value>
+            <common:Value>DICDB120</common:Value>
+            <common:Value>DICDB200</common:Value>
+            <common:Value>DICDB201</common:Value>
+            <common:Value>DICDB202</common:Value>
+            <common:Value>DICDB203</common:Value>
+            <common:Value>DICDB300</common:Value>
+            <common:Value>DICDB301</common:Value>
+            <common:Value>DICDB302</common:Value>
+            <common:Value>DICDB303</common:Value>
+            <common:Value>DICDB304</common:Value>
+            <common:Value>DICDB305</common:Value>
+            <common:Value>DICDB306</common:Value>
+            <common:Value>DICDB307</common:Value>
+            <common:Value>DICDB308</common:Value>
+            <common:Value>DICDB309</common:Value>
+            <common:Value>DICDB310</common:Value>
+            <common:Value>DICDB400</common:Value>
+            <common:Value>DICDB401</common:Value>
+            <common:Value>DICDB402</common:Value>
+            <common:Value>DICDB403</common:Value>
+            <common:Value>DICDB404</common:Value>
+            <common:Value>DICDB405</common:Value>
+            <common:Value>DICDB406</common:Value>
+            <common:Value>DICDB407</common:Value>
+            <common:Value>DICDB408</common:Value>
+            <common:Value>DICDB409</common:Value>
+            <common:Value>DICDB410</common:Value>
+            <common:Value>DICDB500</common:Value>
+            <common:Value>DICDB501</common:Value>
+            <common:Value>DICDB502</common:Value>
+            <common:Value>DICDB503</common:Value>
+            <common:Value>DICDB504</common:Value>
+            <common:Value>DICDB505</common:Value>
+            <common:Value>DICDB506</common:Value>
+            <common:Value>DICDB507</common:Value>
+            <common:Value>DICDB508</common:Value>
+            <common:Value>DICDB600</common:Value>
+            <common:Value>DICDB601</common:Value>
+            <common:Value>DICDB602</common:Value>
+            <common:Value>DICDB700</common:Value>
+            <common:Value>DICDB800</common:Value>
+            <common:Value>DICDB801</common:Value>
+            <common:Value>DICDB802</common:Value>
+            <common:Value>DICDB803</common:Value>
+            <common:Value>DICDB804</common:Value>
+            <common:Value>DICDB900</common:Value>
+            <common:Value>DICDB901</common:Value>
+            <common:Value>DICDB902</common:Value>
+            <common:Value>DICDB903</common:Value>
+            <common:Value>DICDB904</common:Value>
+            <common:Value>DICDB905</common:Value>
+            <common:Value>DICDB906</common:Value>
+            <common:Value>DICDB907</common:Value>
+            <common:Value>DICDB908</common:Value>
+            <common:Value>DICDB909</common:Value>
+            <common:Value>DICDB910</common:Value>
+            <common:Value>DICDB911</common:Value>
+            <common:Value>DICDC100</common:Value>
+            <common:Value>DICDC101</common:Value>
+            <common:Value>DICDC102</common:Value>
+            <common:Value>DICDC103</common:Value>
+            <common:Value>DICDC104</common:Value>
+            <common:Value>DICDC105</common:Value>
+            <common:Value>DICDC200</common:Value>
+            <common:Value>DICDC201</common:Value>
+            <common:Value>DICDC202</common:Value>
+            <common:Value>DICDC203</common:Value>
+            <common:Value>DICDC204</common:Value>
+            <common:Value>DICDC205</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="PROVIDER">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="FUNCTION">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="MODE_PROVISION">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="CARE_TYPE">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="HEALTH_FACILITY">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="AGE">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="SEX">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="DATA_SRCE">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="WAITING_TIME">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="DISEASE">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="CANCER_SITE">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="CONSULTATION_TYPE">
+            <common:Value>_Z</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="TIME_PERIOD">
+            <common:TimeRange>
+              <common:StartPeriod isInclusive="true">1970-01-01T00:00:00</common:StartPeriod>
+              <common:EndPeriod isInclusive="true">2025-12-31T23:59:59</common:EndPeriod>
+            </common:TimeRange>
+          </common:KeyValue>
+        </structure:CubeRegion>
+      </structure:ContentConstraint>
+    </structure:Constraints>
+  </message:Structures>
+</message:Structure>

@@ -1,0 +1,11 @@
+﻿caja,subcaja,1. Empezar a medir,2. Actualizar,3. Alinear definición,4. Evaluar,5. Baja prioridad,Al día,Total
+1. Salud individual y poblacional,Salud individual y poblacional,5,0,0,8,0,15,28
+2. Contexto del sistema de salud,Factores de riesgo,0,1,3,2,0,3,9
+3. Servicios de salud e intervenciones de salud pública,Acceso y cobertura,1,0,1,1,3,4,10
+3. Servicios de salud e intervenciones de salud pública,Calidad,13,0,4,23,21,20,81
+4. Necesidades y preferencias de las personas,Necesidades y preferencias,0,0,0,7,18,0,25
+"5. Recursos, características y políticas",Fuerza laboral,5,0,1,2,0,10,18
+"5. Recursos, características y políticas",Gasto y financiamiento,0,0,0,2,1,2,5
+"5. Recursos, características y políticas",Gobernanza,1,0,0,0,0,0,1
+"5. Recursos, características y políticas",Tecnologías y farmacéuticos,6,0,4,2,2,11,25
+Total,,31,1,13,47,45,65,202

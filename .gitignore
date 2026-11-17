@@ -1,0 +1,5 @@
+# Se regeneran con los scripts
+4_salidas/datos_procesados/
+2_fichas_metodologicas/
+*.pdf
+__pycache__/

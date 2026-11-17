@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v10.11.8.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF86</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2026-11-17T04:05:33.7041439+01:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist isPartial="true" id="CL_AREA" agencyID="OECD" version="1.1" isFinal="true">
+        <common:Name xml:lang="en">Codelist for reference areas and geocoding</common:Name>
+        <common:Name xml:lang="fr">Codelist pour les zones de référence</common:Name>
+        <structure:Code id="AUS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">20</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أستراليا</common:Name>
+          <common:Name xml:lang="en">Australia</common:Name>
+          <common:Name xml:lang="fr">Australie</common:Name>
+          <common:Name xml:lang="he">אוסטרליה</common:Name>
+        </structure:Code>
+        <structure:Code id="AUT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">20</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">30</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">النمسا</common:Name>
+          <common:Name xml:lang="en">Austria</common:Name>
+          <common:Name xml:lang="fr">Autriche</common:Name>
+          <common:Name xml:lang="he">אוסטרייה</common:Name>
+        </structure:Code>
+        <structure:Code id="BEL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">30</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">40</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بلجيكا</common:Name>
+          <common:Name xml:lang="en">Belgium</common:Name>
+          <common:Name xml:lang="fr">Belgique</common:Name>
+          <common:Name xml:lang="he">בלגייה</common:Name>
+        </structure:Code>
+        <structure:Code id="CAN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">40</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">50</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كندا</common:Name>
+          <common:Name xml:lang="en">Canada</common:Name>
+          <common:Name xml:lang="fr">Canada</common:Name>
+          <common:Name xml:lang="he">קנדה</common:Name>
+        </structure:Code>
+        <structure:Code id="CHL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">50</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">60</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تشيلي</common:Name>
+          <common:Name xml:lang="en">Chile</common:Name>
+          <common:Name xml:lang="fr">Chili</common:Name>
+          <common:Name xml:lang="he">צ'ילה</common:Name>
+        </structure:Code>
+        <structure:Code id="COL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">60</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">70</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كولومبيا</common:Name>
+          <common:Name xml:lang="en">Colombia</common:Name>
+          <common:Name xml:lang="fr">Colombie</common:Name>
+          <common:Name xml:lang="he">קולומבייה</common:Name>
+        </structure:Code>
+        <structure:Code id="CRI">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">70</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">90</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كوستاريكا</common:Name>
+          <common:Name xml:lang="en">Costa Rica</common:Name>
+          <common:Name xml:lang="fr">Costa Rica</common:Name>
+          <common:Name xml:lang="he">קוסטה ריקה</common:Name>
+        </structure:Code>
+        <structure:Code id="CZE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">80</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">370</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية التشيك</common:Name>
+          <common:Name xml:lang="en">Czechia</common:Name>
+          <common:Name xml:lang="fr">Tchéquie</common:Name>
+          <common:Name xml:lang="he">צ'כיה</common:Name>
+        </structure:Code>
+        <structure:Code id="DNK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">90</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الدنمارك</common:Name>
+          <common:Name xml:lang="en">Denmark</common:Name>
+          <common:Name xml:lang="fr">Danemark</common:Name>
+          <common:Name xml:lang="he">דנמרק</common:Name>
+        </structure:Code>
+        <structure:Code id="EST">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">100</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">120</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إستونيا</common:Name>
+          <common:Name xml:lang="en">Estonia</common:Name>
+          <common:Name xml:lang="fr">Estonie</common:Name>
+          <common:Name xml:lang="he">אסטוניה</common:Name>
+        </structure:Code>
+        <structure:Code id="FIN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">110</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">140</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فنلندا</common:Name>
+          <common:Name xml:lang="en">Finland</common:Name>
+          <common:Name xml:lang="fr">Finlande</common:Name>
+          <common:Name xml:lang="he">פינלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="FRA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">120</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">150</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">فرنسا</common:Name>
+          <common:Name xml:lang="en">France</common:Name>
+          <common:Name xml:lang="fr">France</common:Name>
+          <common:Name xml:lang="he">צרפת</common:Name>
+        </structure:Code>
+        <structure:Code id="DEU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">130</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ألمانيا</common:Name>
+          <common:Name xml:lang="en">Germany</common:Name>
+          <common:Name xml:lang="fr">Allemagne</common:Name>
+          <common:Name xml:lang="he">גרמניה</common:Name>
+        </structure:Code>
+        <structure:Code id="GRC">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">140</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">160</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">اليونان</common:Name>
+          <common:Name xml:lang="en">Greece</common:Name>
+          <common:Name xml:lang="fr">Grèce</common:Name>
+          <common:Name xml:lang="he">יוון</common:Name>
+        </structure:Code>
+        <structure:Code id="HUN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">150</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">170</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">هنغاريا</common:Name>
+          <common:Name xml:lang="en">Hungary</common:Name>
+          <common:Name xml:lang="fr">Hongrie</common:Name>
+          <common:Name xml:lang="he">הונגריה</common:Name>
+        </structure:Code>
+        <structure:Code id="ISL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">160</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">190</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">آيسلندا</common:Name>
+          <common:Name xml:lang="en">Iceland</common:Name>
+          <common:Name xml:lang="fr">Islande</common:Name>
+          <common:Name xml:lang="he">איסלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="IRL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">170</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">180</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أيرلندا</common:Name>
+          <common:Name xml:lang="en">Ireland</common:Name>
+          <common:Name xml:lang="fr">Irlande</common:Name>
+          <common:Name xml:lang="he">אירלנד</common:Name>
+        </structure:Code>
+        <structure:Code id="ISR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">180</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إسرائيل</common:Name>
+          <common:Name xml:lang="en">Israel</common:Name>
+          <common:Name xml:lang="fr">Israël</common:Name>
+          <common:Name xml:lang="he">ישראל</common:Name>
+        </structure:Code>
+        <structure:Code id="ITA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">190</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">210</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إيطاليا</common:Name>
+          <common:Name xml:lang="en">Italy</common:Name>
+          <common:Name xml:lang="fr">Italie</common:Name>
+          <common:Name xml:lang="he">איטליה</common:Name>
+        </structure:Code>
+        <structure:Code id="JPN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">200</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">220</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">اليابان</common:Name>
+          <common:Name xml:lang="en">Japan</common:Name>
+          <common:Name xml:lang="fr">Japon</common:Name>
+          <common:Name xml:lang="he">יפן</common:Name>
+        </structure:Code>
+        <structure:Code id="KOR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">210</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">80</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كوريا</common:Name>
+          <common:Name xml:lang="en">Korea</common:Name>
+          <common:Name xml:lang="fr">Corée</common:Name>
+          <common:Name xml:lang="he">קוריאה</common:Name>
+        </structure:Code>
+        <structure:Code id="LVA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">220</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">230</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">لاتفيا</common:Name>
+          <common:Name xml:lang="en">Latvia</common:Name>
+          <common:Name xml:lang="fr">Lettonie</common:Name>
+          <common:Name xml:lang="he">לטבייה</common:Name>
+        </structure:Code>
+        <structure:Code id="LTU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">230</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">240</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">ليتوانيا</common:Name>
+          <common:Name xml:lang="en">Lithuania</common:Name>
+          <common:Name xml:lang="fr">Lituanie</common:Name>
+          <common:Name xml:lang="he">ליטא</common:Name>
+        </structure:Code>
+        <structure:Code id="LUX">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">240</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">250</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">لوكسمبورغ</common:Name>
+          <common:Name xml:lang="en">Luxembourg</common:Name>
+          <common:Name xml:lang="fr">Luxembourg</common:Name>
+          <common:Name xml:lang="he">לוקסמבורג</common:Name>
+        </structure:Code>
+        <structure:Code id="MEX">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">250</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">260</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">المكسيك</common:Name>
+          <common:Name xml:lang="en">Mexico</common:Name>
+          <common:Name xml:lang="fr">Mexique</common:Name>
+          <common:Name xml:lang="he">מקסיקו</common:Name>
+        </structure:Code>
+        <structure:Code id="NLD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">260</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">290</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">هولندا</common:Name>
+          <common:Name xml:lang="en">Netherlands</common:Name>
+          <common:Name xml:lang="fr">Pays-Bas</common:Name>
+          <common:Name xml:lang="he">הולנד</common:Name>
+        </structure:Code>
+        <structure:Code id="NZL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">270</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">280</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">نيوزيلندا</common:Name>
+          <common:Name xml:lang="en">New Zealand</common:Name>
+          <common:Name xml:lang="fr">Nouvelle-Zélande</common:Name>
+          <common:Name xml:lang="he">ניו זילנד</common:Name>
+        </structure:Code>
+        <structure:Code id="NOR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">280</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">270</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">النرويج</common:Name>
+          <common:Name xml:lang="en">Norway</common:Name>
+          <common:Name xml:lang="fr">Norvège</common:Name>
+          <common:Name xml:lang="he">נורווגיה</common:Name>
+        </structure:Code>
+        <structure:Code id="POL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">290</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بولندا</common:Name>
+          <common:Name xml:lang="en">Poland</common:Name>
+          <common:Name xml:lang="fr">Pologne</common:Name>
+          <common:Name xml:lang="he">פולין</common:Name>
+        </structure:Code>
+        <structure:Code id="PRT">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">300</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">310</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">البرتغال</common:Name>
+          <common:Name xml:lang="en">Portugal</common:Name>
+          <common:Name xml:lang="fr">Portugal</common:Name>
+          <common:Name xml:lang="he">פורטוגל</common:Name>
+        </structure:Code>
+        <structure:Code id="SVK">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">310</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">320</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية سلوفاكيا</common:Name>
+          <common:Name xml:lang="en">Slovak Republic</common:Name>
+          <common:Name xml:lang="fr">République slovaque</common:Name>
+          <common:Name xml:lang="he">סלובקיה</common:Name>
+        </structure:Code>
+        <structure:Code id="SVN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">320</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">340</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سلوفينيا</common:Name>
+          <common:Name xml:lang="en">Slovenia</common:Name>
+          <common:Name xml:lang="fr">Slovénie</common:Name>
+          <common:Name xml:lang="he">סלובניה</common:Name>
+        </structure:Code>
+        <structure:Code id="ESP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">330</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">110</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إسبانيا</common:Name>
+          <common:Name xml:lang="en">Spain</common:Name>
+          <common:Name xml:lang="fr">Espagne</common:Name>
+          <common:Name xml:lang="he">ספרד</common:Name>
+        </structure:Code>
+        <structure:Code id="SWE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">340</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">350</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">السويد</common:Name>
+          <common:Name xml:lang="en">Sweden</common:Name>
+          <common:Name xml:lang="fr">Suède</common:Name>
+          <common:Name xml:lang="he">שוודיה</common:Name>
+        </structure:Code>
+        <structure:Code id="CHE">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">350</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">360</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">سويسرا</common:Name>
+          <common:Name xml:lang="en">Switzerland</common:Name>
+          <common:Name xml:lang="fr">Suisse</common:Name>
+          <common:Name xml:lang="he">שוויץ</common:Name>
+        </structure:Code>
+        <structure:Code id="TUR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">360</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">380</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تركيا</common:Name>
+          <common:Name xml:lang="en">Türkiye</common:Name>
+          <common:Name xml:lang="fr">Türkiye</common:Name>
+          <common:Name xml:lang="he">טורקייה</common:Name>
+        </structure:Code>
+        <structure:Code id="GBR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">370</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">330</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">المملكة المتحدة</common:Name>
+          <common:Name xml:lang="en">United Kingdom</common:Name>
+          <common:Name xml:lang="fr">Royaume-Uni</common:Name>
+          <common:Name xml:lang="he">הממלכה המאוחדת</common:Name>
+        </structure:Code>
+        <structure:Code id="USA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">380</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">130</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الولايات المتحدة الأميركية</common:Name>
+          <common:Name xml:lang="en">United States</common:Name>
+          <common:Name xml:lang="fr">États-Unis</common:Name>
+          <common:Name xml:lang="he">ארצות הברית</common:Name>
+        </structure:Code>
+        <structure:Code id="ARG">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1220</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1230</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الأرجنتين</common:Name>
+          <common:Name xml:lang="en">Argentina</common:Name>
+          <common:Name xml:lang="fr">Argentine</common:Name>
+          <common:Name xml:lang="he">ארגנטינה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BRA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1410</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1420</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">البرازيل</common:Name>
+          <common:Name xml:lang="en">Brazil</common:Name>
+          <common:Name xml:lang="fr">Brésil</common:Name>
+          <common:Name xml:lang="he">ברזיל</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="BGR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1450</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1440</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بلغاريا</common:Name>
+          <common:Name xml:lang="en">Bulgaria</common:Name>
+          <common:Name xml:lang="fr">Bulgarie</common:Name>
+          <common:Name xml:lang="he">בולגריה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="CHN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1540</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1500</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جمهورية الصين الشعبية</common:Name>
+          <common:Name xml:lang="en">China (People’s Republic of)</common:Name>
+          <common:Name xml:lang="fr">Chine (République populaire de)</common:Name>
+          <common:Name xml:lang="he">הרפובליקה העממית של סין</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HRV">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1610</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1550</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">كرواتيا</common:Name>
+          <common:Name xml:lang="en">Croatia</common:Name>
+          <common:Name xml:lang="fr">Croatie</common:Name>
+          <common:Name xml:lang="he">קרואטיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="IND">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2010</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2040</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">الهند</common:Name>
+          <common:Name xml:lang="en">India</common:Name>
+          <common:Name xml:lang="fr">Inde</common:Name>
+          <common:Name xml:lang="he">הודו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="IDN">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2020</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2050</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">إندونيسيا</common:Name>
+          <common:Name xml:lang="en">Indonesia</common:Name>
+          <common:Name xml:lang="fr">Indonésie</common:Name>
+          <common:Name xml:lang="he">אינדונזיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="PER">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2600</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">بيرو</common:Name>
+          <common:Name xml:lang="en">Peru</common:Name>
+          <common:Name xml:lang="fr">Pérou</common:Name>
+          <common:Name xml:lang="he">פרו</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ROU">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2660</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2720</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">رومانيا</common:Name>
+          <common:Name xml:lang="en">Romania</common:Name>
+          <common:Name xml:lang="fr">Roumanie</common:Name>
+          <common:Name xml:lang="he">רומניה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="RUS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2670</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2730</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">روسيا</common:Name>
+          <common:Name xml:lang="en">Russia</common:Name>
+          <common:Name xml:lang="fr">Russie</common:Name>
+          <common:Name xml:lang="he">רוסיה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="ZAF">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2880</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1130</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">جنوب إفريقيا</common:Name>
+          <common:Name xml:lang="en">South Africa</common:Name>
+          <common:Name xml:lang="fr">Afrique du Sud</common:Name>
+          <common:Name xml:lang="he">דרום אפריקה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="THA">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2990</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3060</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">تايلاند</common:Name>
+          <common:Name xml:lang="en">Thailand</common:Name>
+          <common:Name xml:lang="fr">Thaïlande</common:Name>
+          <common:Name xml:lang="he">תאילנד</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="UKR">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3100</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3150</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="ar">أوكرانيا</common:Name>
+          <common:Name xml:lang="en">Ukraine</common:Name>
+          <common:Name xml:lang="fr">Ukraine</common:Name>
+          <common:Name xml:lang="he">אוקראינה</common:Name>
+          <structure:Parent>
+            <Ref id="WXOECD" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="WXOECD">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1000</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">1000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Non-OECD economies</common:Name>
+          <common:Name xml:lang="fr">Non-OCDE économies</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist isPartial="true" id="CL_UNIT_MEASURE" agencyID="OECD" version="1.26" isFinal="true">
+        <common:Name xml:lang="en">Codelist for Unit of measure</common:Name>
+        <common:Description xml:lang="en">Unit in which the data values are expressed.</common:Description>
+        <structure:Code id="XDC">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2900</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">2900</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">National currency</common:Name>
+          <common:Name xml:lang="fr">Monnaie nationale</common:Name>
+        </structure:Code>
+        <structure:Code id="USD_PPP">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3220</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3220</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">US dollars, PPP converted</common:Name>
+          <common:Name xml:lang="fr">Dollars des É-U, PPA convertis</common:Name>
+        </structure:Code>
+        <structure:Code id="USD_PPP_PS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3260</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3260</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">US dollars per person, PPP converted</common:Name>
+          <common:Name xml:lang="fr">Dollars des É-U par personne, PPA convertis</common:Name>
+        </structure:Code>
+        <structure:Code id="USD_EXC">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3290</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3290</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">US dollars, exchange rate converted</common:Name>
+          <common:Name xml:lang="fr">Dollars des É-U, taux de change converti</common:Name>
+        </structure:Code>
+        <structure:Code id="USD_EXC_PS">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3310</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">3310</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">US dollars per person, exchange rate converted</common:Name>
+          <common:Name xml:lang="fr">Dollars des É-U par personne, taux de change converti</common:Name>
+        </structure:Code>
+        <structure:Code id="DDD_10P3HB">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5360</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">5360</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Defined daily dose per 1 000 inhabitants per day</common:Name>
+          <common:Name xml:lang="fr">Dose quotidienne définie par 1 000 habitants par jour</common:Name>
+        </structure:Code>
+        <structure:Code id="PT_SL_VAL">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">9450</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">9450</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of sales value (turnover)</common:Name>
+          <common:Name xml:lang="fr">Pourcentage du chiffre d'affaires</common:Name>
+        </structure:Code>
+        <structure:Code id="PT_SL_VAL_M">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">9460</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">9460</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of sales value (turnover) in the same market</common:Name>
+          <common:Name xml:lang="fr">Pourcentage du chiffre d'affaires sur le même marché</common:Name>
+        </structure:Code>
+        <structure:Code id="PT_SL_VOL_M">
+          <common:Annotations>
+            <common:Annotation id="@SDMX">
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">9470</common:AnnotationText>
+              <common:AnnotationText xml:lang="fr">9470</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Percentage of sales volume in the same market</common:Name>
+          <common:Name xml:lang="fr">Pourcentage du volume des ventes sur le même marché</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_MARKET_TYPE" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for market type</common:Name>
+        <structure:Code id="_T">
+          <common:Name xml:lang="en">Total</common:Name>
+          <common:Name xml:lang="fr">Total</common:Name>
+        </structure:Code>
+        <structure:Code id="TPP">
+          <common:Name xml:lang="en">Third-party-payer market</common:Name>
+          <common:Name xml:lang="fr">Marché du tiers payant pharmaceutique</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="COMMUNITY">
+          <common:Name xml:lang="en">Community pharmacy market</common:Name>
+          <common:Name xml:lang="fr">Marché des pharmacies de ville</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="HOSPITAL">
+          <common:Name xml:lang="en">Hospital pharmaceutical market</common:Name>
+          <common:Name xml:lang="fr">Marché des médicaments en hôpitaux</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_MEASURE_PHMC" agencyID="OECD.ELS.HD" version="1.0" isFinal="true">
+        <common:Name xml:lang="en">Codelist for data element that represents a simple aggregation and which takes one or more vectors as arguments and returns a  
+ scalar</common:Name>
+        <structure:Code id="PH_CON">
+          <common:Name xml:lang="en">Pharmaceutical consumption</common:Name>
+          <common:Name xml:lang="fr">Consommation de médicaments</common:Name>
+        </structure:Code>
+        <structure:Code id="PH_SALES">
+          <common:Name xml:lang="en">Pharmaceutical sales</common:Name>
+          <common:Name xml:lang="fr">Ventes de médicaments</common:Name>
+        </structure:Code>
+        <structure:Code id="PH_MARKET">
+          <common:Name xml:lang="en">Share of generics in respective pharmaceutical market</common:Name>
+          <common:Name xml:lang="fr">Part des génériques sur le marché pharmaceutique respectif</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_PHARMACEUTICAL" agencyID="OECD.ELS.HD" version="1.1" isFinal="true">
+        <common:Name xml:lang="en">Codelist for pharmaceuticals</common:Name>
+        <structure:Code id="_T">
+          <common:Name xml:lang="en">Total</common:Name>
+          <common:Name xml:lang="fr">Total</common:Name>
+        </structure:Code>
+        <structure:Code id="A">
+          <common:Name xml:lang="en">Alimentary tract and metabolism</common:Name>
+          <common:Name xml:lang="fr">Tractus digestif et métabolisme</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A02A">
+          <common:Name xml:lang="en">Antacids</common:Name>
+          <common:Name xml:lang="fr">Antacides</common:Name>
+          <structure:Parent>
+            <Ref id="A" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A02B">
+          <common:Name xml:lang="en">Drugs for peptic ulcer and gastro-oesophageal reflux diseases (GORD)</common:Name>
+          <common:Name xml:lang="fr">Médicaments pour ulcère peptique et le reflux gastro-œsophagien</common:Name>
+          <structure:Parent>
+            <Ref id="A" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A10">
+          <common:Name xml:lang="en">Drugs used in diabetes</common:Name>
+          <common:Name xml:lang="fr">Médicaments utilisés en cas de diabète</common:Name>
+          <structure:Parent>
+            <Ref id="A" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A10A">
+          <common:Name xml:lang="en">Insulins and analogues</common:Name>
+          <common:Name xml:lang="fr">Insulines et analogues</common:Name>
+          <structure:Parent>
+            <Ref id="A" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A10B">
+          <common:Name xml:lang="en">Blood glucose lowering drugs, excluding insulins</common:Name>
+          <common:Name xml:lang="fr">Médicament réduisant la glycémie, autres que les insulines</common:Name>
+          <structure:Parent>
+            <Ref id="A" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A10X">
+          <common:Name xml:lang="en">Other drugs used in diabetes</common:Name>
+          <common:Name xml:lang="fr">Autres médicament utilisés dans le cas de diabètes</common:Name>
+          <structure:Parent>
+            <Ref id="A" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="B">
+          <common:Name xml:lang="en">Blood and blood forming organs</common:Name>
+          <common:Name xml:lang="fr">Sang et organes hématopoïétiques</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C">
+          <common:Name xml:lang="en">Cardiovascular system</common:Name>
+          <common:Name xml:lang="fr">Système cardio-vasculaire</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C01A">
+          <common:Name xml:lang="en">Cardiac glycosides</common:Name>
+          <common:Name xml:lang="fr">Glycosides cardiotoniques</common:Name>
+          <structure:Parent>
+            <Ref id="C" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C01B">
+          <common:Name xml:lang="en">Antiarrhythmics, Class I and III</common:Name>
+          <common:Name xml:lang="fr">Antiarythmiques, classe I et III</common:Name>
+          <structure:Parent>
+            <Ref id="C" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C02">
+          <common:Name xml:lang="en">Antihypertensives</common:Name>
+          <common:Name xml:lang="fr">Antihypertenseurs</common:Name>
+          <structure:Parent>
+            <Ref id="C" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C03">
+          <common:Name xml:lang="en">Diuretics</common:Name>
+          <common:Name xml:lang="fr">Diurétiques</common:Name>
+          <structure:Parent>
+            <Ref id="C" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C07">
+          <common:Name xml:lang="en">Beta blocking agents</common:Name>
+          <common:Name xml:lang="fr">Bêtabloquants</common:Name>
+          <structure:Parent>
+            <Ref id="C" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C08">
+          <common:Name xml:lang="en">Calcium channel blockers</common:Name>
+          <common:Name xml:lang="fr">Inhibiteurs des canaux calciques</common:Name>
+          <structure:Parent>
+            <Ref id="C" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C09">
+          <common:Name xml:lang="en">Agents acting on the Renin-Angiotensin system</common:Name>
+          <common:Name xml:lang="fr">Agents agissant sur le système rénine-angiotensine</common:Name>
+          <structure:Parent>
+            <Ref id="C" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="C10">
+          <common:Name xml:lang="en">Lipid modifying agents</common:Name>
+          <common:Name xml:lang="fr">Agents réduisant les lipides sériques</common:Name>
+          <structure:Parent>
+            <Ref id="C" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="G">
+          <common:Name xml:lang="en">Genito urinary system and sex hormones</common:Name>
+          <common:Name xml:lang="fr">Système génito-urinaire et hormones sexuelles</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="G03">
+          <common:Name xml:lang="en">Sex hormones and modulators of the genital system</common:Name>
+          <common:Name xml:lang="fr">Hormones sexuelles et modulateurs du système génital</common:Name>
+          <structure:Parent>
+            <Ref id="G" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="H">
+          <common:Name xml:lang="en">Systemic hormonal preparations, excluding sex hormones and insulins</common:Name>
+          <common:Name xml:lang="fr">Préparations systémiques hormonales, à l'exclusion des hormones sexuelles et des insulines</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="J">
+          <common:Name xml:lang="en">Antiinfectives for systemic use</common:Name>
+          <common:Name xml:lang="fr">Anti-infectieux pour usage systémique</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="J01">
+          <common:Name xml:lang="en">Antibacterials for systemic use</common:Name>
+          <common:Name xml:lang="fr">Antibactériens pour usage systémique</common:Name>
+          <structure:Parent>
+            <Ref id="J" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="M">
+          <common:Name xml:lang="en">Musculo-skeletal system</common:Name>
+          <common:Name xml:lang="fr">Système musculo-squelettique</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="M01A">
+          <common:Name xml:lang="en">Antiinflammatory and antirheumatic products non-steroids</common:Name>
+          <common:Name xml:lang="fr">Anti-inflammatoires et antirhumatismaux</common:Name>
+          <structure:Parent>
+            <Ref id="M" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="N">
+          <common:Name xml:lang="en">Nervous system</common:Name>
+          <common:Name xml:lang="fr">Système nerveux</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="N02">
+          <common:Name xml:lang="en">Analgesics</common:Name>
+          <common:Name xml:lang="fr">Analgésiques</common:Name>
+          <structure:Parent>
+            <Ref id="N" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="N05A">
+          <common:Name xml:lang="en">Antipsychotics</common:Name>
+          <common:Name xml:lang="fr">Antipsychotiques</common:Name>
+          <structure:Parent>
+            <Ref id="N" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="N05B">
+          <common:Name xml:lang="en">Anxiolytics</common:Name>
+          <common:Name xml:lang="fr">Anxiolytiques</common:Name>
+          <structure:Parent>
+            <Ref id="N" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="N05C">
+          <common:Name xml:lang="en">Hypnotics and sedatives</common:Name>
+          <common:Name xml:lang="fr">Hypnotiques et sédatifs</common:Name>
+          <structure:Parent>
+            <Ref id="N" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="N06A">
+          <common:Name xml:lang="en">Antidepressants</common:Name>
+          <common:Name xml:lang="fr">Antidépresseurs</common:Name>
+          <structure:Parent>
+            <Ref id="N" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="N06D">
+          <common:Name xml:lang="en">Anti-dementia drugs</common:Name>
+          <common:Name xml:lang="fr">Médicaments contre la démence</common:Name>
+          <structure:Parent>
+            <Ref id="N" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="N07B">
+          <common:Name xml:lang="en">Drugs used in addictive disorders</common:Name>
+          <common:Name xml:lang="fr">Médicaments utilisés dans des troubles d'addiction</common:Name>
+          <structure:Parent>
+            <Ref id="N" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="R">
+          <common:Name xml:lang="en">Respiratory system</common:Name>
+          <common:Name xml:lang="fr">Système respiratoire</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="R03">
+          <common:Name xml:lang="en">Drugs for obstructive airway diseases</common:Name>
+          <common:Name xml:lang="fr">Médicaments pour les maladies obstructives des voies respiratoires</common:Name>
+          <structure:Parent>
+            <Ref id="R" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="_O">
+          <common:Name xml:lang="en">Products not elsewhere classified</common:Name>
+          <common:Name xml:lang="fr">Produits non classés ailleurs</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="en">Not applicable</common:Name>
+          <common:Name xml:lang="fr">Sans objet</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+    <structure:Constraints>
+      <structure:ContentConstraint id="CC" agencyID="SDMX" version="1.0" type="Actual">
+        <common:Annotations>
+          <common:Annotation id="obs_count">
+            <common:AnnotationTitle>180802</common:AnnotationTitle>
+            <common:AnnotationType>sdmx_metrics</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Autogenerated content constraint</common:Name>
+        <structure:ConstraintAttachment>
+          <structure:Dataflow>
+            <Ref id="HEALTH_PHMC@DF_KEY_INDIC" version="1.1" agencyID="OECD.ELS.HD" package="datastructure" class="Dataflow" />
+          </structure:Dataflow>
+        </structure:ConstraintAttachment>
+        <structure:CubeRegion include="true">
+          <common:KeyValue id="REF_AREA">
+            <common:Value>ARG</common:Value>
+            <common:Value>AUS</common:Value>
+            <common:Value>AUT</common:Value>
+            <common:Value>BEL</common:Value>
+            <common:Value>BGR</common:Value>
+            <common:Value>BRA</common:Value>
+            <common:Value>CAN</common:Value>
+            <common:Value>CHE</common:Value>
+            <common:Value>CHL</common:Value>
+            <common:Value>CHN</common:Value>
+            <common:Value>COL</common:Value>
+            <common:Value>CRI</common:Value>
+            <common:Value>CZE</common:Value>
+            <common:Value>DEU</common:Value>
+            <common:Value>DNK</common:Value>
+            <common:Value>ESP</common:Value>
+            <common:Value>EST</common:Value>
+            <common:Value>FIN</common:Value>
+            <common:Value>FRA</common:Value>
+            <common:Value>GBR</common:Value>
+            <common:Value>GRC</common:Value>
+            <common:Value>HRV</common:Value>
+            <common:Value>HUN</common:Value>
+            <common:Value>IDN</common:Value>
+            <common:Value>IND</common:Value>
+            <common:Value>IRL</common:Value>
+            <common:Value>ISL</common:Value>
+            <common:Value>ISR</common:Value>
+            <common:Value>ITA</common:Value>
+            <common:Value>JPN</common:Value>
+            <common:Value>KOR</common:Value>
+            <common:Value>LTU</common:Value>
+            <common:Value>LUX</common:Value>
+            <common:Value>LVA</common:Value>
+            <common:Value>MEX</common:Value>
+            <common:Value>NLD</common:Value>
+            <common:Value>NOR</common:Value>
+            <common:Value>NZL</common:Value>
+            <common:Value>PER</common:Value>
+            <common:Value>POL</common:Value>
+            <common:Value>PRT</common:Value>
+            <common:Value>ROU</common:Value>
+            <common:Value>RUS</common:Value>
+            <common:Value>SVK</common:Value>
+            <common:Value>SVN</common:Value>
+            <common:Value>SWE</common:Value>
+            <common:Value>THA</common:Value>
+            <common:Value>TUR</common:Value>
+            <common:Value>UKR</common:Value>
+            <common:Value>USA</common:Value>
+            <common:Value>ZAF</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="MEASURE">
+            <common:Value>PH_CON</common:Value>
+            <common:Value>PH_MARKET</common:Value>
+            <common:Value>PH_SALES</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="UNIT_MEASURE">
+            <common:Value>DDD_10P3HB</common:Value>
+            <common:Value>PT_SL_VAL</common:Value>
+            <common:Value>PT_SL_VAL_M</common:Value>
+            <common:Value>PT_SL_VOL_M</common:Value>
+            <common:Value>USD_EXC</common:Value>
+            <common:Value>USD_EXC_PS</common:Value>
+            <common:Value>USD_PPP</common:Value>
+            <common:Value>USD_PPP_PS</common:Value>
+            <common:Value>XDC</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="MARKET_TYPE">
+            <common:Value>_T</common:Value>
+            <common:Value>_Z</common:Value>
+            <common:Value>COMMUNITY</common:Value>
+            <common:Value>HOSPITAL</common:Value>
+            <common:Value>TPP</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="PHARMACEUTICAL">
+            <common:Value>_O</common:Value>
+            <common:Value>_T</common:Value>
+            <common:Value>_Z</common:Value>
+            <common:Value>A</common:Value>
+            <common:Value>A02A</common:Value>
+            <common:Value>A02B</common:Value>
+            <common:Value>A10</common:Value>
+            <common:Value>A10A</common:Value>
+            <common:Value>A10B</common:Value>
+            <common:Value>A10X</common:Value>
+            <common:Value>B</common:Value>
+            <common:Value>C</common:Value>
+            <common:Value>C01A</common:Value>
+            <common:Value>C01B</common:Value>
+            <common:Value>C02</common:Value>
+            <common:Value>C03</common:Value>
+            <common:Value>C07</common:Value>
+            <common:Value>C08</common:Value>
+            <common:Value>C09</common:Value>
+            <common:Value>C10</common:Value>
+            <common:Value>G</common:Value>
+            <common:Value>G03</common:Value>
+            <common:Value>H</common:Value>
+            <common:Value>J</common:Value>
+            <common:Value>J01</common:Value>
+            <common:Value>M</common:Value>
+            <common:Value>M01A</common:Value>
+            <common:Value>N</common:Value>
+            <common:Value>N02</common:Value>
+            <common:Value>N05A</common:Value>
+            <common:Value>N05B</common:Value>
+            <common:Value>N05C</common:Value>
+            <common:Value>N06A</common:Value>
+            <common:Value>N06D</common:Value>
+            <common:Value>N07B</common:Value>
+            <common:Value>R</common:Value>
+            <common:Value>R03</common:Value>
+          </common:KeyValue>
+          <common:KeyValue id="TIME_PERIOD">
+            <common:TimeRange>
+              <common:StartPeriod isInclusive="true">1980-01-01T00:00:00</common:StartPeriod>
+              <common:EndPeriod isInclusive="true">2025-12-31T23:59:59</common:EndPeriod>
+            </common:TimeRange>
+          </common:KeyValue>
+        </structure:CubeRegion>
+      </structure:ContentConstraint>
+    </structure:Constraints>
+  </message:Structures>
+</message:Structure>
